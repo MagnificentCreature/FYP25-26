@@ -1,0 +1,1776 @@
+
+CH570D-Flash-LED2.elf:     file format elf32-littleriscv
+CH570D-Flash-LED2.elf
+architecture: riscv:rv32, flags 0x00000112:
+EXEC_P, HAS_SYMS, D_PAGED
+start address 0x00000000
+
+Program Header:
+0x70000003 off    0x00009dbb vaddr 0x00000000 paddr 0x00000000 align 2**0
+         filesz 0x00000051 memsz 0x00000000 flags r--
+    LOAD off    0x00001000 vaddr 0x00000000 paddr 0x00000000 align 2**12
+         filesz 0x00000004 memsz 0x00000004 flags r-x
+    LOAD off    0x00002000 vaddr 0x20000000 paddr 0x00000004 align 2**12
+         filesz 0x00000694 memsz 0x00000694 flags r-x
+    LOAD off    0x00002698 vaddr 0x00000698 paddr 0x00000698 align 2**12
+         filesz 0x00000416 memsz 0x00000418 flags rwx
+    LOAD off    0x00000694 vaddr 0x20000694 paddr 0x00000ab0 align 2**12
+         filesz 0x00000000 memsz 0x00000004 flags rw-
+    LOAD off    0x00000698 vaddr 0x20000698 paddr 0x00000ab0 align 2**12
+         filesz 0x00000000 memsz 0x00000004 flags rw-
+
+Sections:
+Idx Name                 Size      VMA       LMA       File off  Algn  Flags
+  0 .init                00000004  00000000  00000000  00001000  2**1  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .highcode_initlalign 00000000  00000004  00000004  00002aae  2**0  CONTENTS
+  2 .highcodelalign      00000000  00000004  00000004  00002aae  2**0  CONTENTS
+  3 .highcode            00000694  20000000  00000004  00002000  2**1  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .text                00000414  00000698  00000698  00002698  2**2  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .vector_handler      00000002  00000aac  00000aac  00002aac  2**0  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  6 .fini                00000002  00000aae  00000aae  00002aae  2**0  ALLOC, CODE
+  7 .dlalign             00000000  00000ab0  00000ab0  00002aae  2**0  CONTENTS
+  8 .data                00000004  20000694  00000ab0  00003694  2**0  ALLOC
+  9 .bss                 00000004  20000698  00000ab0  00003698  2**2  ALLOC
+ 10 .stack               00000000  20003000  20003000  00002aae  2**0  CONTENTS
+ 11 .debug_info          0000214d  00000000  00000000  00002aae  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 12 .debug_abbrev        00000a81  00000000  00000000  00004bfb  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 13 .debug_aranges       00000200  00000000  00000000  00005680  2**3  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 14 .debug_rnglists      000002a2  00000000  00000000  00005880  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 15 .debug_line          000031ed  00000000  00000000  00005b22  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 16 .debug_str           00000c90  00000000  00000000  00008d0f  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 17 .debug_line_str      000003b8  00000000  00000000  0000999f  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 18 .comment             00000064  00000000  00000000  00009d57  2**0  CONTENTS, READONLY
+ 19 .riscv.attributes    00000051  00000000  00000000  00009dbb  2**0  CONTENTS, READONLY
+ 20 .debug_frame         00000410  00000000  00000000  00009e0c  2**2  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 21 .debug_loclists      00000e23  00000000  00000000  0000a21c  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+SYMBOL TABLE:
+00000000 l    d  .init	00000000 .init
+00000004 l    d  .highcode_initlalign	00000000 .highcode_initlalign
+00000004 l    d  .highcodelalign	00000000 .highcodelalign
+20000000 l    d  .highcode	00000000 .highcode
+00000698 l    d  .text	00000000 .text
+00000aac l    d  .vector_handler	00000000 .vector_handler
+00000aae l    d  .fini	00000000 .fini
+00000ab0 l    d  .dlalign	00000000 .dlalign
+20000694 l    d  .data	00000000 .data
+20000698 l    d  .bss	00000000 .bss
+20003000 l    d  .stack	00000000 .stack
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_rnglists	00000000 .debug_rnglists
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_line_str	00000000 .debug_line_str
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .riscv.attributes	00000000 .riscv.attributes
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_loclists	00000000 .debug_loclists
+00000000 l    df *ABS*	00000000 startup_CH572.o
+00000aac l       .vector_handler	00000000 ENDOCE_IRQHandler
+00000000 l    df *ABS*	00000000 CH57x_sys.c
+00000000 l    df *ABS*	00000000 ISP572.c
+200003c8 l       .highcode	00000000 .loop52
+200003d6 l       .highcode	00000000 .loop63
+200003e4 l       .highcode	00000000 .loop74
+200004e4 l       .highcode	00000000 .loop247
+00000000 l    df *ABS*	00000000 Main.c
+00000000 l    df *ABS*	00000000 CH57x_gpio.c
+00000000 l    df *ABS*	00000000 CH57x_uart.c
+00000000 l    df *ABS*	00000000 CH57x_clk.c
+200003e4 g     F .highcode	0000000e FLASH_ROM_OUT
+00000aac  w      .vector_handler	00000000 CMP_IRQHandler
+20000e98 g       .data	00000000 __global_pointer$
+20000354 g     F .highcode	0000000e mDelayuS
+200002d0  w    F .highcode	00000084 HardFault_Handler
+00000aac  w      .vector_handler	00000000 GPIOA_IRQHandler
+00000aac  w      .vector_handler	00000000 SysTick_Handler
+00000aac  w      .vector_handler	00000000 NMI_Handler
+00000aac  w      .vector_handler	00000000 UART_IRQHandler
+200004a8 g     F .highcode	00000060 FLASH_CMD_ROM_WRITE
+20000698 g       .bss	00000000 _sbss
+200003d6 g     F .highcode	0000000e FLASH_ROM_IN
+00000908 g     F .text	00000032 UART_DefInit
+00000aac  w      .vector_handler	00000000 SWI_Handler
+00000004 g       .init	00000000 _einit
+00000aac  w      .vector_handler	00000000 BB_IRQHandler
+00000962 g     F .text	00000136 FLASH_EEPROM_CMD
+00000aac  w      .vector_handler	00000000 Break_Point_Handler
+20000472 g     F .highcode	00000036 FLASH_START
+00000778 g     F .text	0000001e LED_Init
+200003b4 g     F .highcode	00000014 FLASH_ROM_BEG
+20000508 g     F .highcode	00000072 FLASH_CMD_ROM_ERASE
+20000362 g     F .highcode	0000001e mDelaymS
+00000aac  w      .vector_handler	00000000 Ecall_M_Mode_Handler
+200003f2 g     F .highcode	00000048 FLASH_ROM_ADDR
+00000aac  w      .vector_handler	00000000 RTC_IRQHandler
+2000069c g       .bss	00000000 _ebss
+00000aac  w      .vector_handler	00000000 SPI_IRQHandler
+2000043a g     F .highcode	00000038 FLASH_ROM_WAIT
+0000093a g     F .text	00000028 UART_Remap
+20000000 g       .highcode	00000000 _vector_base
+00000aac  w      .vector_handler	00000000 PWMX_IRQHandler
+00000756 g     F .text	00000022 DebugInit
+00000000 g       .init	00000000 _start
+20000000 g       .highcode	00000000 _highcode_vma_start
+00000aac  w      .vector_handler	00000000 KEYSCAN_IRQHandler
+20000694 g       .data	00000000 _data_vma
+20000090 g     F .highcode	00000240 SetSysClock
+00000aac  w      .vector_handler	00000000 USB_IRQHandler
+2000063c g     F .highcode	0000003e FLASH_CMD_GET_UNIQUE_ID
+200005ca g     F .highcode	00000012 FLASH_CMD_ROM_PWR
+00000aac  w      .vector_handler	00000000 I2C_IRQHandler
+00000796 g     F .text	00000062 main
+00000004 g       .highcodelalign	00000000 _highcode_lma
+00000aac  w      .vector_handler	00000000 LLE_IRQHandler
+00000000 g       .init	00000000 _sinit
+2000067a g     F .highcode	0000001a FLASH_CMD_ROM_SW_RESET
+00000aac  w      .vector_handler	00000000 TMR_IRQHandler
+20000698 g     O .bss	00000004 Freq_LSI
+00000aac  w      .vector_handler	00000000 WDOG_BAT_IRQHandler
+00000aac  w      .vector_handler	00000000 Ecall_U_Mode_Handler
+20003000 g       .stack	00000000 _eusrstack
+000007f8 g     F .text	00000082 GPIOA_ModeCfg
+0000087a g     F .text	0000005e GetSysClock
+20000380 g     F .highcode	00000034 FLASH_ROM_BEG_FF
+200005dc g     F .highcode	00000060 FLASH_CMD_GET_ROM_INFO
+20000698 g       .data	00000000 _edata
+2000069c g       .bss	00000000 _end
+20000694 g       .highcode	00000000 _highcode_vma_end
+00000ab0 g       .dlalign	00000000 _data_lma
+00000698  w      .text	00000000 handle_reset
+000008d8 g     F .text	00000030 UART_BaudRateCfg
+200003c8 g     F .highcode	0000000e FLASH_ROM_END
+2000057a g     F .highcode	00000050 FLASH_CMD_ROM_VERIFY
+
+
+
+Disassembly of section .init:
+
+00000000 <_sinit>:
+_start():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:18
+	.section	.init,"ax",@progbits
+	.global	_start
+ 	.global	_vector_base
+	.align	1
+_start:
+	j	handle_reset
+   0:	6980006f          	j	698 <handle_reset>
+
+Disassembly of section .highcode:
+
+20000000 <_highcode_vma_start>:
+	...
+_vector_base():
+20000008:	00000aac          	.word	0x00000aac
+2000000c:	200002d0          	.word	0x200002d0
+20000010:	f3f9bda9          	.word	0xf3f9bda9
+20000014:	00000aac          	.word	0x00000aac
+	...
+20000020:	00000aac          	.word	0x00000aac
+20000024:	00000aac          	.word	0x00000aac
+	...
+20000030:	00000aac          	.word	0x00000aac
+20000034:	00000000          	.word	0x00000000
+20000038:	00000aac          	.word	0x00000aac
+	...
+20000044:	00000aac          	.word	0x00000aac
+20000048:	00000000          	.word	0x00000000
+2000004c:	00000aac          	.word	0x00000aac
+20000050:	00000aac          	.word	0x00000aac
+20000054:	00000aac          	.word	0x00000aac
+20000058:	00000aac          	.word	0x00000aac
+2000005c:	00000000          	.word	0x00000000
+20000060:	00000aac          	.word	0x00000aac
+	...
+2000006c:	00000aac          	.word	0x00000aac
+20000070:	00000aac          	.word	0x00000aac
+20000074:	00000aac          	.word	0x00000aac
+20000078:	00000aac          	.word	0x00000aac
+2000007c:	00000aac          	.word	0x00000aac
+20000080:	00000000          	.word	0x00000000
+20000084:	00000aac          	.word	0x00000aac
+20000088:	00000000          	.word	0x00000000
+2000008c:	00000aac          	.word	0x00000aac
+
+20000090 <SetSysClock>:
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:31
+{
+    uint16_t clk_sys_cfg;
+    uint8_t i;
+    uint8_t x32M_c;
+
+    if(sc == RB_CLK_SYS_MOD)  // LSI
+20000090:	0c000793          	li	a5,192
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:26
+{
+20000094:	1101                	addi	sp,sp,-32
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:31
+    if(sc == RB_CLK_SYS_MOD)  // LSI
+20000096:	04f51463          	bne	a0,a5,200000de <SetSysClock+0x4e>
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:154
+ */
+__attribute__((always_inline)) RV_STATIC_INLINE uint32_t __risc_v_disable_irq(void)
+{
+    uint32_t result;
+
+    __asm volatile("csrrc %0, 0x800, %1" : \
+2000009a:	08800793          	li	a5,136
+2000009e:	8007b7f3          	csrrc	a5,0x800,a5
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:156
+                   "=r"(result): "r"(0x88) : "memory");
+    return result & 0x88;
+200000a2:	0887f793          	andi	a5,a5,136
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:33
+    {
+        sys_safe_access_enable();
+200000a6:	c03e                	sw	a5,0(sp)
+200000a8:	0000100f          	fence.i
+200000ac:	400017b7          	lui	a5,0x40001
+200000b0:	05700713          	li	a4,87
+200000b4:	04e78023          	sb	a4,64(a5) # 40001040 <_eusrstack+0x1fffe040>
+200000b8:	fa800713          	li	a4,-88
+200000bc:	04e78023          	sb	a4,64(a5)
+200000c0:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:34
+        R8_CLK_SYS_CFG |= RB_CLK_SYS_MOD;
+200000c4:	2798                	lbu	a4,8(a5)
+200000c6:	0c076713          	ori	a4,a4,192
+200000ca:	a798                	sb	a4,8(a5)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:35
+        sys_safe_access_disable();
+200000cc:	04078023          	sb	zero,64(a5)
+200000d0:	4782                	lw	a5,0(sp)
+__risc_v_enable_irq():
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:138
+    __asm volatile("csrrs %0, 0x800, %1" : \
+200000d2:	8007a7f3          	csrrs	a5,0x800,a5
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:86
+            }
+        }
+
+        sys_safe_access_enable();
+        R8_CLK_SYS_CFG = sc;
+        sys_safe_access_disable();
+200000d6:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:88
+    }
+}
+200000da:	6105                	addi	sp,sp,32
+200000dc:	8082                	ret
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:39
+        if(!(R8_HFCK_PWR_CTRL & RB_CLK_XT32M_PON))
+200000de:	400017b7          	lui	a5,0x40001
+200000e2:	27b8                	lbu	a4,10(a5)
+200000e4:	8b11                	andi	a4,a4,4
+200000e6:	eb69                	bnez	a4,200001b8 <SetSysClock+0x128>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:41
+            x32M_c = R8_XT32M_TUNE;
+200000e8:	04e7c683          	lbu	a3,78(a5) # 4000104e <_eusrstack+0x1fffe04e>
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:154
+    __asm volatile("csrrc %0, 0x800, %1" : \
+200000ec:	08800713          	li	a4,136
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:41
+200000f0:	0ff6f693          	zext.b	a3,a3
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:154
+200000f4:	80073673          	csrrc	a2,0x800,a4
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:156
+    return result & 0x88;
+200000f8:	08867613          	andi	a2,a2,136
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:42
+            sys_safe_access_enable();
+200000fc:	c232                	sw	a2,4(sp)
+200000fe:	0000100f          	fence.i
+20000102:	05700813          	li	a6,87
+20000106:	05078023          	sb	a6,64(a5)
+2000010a:	fa800593          	li	a1,-88
+2000010e:	04b78023          	sb	a1,64(a5)
+20000112:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:43
+            R8_XT32M_TUNE |= 0x03;
+20000116:	04e7c603          	lbu	a2,78(a5)
+2000011a:	00366613          	ori	a2,a2,3
+2000011e:	04c78723          	sb	a2,78(a5)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:44
+            R8_HFCK_PWR_CTRL |= RB_CLK_XT32M_PON;
+20000122:	27b0                	lbu	a2,10(a5)
+20000124:	00466613          	ori	a2,a2,4
+20000128:	a7b0                	sb	a2,10(a5)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:45
+            sys_safe_access_disable();
+2000012a:	04078023          	sb	zero,64(a5)
+2000012e:	4612                	lw	a2,4(sp)
+__risc_v_enable_irq():
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:138
+    __asm volatile("csrrs %0, 0x800, %1" : \
+20000130:	80062673          	csrrs	a2,0x800,a2
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:45
+20000134:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:46
+            clk_sys_cfg = R8_CLK_SYS_CFG;
+20000138:	2790                	lbu	a2,8(a5)
+2000013a:	0ff67613          	zext.b	a2,a2
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:154
+    __asm volatile("csrrc %0, 0x800, %1" : \
+2000013e:	80073773          	csrrc	a4,0x800,a4
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:156
+    return result & 0x88;
+20000142:	08877713          	andi	a4,a4,136
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:47
+            sys_safe_access_enable();
+20000146:	c43a                	sw	a4,8(sp)
+20000148:	0000100f          	fence.i
+2000014c:	05078023          	sb	a6,64(a5)
+20000150:	04b78023          	sb	a1,64(a5)
+20000154:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:48
+            R8_CLK_SYS_CFG |= 0xC0;
+20000158:	2798                	lbu	a4,8(a5)
+2000015a:	0c076713          	ori	a4,a4,192
+2000015e:	a798                	sb	a4,8(a5)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:49
+            sys_safe_access_disable();
+20000160:	04078023          	sb	zero,64(a5)
+20000164:	47a2                	lw	a5,8(sp)
+__risc_v_enable_irq():
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:138
+    __asm volatile("csrrs %0, 0x800, %1" : \
+20000166:	8007a7f3          	csrrs	a5,0x800,a5
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:49
+2000016a:	0000100f          	fence.i
+2000016e:	47a5                	li	a5,9
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:52 (discriminator 3)
+                __nop();
+20000170:	0001                	nop
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:50 (discriminator 3)
+            for(i=0; i<9; i++)
+20000172:	17fd                	addi	a5,a5,-1
+20000174:	0ff7f793          	zext.b	a5,a5
+20000178:	ffe5                	bnez	a5,20000170 <SetSysClock+0xe0>
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:154
+    __asm volatile("csrrc %0, 0x800, %1" : \
+2000017a:	08800793          	li	a5,136
+2000017e:	8007b7f3          	csrrc	a5,0x800,a5
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:156
+    return result & 0x88;
+20000182:	0887f793          	andi	a5,a5,136
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:54
+            sys_safe_access_enable();
+20000186:	c63e                	sw	a5,12(sp)
+20000188:	0000100f          	fence.i
+2000018c:	400017b7          	lui	a5,0x40001
+20000190:	05700713          	li	a4,87
+20000194:	04e78023          	sb	a4,64(a5) # 40001040 <_eusrstack+0x1fffe040>
+20000198:	fa800713          	li	a4,-88
+2000019c:	04e78023          	sb	a4,64(a5)
+200001a0:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:55
+            R8_CLK_SYS_CFG = clk_sys_cfg;
+200001a4:	a790                	sb	a2,8(a5)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:56
+            R8_XT32M_TUNE = x32M_c;
+200001a6:	04d78723          	sb	a3,78(a5)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:57
+            sys_safe_access_disable();
+200001aa:	04078023          	sb	zero,64(a5)
+200001ae:	47b2                	lw	a5,12(sp)
+__risc_v_enable_irq():
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:138
+    __asm volatile("csrrs %0, 0x800, %1" : \
+200001b0:	8007a7f3          	csrrs	a5,0x800,a5
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:57
+200001b4:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:60
+        if((sc & RB_CLK_SYS_MOD) == 0x40) // PLL div
+200001b8:	0c057793          	andi	a5,a0,192
+200001bc:	04000713          	li	a4,64
+200001c0:	08e79963          	bne	a5,a4,20000252 <SetSysClock+0x1c2>
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:154
+    __asm volatile("csrrc %0, 0x800, %1" : \
+200001c4:	08800793          	li	a5,136
+200001c8:	8007b7f3          	csrrc	a5,0x800,a5
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:156
+    return result & 0x88;
+200001cc:	0887f793          	andi	a5,a5,136
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:62
+            sys_safe_access_enable();
+200001d0:	c83e                	sw	a5,16(sp)
+200001d2:	0000100f          	fence.i
+200001d6:	400017b7          	lui	a5,0x40001
+200001da:	05700713          	li	a4,87
+200001de:	04e78023          	sb	a4,64(a5) # 40001040 <_eusrstack+0x1fffe040>
+200001e2:	fa800713          	li	a4,-88
+200001e6:	04e78023          	sb	a4,64(a5)
+200001ea:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:63
+            R8_HFCK_PWR_CTRL |= RB_CLK_PLL_PON;
+200001ee:	27b8                	lbu	a4,10(a5)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:64
+            R8_FLASH_CFG = 0X01;
+200001f0:	4685                	li	a3,1
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:63
+            R8_HFCK_PWR_CTRL |= RB_CLK_PLL_PON;
+200001f2:	01076713          	ori	a4,a4,16
+200001f6:	a7b8                	sb	a4,10(a5)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:64
+            R8_FLASH_CFG = 0X01;
+200001f8:	40002737          	lui	a4,0x40002
+200001fc:	80d703a3          	sb	a3,-2041(a4) # 40001807 <_eusrstack+0x1fffe807>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:65
+            R8_FLASH_SCK |= 1<<4; //50M
+20000200:	80574683          	lbu	a3,-2043(a4)
+20000204:	0106e693          	ori	a3,a3,16
+20000208:	80d702a3          	sb	a3,-2043(a4)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:66
+            sys_safe_access_disable();
+2000020c:	04078023          	sb	zero,64(a5)
+20000210:	47c2                	lw	a5,16(sp)
+__risc_v_enable_irq():
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:138
+    __asm volatile("csrrs %0, 0x800, %1" : \
+20000212:	8007a7f3          	csrrs	a5,0x800,a5
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:80
+                sys_safe_access_disable();
+20000216:	0000100f          	fence.i
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:154
+    __asm volatile("csrrc %0, 0x800, %1" : \
+2000021a:	08800793          	li	a5,136
+2000021e:	8007b7f3          	csrrc	a5,0x800,a5
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:156
+    return result & 0x88;
+20000222:	0887f793          	andi	a5,a5,136
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:84
+        sys_safe_access_enable();
+20000226:	ce3e                	sw	a5,28(sp)
+20000228:	0000100f          	fence.i
+2000022c:	400017b7          	lui	a5,0x40001
+20000230:	05700713          	li	a4,87
+20000234:	04e78023          	sb	a4,64(a5) # 40001040 <_eusrstack+0x1fffe040>
+20000238:	fa800713          	li	a4,-88
+2000023c:	04e78023          	sb	a4,64(a5)
+20000240:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:85
+        R8_CLK_SYS_CFG = sc;
+20000244:	0ff57513          	zext.b	a0,a0
+20000248:	a788                	sb	a0,8(a5)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:86
+        sys_safe_access_disable();
+2000024a:	04078023          	sb	zero,64(a5)
+2000024e:	47f2                	lw	a5,28(sp)
+20000250:	b549                	j	200000d2 <SetSysClock+0x42>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:70
+            if((sc&0x1F) )
+20000252:	01f57793          	andi	a5,a0,31
+20000256:	cf9d                	beqz	a5,20000294 <SetSysClock+0x204>
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:154
+    __asm volatile("csrrc %0, 0x800, %1" : \
+20000258:	08800793          	li	a5,136
+2000025c:	8007b7f3          	csrrc	a5,0x800,a5
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:156
+    return result & 0x88;
+20000260:	0887f793          	andi	a5,a5,136
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:72
+                sys_safe_access_enable();
+20000264:	ca3e                	sw	a5,20(sp)
+20000266:	0000100f          	fence.i
+2000026a:	400017b7          	lui	a5,0x40001
+2000026e:	05700713          	li	a4,87
+20000272:	04e78023          	sb	a4,64(a5) # 40001040 <_eusrstack+0x1fffe040>
+20000276:	fa800713          	li	a4,-88
+2000027a:	04e78023          	sb	a4,64(a5)
+2000027e:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:73
+                R8_FLASH_CFG = 0X02;
+20000282:	40002737          	lui	a4,0x40002
+20000286:	4689                	li	a3,2
+20000288:	80d703a3          	sb	a3,-2041(a4) # 40001807 <_eusrstack+0x1fffe807>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:74
+                sys_safe_access_disable();
+2000028c:	04078023          	sb	zero,64(a5)
+20000290:	47d2                	lw	a5,20(sp)
+__risc_v_enable_irq():
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:138
+    __asm volatile("csrrs %0, 0x800, %1" : \
+20000292:	b741                	j	20000212 <SetSysClock+0x182>
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:154
+    __asm volatile("csrrc %0, 0x800, %1" : \
+20000294:	08800793          	li	a5,136
+20000298:	8007b7f3          	csrrc	a5,0x800,a5
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:156
+    return result & 0x88;
+2000029c:	0887f793          	andi	a5,a5,136
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:78
+                sys_safe_access_enable();
+200002a0:	cc3e                	sw	a5,24(sp)
+200002a2:	0000100f          	fence.i
+200002a6:	400017b7          	lui	a5,0x40001
+200002aa:	05700713          	li	a4,87
+200002ae:	04e78023          	sb	a4,64(a5) # 40001040 <_eusrstack+0x1fffe040>
+200002b2:	fa800713          	li	a4,-88
+200002b6:	04e78023          	sb	a4,64(a5)
+200002ba:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:79
+                R8_FLASH_CFG = 0X07;
+200002be:	40002737          	lui	a4,0x40002
+200002c2:	469d                	li	a3,7
+200002c4:	80d703a3          	sb	a3,-2041(a4) # 40001807 <_eusrstack+0x1fffe807>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:80
+                sys_safe_access_disable();
+200002c8:	04078023          	sb	zero,64(a5)
+200002cc:	47e2                	lw	a5,24(sp)
+200002ce:	b791                	j	20000212 <SetSysClock+0x182>
+
+200002d0 <HardFault_Handler>:
+HardFault_Handler():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:283
+ */
+__INTERRUPT
+__HIGH_CODE
+__attribute__((weak))
+void HardFault_Handler(void)
+{
+200002d0:	1141                	addi	sp,sp,-16
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:284
+    FLASH_ROM_SW_RESET();
+200002d2:	4681                	li	a3,0
+200002d4:	4601                	li	a2,0
+200002d6:	4581                	li	a1,0
+200002d8:	4511                	li	a0,4
+200002da:	e0000097          	auipc	ra,0xe0000
+200002de:	688080e7          	jalr	1672(ra) # 962 <FLASH_EEPROM_CMD>
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:154
+    __asm volatile("csrrc %0, 0x800, %1" : \
+200002e2:	08800713          	li	a4,136
+200002e6:	800737f3          	csrrc	a5,0x800,a4
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:156
+    return result & 0x88;
+200002ea:	0887f793          	andi	a5,a5,136
+HardFault_Handler():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:285
+    sys_safe_access_enable();
+200002ee:	c43e                	sw	a5,8(sp)
+200002f0:	0000100f          	fence.i
+200002f4:	400017b7          	lui	a5,0x40001
+200002f8:	05700613          	li	a2,87
+200002fc:	04c78023          	sb	a2,64(a5) # 40001040 <_eusrstack+0x1fffe040>
+20000300:	fa800693          	li	a3,-88
+20000304:	04d78023          	sb	a3,64(a5)
+20000308:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:286
+    R16_INT_LSI_TUNE = 0xFFFF;
+2000030c:	55fd                	li	a1,-1
+2000030e:	b7ce                	sh	a1,44(a5)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:287
+    sys_safe_access_disable();
+20000310:	04078023          	sb	zero,64(a5)
+20000314:	45a2                	lw	a1,8(sp)
+__risc_v_enable_irq():
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:138
+    __asm volatile("csrrs %0, 0x800, %1" : \
+20000316:	8005a5f3          	csrrs	a1,0x800,a1
+HardFault_Handler():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:287
+2000031a:	0000100f          	fence.i
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:154
+    __asm volatile("csrrc %0, 0x800, %1" : \
+2000031e:	80073773          	csrrc	a4,0x800,a4
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:156
+    return result & 0x88;
+20000322:	08877713          	andi	a4,a4,136
+HardFault_Handler():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:288
+    sys_safe_access_enable();
+20000326:	c63a                	sw	a4,12(sp)
+20000328:	0000100f          	fence.i
+2000032c:	04c78023          	sb	a2,64(a5)
+20000330:	04d78023          	sb	a3,64(a5)
+20000334:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:289
+    R8_RST_WDOG_CTRL |= RB_SOFTWARE_RESET;
+20000338:	0467c703          	lbu	a4,70(a5)
+2000033c:	00176713          	ori	a4,a4,1
+20000340:	04e78323          	sb	a4,70(a5)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:290
+    sys_safe_access_disable();
+20000344:	04078023          	sb	zero,64(a5)
+20000348:	47b2                	lw	a5,12(sp)
+__risc_v_enable_irq():
+c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/RVMSIS/core_riscv.h:138
+    __asm volatile("csrrs %0, 0x800, %1" : \
+2000034a:	8007a7f3          	csrrs	a5,0x800,a5
+HardFault_Handler():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:290
+2000034e:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:291 (discriminator 1)
+    while(1);
+20000352:	a001                	j	20000352 <HardFault_Handler+0x82>
+
+20000354 <mDelayuS>:
+mDelayuS():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:308
+__HIGH_CODE
+void mDelayuS(uint16_t t)
+{
+    uint32_t i;
+#if(FREQ_SYS == 100000000)
+    i = t * 25;
+20000354:	47e5                	li	a5,25
+20000356:	02f50533          	mul	a0,a0,a5
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:351 (discriminator 1)
+        __nop();
+    };
+#else
+    do
+    {
+        __nop();
+2000035a:	0001                	nop
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:352 (discriminator 1)
+    }while(--i);
+2000035c:	157d                	addi	a0,a0,-1
+2000035e:	fd75                	bnez	a0,2000035a <mDelayuS+0x6>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:354
+#endif
+}
+20000360:	8082                	ret
+
+20000362 <mDelaymS>:
+mDelaymS():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:367
+ *
+ * @return  none
+ */
+__HIGH_CODE
+void mDelaymS(uint16_t t)
+{
+20000362:	1141                	addi	sp,sp,-16
+20000364:	c422                	sw	s0,8(sp)
+20000366:	c606                	sw	ra,12(sp)
+20000368:	842a                	mv	s0,a0
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:370 (discriminator 1)
+    do
+    {
+        mDelayuS(1000);
+2000036a:	3e800513          	li	a0,1000
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:371 (discriminator 1)
+    }while(--t);
+2000036e:	147d                	addi	s0,s0,-1
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:370 (discriminator 1)
+        mDelayuS(1000);
+20000370:	37d5                	jal	20000354 <mDelayuS>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:371 (discriminator 1)
+    }while(--t);
+20000372:	08044433          	zext.h	s0,s0
+20000376:	f875                	bnez	s0,2000036a <mDelaymS+0x8>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:372
+}
+20000378:	40b2                	lw	ra,12(sp)
+2000037a:	4422                	lw	s0,8(sp)
+2000037c:	0141                	addi	sp,sp,16
+2000037e:	8082                	ret
+
+20000380 <FLASH_ROM_BEG_FF>:
+FLASH_ROM_BEG_FF():
+20000380:	80040323          	sb	zero,-2042(s0)
+20000384:	4715                	li	a4,5
+20000386:	87a2                	mv	a5,s0
+20000388:	80e40323          	sb	a4,-2042(s0)
+2000038c:	0001                	nop
+2000038e:	0001                	nop
+20000390:	80a40223          	sb	a0,-2044(s0)
+20000394:	8067c703          	lbu	a4,-2042(a5)
+20000398:	0762                	slli	a4,a4,0x18
+2000039a:	8761                	srai	a4,a4,0x18
+2000039c:	fe074ce3          	bltz	a4,20000394 <FLASH_ROM_BEG_FF+0x14>
+200003a0:	80a78223          	sb	a0,-2044(a5)
+200003a4:	8722                	mv	a4,s0
+200003a6:	80674783          	lbu	a5,-2042(a4)
+200003aa:	07e2                	slli	a5,a5,0x18
+200003ac:	87e1                	srai	a5,a5,0x18
+200003ae:	fe07cce3          	bltz	a5,200003a6 <FLASH_ROM_BEG_FF+0x26>
+200003b2:	8082                	ret
+
+200003b4 <FLASH_ROM_BEG>:
+FLASH_ROM_BEG():
+200003b4:	80040323          	sb	zero,-2042(s0)
+200003b8:	4715                	li	a4,5
+200003ba:	80e40323          	sb	a4,-2042(s0)
+200003be:	0001                	nop
+200003c0:	0001                	nop
+200003c2:	80a40223          	sb	a0,-2044(s0)
+200003c6:	8082                	ret
+
+200003c8 <FLASH_ROM_END>:
+FLASH_ROM_END():
+200003c8:	80640783          	lb	a5,-2042(s0)
+200003cc:	fe07cee3          	bltz	a5,200003c8 <FLASH_ROM_END>
+200003d0:	80040323          	sb	zero,-2042(s0)
+200003d4:	8082                	ret
+
+200003d6 <FLASH_ROM_IN>:
+FLASH_ROM_IN():
+200003d6:	80640783          	lb	a5,-2042(s0)
+200003da:	fe07cee3          	bltz	a5,200003d6 <FLASH_ROM_IN>
+200003de:	80444503          	lbu	a0,-2044(s0)
+200003e2:	8082                	ret
+
+200003e4 <FLASH_ROM_OUT>:
+FLASH_ROM_OUT():
+200003e4:	80640783          	lb	a5,-2042(s0)
+200003e8:	fe07cee3          	bltz	a5,200003e4 <FLASH_ROM_OUT>
+200003ec:	80a40223          	sb	a0,-2044(s0)
+200003f0:	8082                	ret
+
+200003f2 <FLASH_ROM_ADDR>:
+FLASH_ROM_ADDR():
+200003f2:	1141                	addi	sp,sp,-16
+200003f4:	c426                	sw	s1,8(sp)
+200003f6:	c24a                	sw	s2,4(sp)
+200003f8:	c04e                	sw	s3,0(sp)
+200003fa:	c606                	sw	ra,12(sp)
+200003fc:	0bf57713          	andi	a4,a0,191
+20000400:	47ad                	li	a5,11
+20000402:	89aa                	mv	s3,a0
+20000404:	892e                	mv	s2,a1
+20000406:	4495                	li	s1,5
+20000408:	00f70663          	beq	a4,a5,20000414 <FLASH_ROM_ADDR+0x22>
+2000040c:	4519                	li	a0,6
+2000040e:	375d                	jal	200003b4 <FLASH_ROM_BEG>
+20000410:	3f65                	jal	200003c8 <FLASH_ROM_END>
+20000412:	448d                	li	s1,3
+20000414:	854e                	mv	a0,s3
+20000416:	3f79                	jal	200003b4 <FLASH_ROM_BEG>
+20000418:	59fd                	li	s3,-1
+2000041a:	14fd                	addi	s1,s1,-1
+2000041c:	01349863          	bne	s1,s3,2000042c <FLASH_ROM_ADDR+0x3a>
+20000420:	40b2                	lw	ra,12(sp)
+20000422:	44a2                	lw	s1,8(sp)
+20000424:	4912                	lw	s2,4(sp)
+20000426:	4982                	lw	s3,0(sp)
+20000428:	0141                	addi	sp,sp,16
+2000042a:	8082                	ret
+2000042c:	01095513          	srli	a0,s2,0x10
+20000430:	0ff57513          	zext.b	a0,a0
+20000434:	3f45                	jal	200003e4 <FLASH_ROM_OUT>
+20000436:	0922                	slli	s2,s2,0x8
+20000438:	b7cd                	j	2000041a <FLASH_ROM_ADDR+0x28>
+
+2000043a <FLASH_ROM_WAIT>:
+FLASH_ROM_WAIT():
+2000043a:	1101                	addi	sp,sp,-32
+2000043c:	cc26                	sw	s1,24(sp)
+2000043e:	ce06                	sw	ra,28(sp)
+20000440:	000804b7          	lui	s1,0x80
+20000444:	3751                	jal	200003c8 <FLASH_ROM_END>
+20000446:	4515                	li	a0,5
+20000448:	37b5                	jal	200003b4 <FLASH_ROM_BEG>
+2000044a:	3771                	jal	200003d6 <FLASH_ROM_IN>
+2000044c:	3769                	jal	200003d6 <FLASH_ROM_IN>
+2000044e:	c62a                	sw	a0,12(sp)
+20000450:	3fa5                	jal	200003c8 <FLASH_ROM_END>
+20000452:	4532                	lw	a0,12(sp)
+20000454:	00157793          	andi	a5,a0,1
+20000458:	eb89                	bnez	a5,2000046a <FLASH_ROM_WAIT+0x30>
+2000045a:	00156513          	ori	a0,a0,1
+2000045e:	0ff57513          	zext.b	a0,a0
+20000462:	40f2                	lw	ra,28(sp)
+20000464:	44e2                	lw	s1,24(sp)
+20000466:	6105                	addi	sp,sp,32
+20000468:	8082                	ret
+2000046a:	14fd                	addi	s1,s1,-1 # 7ffff <_data_lma+0x7f54f>
+2000046c:	fce9                	bnez	s1,20000446 <FLASH_ROM_WAIT+0xc>
+2000046e:	4501                	li	a0,0
+20000470:	bfcd                	j	20000462 <FLASH_ROM_WAIT+0x28>
+
+20000472 <FLASH_START>:
+FLASH_START():
+20000472:	1141                	addi	sp,sp,-16
+20000474:	c606                	sw	ra,12(sp)
+20000476:	400017b7          	lui	a5,0x40001
+2000047a:	05700713          	li	a4,87
+2000047e:	04e78023          	sb	a4,64(a5) # 40001040 <_eusrstack+0x1fffe040>
+20000482:	fa800713          	li	a4,-88
+20000486:	04e78023          	sb	a4,64(a5)
+2000048a:	0447c703          	lbu	a4,68(a5)
+2000048e:	0ff00513          	li	a0,255
+20000492:	0e076713          	ori	a4,a4,224
+20000496:	04e78223          	sb	a4,68(a5)
+2000049a:	4791                	li	a5,4
+2000049c:	80f40323          	sb	a5,-2042(s0)
+200004a0:	35c5                	jal	20000380 <FLASH_ROM_BEG_FF>
+200004a2:	40b2                	lw	ra,12(sp)
+200004a4:	0141                	addi	sp,sp,16
+200004a6:	b70d                	j	200003c8 <FLASH_ROM_END>
+
+200004a8 <FLASH_CMD_ROM_WRITE>:
+FLASH_CMD_ROM_WRITE():
+200004a8:	1101                	addi	sp,sp,-32
+200004aa:	cc26                	sw	s1,24(sp)
+200004ac:	ca4a                	sw	s2,20(sp)
+200004ae:	c84e                	sw	s3,16(sp)
+200004b0:	c652                	sw	s4,12(sp)
+200004b2:	ce06                	sw	ra,28(sp)
+200004b4:	892a                	mv	s2,a0
+200004b6:	89ae                	mv	s3,a1
+200004b8:	84b2                	mv	s1,a2
+200004ba:	4a55                	li	s4,21
+200004bc:	3f5d                	jal	20000472 <FLASH_START>
+200004be:	e891                	bnez	s1,200004d2 <FLASH_CMD_ROM_WRITE+0x2a>
+200004c0:	3721                	jal	200003c8 <FLASH_ROM_END>
+200004c2:	40f2                	lw	ra,28(sp)
+200004c4:	8526                	mv	a0,s1
+200004c6:	4952                	lw	s2,20(sp)
+200004c8:	44e2                	lw	s1,24(sp)
+200004ca:	49c2                	lw	s3,16(sp)
+200004cc:	4a32                	lw	s4,12(sp)
+200004ce:	6105                	addi	sp,sp,32
+200004d0:	8082                	ret
+200004d2:	85ca                	mv	a1,s2
+200004d4:	4509                	li	a0,2
+200004d6:	3f31                	jal	200003f2 <FLASH_ROM_ADDR>
+200004d8:	0991                	addi	s3,s3,4
+200004da:	ffc9a703          	lw	a4,-4(s3)
+200004de:	4791                	li	a5,4
+200004e0:	80e42023          	sw	a4,-2048(s0)
+
+200004e4 <.loop247>:
+200004e4:	80640703          	lb	a4,-2042(s0)
+200004e8:	fe074ee3          	bltz	a4,200004e4 <.loop247>
+200004ec:	81440323          	sb	s4,-2042(s0)
+200004f0:	17fd                	addi	a5,a5,-1
+200004f2:	fbed                	bnez	a5,200004e4 <.loop247>
+200004f4:	14fd                	addi	s1,s1,-1
+200004f6:	0911                	addi	s2,s2,4
+200004f8:	c481                	beqz	s1,20000500 <.loop247+0x1c>
+200004fa:	0ff97793          	zext.b	a5,s2
+200004fe:	ffe9                	bnez	a5,200004d8 <FLASH_CMD_ROM_WRITE+0x30>
+20000500:	3f2d                	jal	2000043a <FLASH_ROM_WAIT>
+20000502:	fd55                	bnez	a0,200004be <FLASH_CMD_ROM_WRITE+0x16>
+20000504:	54fd                	li	s1,-1
+20000506:	bf75                	j	200004c2 <FLASH_CMD_ROM_WRITE+0x1a>
+
+20000508 <FLASH_CMD_ROM_ERASE>:
+FLASH_CMD_ROM_ERASE():
+20000508:	1101                	addi	sp,sp,-32
+2000050a:	cc26                	sw	s1,24(sp)
+2000050c:	ca4a                	sw	s2,20(sp)
+2000050e:	c84e                	sw	s3,16(sp)
+20000510:	c652                	sw	s4,12(sp)
+20000512:	c456                	sw	s5,8(sp)
+20000514:	c25a                	sw	s6,4(sp)
+20000516:	ce06                	sw	ra,28(sp)
+20000518:	892a                	mv	s2,a0
+2000051a:	8a32                	mv	s4,a2
+2000051c:	498d                	li	s3,3
+2000051e:	3f91                	jal	20000472 <FLASH_START>
+20000520:	64c1                	lui	s1,0x10
+20000522:	6ac1                	lui	s5,0x10
+20000524:	6b05                	lui	s6,0x1
+20000526:	fff48793          	addi	a5,s1,-1 # ffff <_data_lma+0xf54f>
+2000052a:	0127f7b3          	and	a5,a5,s2
+2000052e:	e399                	bnez	a5,20000534 <FLASH_CMD_ROM_ERASE+0x2c>
+20000530:	029a7163          	bgeu	s4,s1,20000552 <FLASH_CMD_ROM_ERASE+0x4a>
+20000534:	19fd                	addi	s3,s3,-1
+20000536:	8091                	srli	s1,s1,0x4
+20000538:	fe0997e3          	bnez	s3,20000526 <FLASH_CMD_ROM_ERASE+0x1e>
+2000053c:	3571                	jal	200003c8 <FLASH_ROM_END>
+2000053e:	4501                	li	a0,0
+20000540:	40f2                	lw	ra,28(sp)
+20000542:	44e2                	lw	s1,24(sp)
+20000544:	4952                	lw	s2,20(sp)
+20000546:	49c2                	lw	s3,16(sp)
+20000548:	4a32                	lw	s4,12(sp)
+2000054a:	4aa2                	lw	s5,8(sp)
+2000054c:	4b12                	lw	s6,4(sp)
+2000054e:	6105                	addi	sp,sp,32
+20000550:	8082                	ret
+20000552:	0d800513          	li	a0,216
+20000556:	01548863          	beq	s1,s5,20000566 <FLASH_CMD_ROM_ERASE+0x5e>
+2000055a:	02000513          	li	a0,32
+2000055e:	01648463          	beq	s1,s6,20000566 <FLASH_CMD_ROM_ERASE+0x5e>
+20000562:	08100513          	li	a0,129
+20000566:	85ca                	mv	a1,s2
+20000568:	3569                	jal	200003f2 <FLASH_ROM_ADDR>
+2000056a:	3dc1                	jal	2000043a <FLASH_ROM_WAIT>
+2000056c:	c509                	beqz	a0,20000576 <FLASH_CMD_ROM_ERASE+0x6e>
+2000056e:	9926                	add	s2,s2,s1
+20000570:	409a0a33          	sub	s4,s4,s1
+20000574:	bf75                	j	20000530 <FLASH_CMD_ROM_ERASE+0x28>
+20000576:	557d                	li	a0,-1
+20000578:	b7e1                	j	20000540 <FLASH_CMD_ROM_ERASE+0x38>
+
+2000057a <FLASH_CMD_ROM_VERIFY>:
+FLASH_CMD_ROM_VERIFY():
+2000057a:	1101                	addi	sp,sp,-32
+2000057c:	ce06                	sw	ra,28(sp)
+2000057e:	cc26                	sw	s1,24(sp)
+20000580:	ca4a                	sw	s2,20(sp)
+20000582:	84b2                	mv	s1,a2
+20000584:	c84e                	sw	s3,16(sp)
+20000586:	c62a                	sw	a0,12(sp)
+20000588:	892e                	mv	s2,a1
+2000058a:	35e5                	jal	20000472 <FLASH_START>
+2000058c:	4532                	lw	a0,12(sp)
+2000058e:	14fd                	addi	s1,s1,-1
+20000590:	59fd                	li	s3,-1
+20000592:	85aa                	mv	a1,a0
+20000594:	452d                	li	a0,11
+20000596:	3db1                	jal	200003f2 <FLASH_ROM_ADDR>
+20000598:	01349a63          	bne	s1,s3,200005ac <FLASH_CMD_ROM_VERIFY+0x32>
+2000059c:	3535                	jal	200003c8 <FLASH_ROM_END>
+2000059e:	40f2                	lw	ra,28(sp)
+200005a0:	8526                	mv	a0,s1
+200005a2:	4952                	lw	s2,20(sp)
+200005a4:	44e2                	lw	s1,24(sp)
+200005a6:	49c2                	lw	s3,16(sp)
+200005a8:	6105                	addi	sp,sp,32
+200005aa:	8082                	ret
+200005ac:	352d                	jal	200003d6 <FLASH_ROM_IN>
+200005ae:	0034f793          	andi	a5,s1,3
+200005b2:	eb91                	bnez	a5,200005c6 <FLASH_CMD_ROM_VERIFY+0x4c>
+200005b4:	80042683          	lw	a3,-2048(s0)
+200005b8:	00092703          	lw	a4,0(s2)
+200005bc:	00490793          	addi	a5,s2,4
+200005c0:	fce69ee3          	bne	a3,a4,2000059c <FLASH_CMD_ROM_VERIFY+0x22>
+200005c4:	893e                	mv	s2,a5
+200005c6:	14fd                	addi	s1,s1,-1
+200005c8:	bfc1                	j	20000598 <FLASH_CMD_ROM_VERIFY+0x1e>
+
+200005ca <FLASH_CMD_ROM_PWR>:
+FLASH_CMD_ROM_PWR():
+200005ca:	1101                	addi	sp,sp,-32
+200005cc:	ce06                	sw	ra,28(sp)
+200005ce:	c62a                	sw	a0,12(sp)
+200005d0:	354d                	jal	20000472 <FLASH_START>
+200005d2:	4532                	lw	a0,12(sp)
+200005d4:	33c5                	jal	200003b4 <FLASH_ROM_BEG>
+200005d6:	40f2                	lw	ra,28(sp)
+200005d8:	6105                	addi	sp,sp,32
+200005da:	b3fd                	j	200003c8 <FLASH_ROM_END>
+
+200005dc <FLASH_CMD_GET_ROM_INFO>:
+FLASH_CMD_GET_ROM_INFO():
+200005dc:	1101                	addi	sp,sp,-32
+200005de:	ce06                	sw	ra,28(sp)
+200005e0:	cc26                	sw	s1,24(sp)
+200005e2:	ca4a                	sw	s2,20(sp)
+200005e4:	c84e                	sw	s3,16(sp)
+200005e6:	c652                	sw	s4,12(sp)
+200005e8:	89aa                	mv	s3,a0
+200005ea:	c456                	sw	s5,8(sp)
+200005ec:	892e                	mv	s2,a1
+200005ee:	3551                	jal	20000472 <FLASH_START>
+200005f0:	000405b7          	lui	a1,0x40
+200005f4:	00b9e5b3          	or	a1,s3,a1
+200005f8:	452d                	li	a0,11
+200005fa:	3be5                	jal	200003f2 <FLASH_ROM_ADDR>
+200005fc:	4481                	li	s1,0
+200005fe:	4a8d                	li	s5,3
+20000600:	4a21                	li	s4,8
+20000602:	3bd1                	jal	200003d6 <FLASH_ROM_IN>
+20000604:	01549663          	bne	s1,s5,20000610 <FLASH_CMD_GET_ROM_INFO+0x34>
+20000608:	80042783          	lw	a5,-2048(s0)
+2000060c:	00f92023          	sw	a5,0(s2)
+20000610:	0485                	addi	s1,s1,1
+20000612:	ff4498e3          	bne	s1,s4,20000602 <FLASH_CMD_GET_ROM_INFO+0x26>
+20000616:	80042783          	lw	a5,-2048(s0)
+2000061a:	01299713          	slli	a4,s3,0x12
+2000061e:	00075c63          	bgez	a4,20000636 <FLASH_CMD_GET_ROM_INFO+0x5a>
+20000622:	00f91223          	sh	a5,4(s2)
+20000626:	40f2                	lw	ra,28(sp)
+20000628:	44e2                	lw	s1,24(sp)
+2000062a:	4952                	lw	s2,20(sp)
+2000062c:	49c2                	lw	s3,16(sp)
+2000062e:	4a32                	lw	s4,12(sp)
+20000630:	4aa2                	lw	s5,8(sp)
+20000632:	6105                	addi	sp,sp,32
+20000634:	bb51                	j	200003c8 <FLASH_ROM_END>
+20000636:	00f92223          	sw	a5,4(s2)
+2000063a:	b7f5                	j	20000626 <FLASH_CMD_GET_ROM_INFO+0x4a>
+
+2000063c <FLASH_CMD_GET_UNIQUE_ID>:
+FLASH_CMD_GET_UNIQUE_ID():
+2000063c:	1141                	addi	sp,sp,-16
+2000063e:	c606                	sw	ra,12(sp)
+20000640:	c426                	sw	s1,8(sp)
+20000642:	c24a                	sw	s2,4(sp)
+20000644:	c04e                	sw	s3,0(sp)
+20000646:	89ae                	mv	s3,a1
+20000648:	352d                	jal	20000472 <FLASH_START>
+2000064a:	4581                	li	a1,0
+2000064c:	04b00513          	li	a0,75
+20000650:	334d                	jal	200003f2 <FLASH_ROM_ADDR>
+20000652:	44bd                	li	s1,15
+20000654:	597d                	li	s2,-1
+20000656:	3341                	jal	200003d6 <FLASH_ROM_IN>
+20000658:	0074f793          	andi	a5,s1,7
+2000065c:	97ce                	add	a5,a5,s3
+2000065e:	0007c703          	lbu	a4,0(a5)
+20000662:	14fd                	addi	s1,s1,-1
+20000664:	8d39                	xor	a0,a0,a4
+20000666:	00a78023          	sb	a0,0(a5)
+2000066a:	ff2496e3          	bne	s1,s2,20000656 <FLASH_CMD_GET_UNIQUE_ID+0x1a>
+2000066e:	40b2                	lw	ra,12(sp)
+20000670:	44a2                	lw	s1,8(sp)
+20000672:	4912                	lw	s2,4(sp)
+20000674:	4982                	lw	s3,0(sp)
+20000676:	0141                	addi	sp,sp,16
+20000678:	bb81                	j	200003c8 <FLASH_ROM_END>
+
+2000067a <FLASH_CMD_ROM_SW_RESET>:
+FLASH_CMD_ROM_SW_RESET():
+2000067a:	1141                	addi	sp,sp,-16
+2000067c:	c606                	sw	ra,12(sp)
+2000067e:	3bd5                	jal	20000472 <FLASH_START>
+20000680:	06600513          	li	a0,102
+20000684:	3b05                	jal	200003b4 <FLASH_ROM_BEG>
+20000686:	3389                	jal	200003c8 <FLASH_ROM_END>
+20000688:	09900513          	li	a0,153
+2000068c:	3325                	jal	200003b4 <FLASH_ROM_BEG>
+2000068e:	40b2                	lw	ra,12(sp)
+20000690:	0141                	addi	sp,sp,16
+20000692:	bb1d                	j	200003c8 <FLASH_ROM_END>
+
+Disassembly of section .text:
+
+00000698 <handle_reset>:
+handle_reset():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:119
+	.weak	handle_reset
+	.align	1
+handle_reset:
+.option push 
+.option	norelax 
+	la gp, __global_pointer$
+ 698:	20001197          	auipc	gp,0x20001
+ 69c:	80018193          	addi	gp,gp,-2048 # 20000e98 <__global_pointer$>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:121
+1:
+	la sp, _eusrstack 
+ 6a0:	20003117          	auipc	sp,0x20003
+ 6a4:	96010113          	addi	sp,sp,-1696 # 20003000 <_eusrstack>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:126
+.option	pop
+
+/* Load highcode code  section from flash to RAM */
+2:
+    la a0, _highcode_lma
+ 6a8:	00400513          	li	a0,4
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:127
+    la a1, _highcode_vma_start
+ 6ac:	20000597          	auipc	a1,0x20000
+ 6b0:	95458593          	addi	a1,a1,-1708 # 20000000 <_highcode_vma_start>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:128
+    la a2, _highcode_vma_end
+ 6b4:	20000617          	auipc	a2,0x20000
+ 6b8:	fe060613          	addi	a2,a2,-32 # 20000694 <_data_vma>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:129
+    bgeu a1, a2, 2f
+ 6bc:	00c5fa63          	bgeu	a1,a2,6d0 <handle_reset+0x38>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:131
+1:
+    lw t0, (a0)
+ 6c0:	00052283          	lw	t0,0(a0)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:132
+    sw t0, (a1)
+ 6c4:	0055a023          	sw	t0,0(a1)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:133
+    addi a0, a0, 4
+ 6c8:	0511                	addi	a0,a0,4
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:134
+    addi a1, a1, 4
+ 6ca:	0591                	addi	a1,a1,4
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:135
+    bltu a1, a2, 1b
+ 6cc:	fec5eae3          	bltu	a1,a2,6c0 <handle_reset+0x28>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:139
+
+/* Load data section from flash to RAM */
+2:
+	la a0, _data_lma
+ 6d0:	00000517          	auipc	a0,0x0
+ 6d4:	3e050513          	addi	a0,a0,992 # ab0 <_data_lma>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:140
+	la a1, _data_vma
+ 6d8:	20000597          	auipc	a1,0x20000
+ 6dc:	fbc58593          	addi	a1,a1,-68 # 20000694 <_data_vma>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:141
+	la a2, _edata
+ 6e0:	20000617          	auipc	a2,0x20000
+ 6e4:	fb860613          	addi	a2,a2,-72 # 20000698 <Freq_LSI>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:142
+	bgeu a1, a2, 2f
+ 6e8:	00c5fa63          	bgeu	a1,a2,6fc <handle_reset+0x64>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:144
+1:
+	lw t0, (a0)
+ 6ec:	00052283          	lw	t0,0(a0)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:145
+	sw t0, (a1)
+ 6f0:	0055a023          	sw	t0,0(a1)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:146
+	addi a0, a0, 4
+ 6f4:	0511                	addi	a0,a0,4
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:147
+	addi a1, a1, 4
+ 6f6:	0591                	addi	a1,a1,4
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:148
+	bltu a1, a2, 1b
+ 6f8:	fec5eae3          	bltu	a1,a2,6ec <handle_reset+0x54>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:151
+2:
+	/* clear bss section */
+	la a0, _sbss
+ 6fc:	20000517          	auipc	a0,0x20000
+ 700:	f9c50513          	addi	a0,a0,-100 # 20000698 <Freq_LSI>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:152
+	la a1, _ebss
+ 704:	20000597          	auipc	a1,0x20000
+ 708:	f9858593          	addi	a1,a1,-104 # 2000069c <_ebss>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:153
+	bgeu a0, a1, 2f
+ 70c:	00b57763          	bgeu	a0,a1,71a <handle_reset+0x82>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:155
+1:
+	sw zero, (a0)
+ 710:	00052023          	sw	zero,0(a0)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:156
+	addi a0, a0, 4
+ 714:	0511                	addi	a0,a0,4
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:157
+	bltu a0, a1, 1b
+ 716:	feb56de3          	bltu	a0,a1,710 <handle_reset+0x78>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:161
+2:
+	/* 用户模式中断使能 */
+	/*预取使能*/
+	li t0, 0x25
+ 71a:	02500293          	li	t0,37
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:162
+	csrw 0xbc0, t0
+ 71e:	bc029073          	csrw	0xbc0,t0
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:164
+	/* 打开嵌套中断、硬件压栈功能 */
+	li t0, 0x3
+ 722:	428d                	li	t0,3
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:165
+	csrw 0x804, t0
+ 724:	80429073          	csrw	0x804,t0
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:166
+	li t0, 0x1
+ 728:	4285                	li	t0,1
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:167
+	csrw 0xbc1, t0
+ 72a:	bc129073          	csrw	0xbc1,t0
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:169
+	
+    li t0, 0x88
+ 72e:	08800293          	li	t0,136
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:170
+    csrw mstatus, t0
+ 732:	30029073          	csrw	mstatus,t0
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:171
+	la t0, _vector_base
+ 736:	20000297          	auipc	t0,0x20000
+ 73a:	8ca28293          	addi	t0,t0,-1846 # 20000000 <_highcode_vma_start>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:174
+
+	/* 配置向量表模式为绝对地址模式 */
+    ori t0, t0, 3
+ 73e:	0032e293          	ori	t0,t0,3
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:175
+	csrw mtvec, t0
+ 742:	30529073          	csrw	mtvec,t0
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:177
+
+	la t0, main
+ 746:	00000297          	auipc	t0,0x0
+ 74a:	05028293          	addi	t0,t0,80 # 796 <main>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:178
+	csrw mepc, t0
+ 74e:	34129073          	csrw	mepc,t0
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:180
+	
+	mret
+ 752:	30200073          	mret
+
+00000756 <DebugInit>:
+DebugInit():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:38
+
+// For clarity, let's define our specific LED pin
+#define LED_PIN     GPIO_Pin_11
+
+void DebugInit(void)
+{
+ 756:	1141                	addi	sp,sp,-16
+ 758:	c606                	sw	ra,12(sp)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:39
+    GPIOA_SetBits(bTXD_0);
+ 75a:	400017b7          	lui	a5,0x40001
+ 75e:	4721                	li	a4,8
+ 760:	0ae7ac23          	sw	a4,184(a5) # 400010b8 <_eusrstack+0x1fffe0b8>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:40
+    GPIOA_ModeCfg(bTXD_0, GPIO_ModeOut_PP_5mA);
+ 764:	458d                	li	a1,3
+ 766:	4521                	li	a0,8
+ 768:	2841                	jal	7f8 <GPIOA_ModeCfg>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:41
+    UART_Remap(ENABLE, UART_TX_REMAP_PA3, UART_RX_REMAP_PA2);
+ 76a:	4601                	li	a2,0
+ 76c:	4581                	li	a1,0
+ 76e:	4505                	li	a0,1
+ 770:	22e9                	jal	93a <UART_Remap>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:43
+    UART_DefInit();
+}
+ 772:	40b2                	lw	ra,12(sp)
+ 774:	0141                	addi	sp,sp,16
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:42
+    UART_DefInit();
+ 776:	aa49                	j	908 <UART_DefInit>
+
+00000778 <LED_Init>:
+LED_Init():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:46
+
+void LED_Init(void)
+{
+ 778:	1141                	addi	sp,sp,-16
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:47
+    GPIOA_ModeCfg(LED_PIN, GPIO_ModeOut_PP_5mA);
+ 77a:	458d                	li	a1,3
+ 77c:	28b01513          	bseti	a0,zero,0xb
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:46
+{
+ 780:	c606                	sw	ra,12(sp)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:47
+    GPIOA_ModeCfg(LED_PIN, GPIO_ModeOut_PP_5mA);
+ 782:	289d                	jal	7f8 <GPIOA_ModeCfg>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:49
+    GPIOA_SetBits(LED_PIN);
+}
+ 784:	40b2                	lw	ra,12(sp)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:48
+    GPIOA_SetBits(LED_PIN);
+ 786:	400017b7          	lui	a5,0x40001
+ 78a:	28b01713          	bseti	a4,zero,0xb
+ 78e:	0ae7ac23          	sw	a4,184(a5) # 400010b8 <_eusrstack+0x1fffe0b8>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:49
+}
+ 792:	0141                	addi	sp,sp,16
+ 794:	8082                	ret
+
+00000796 <main>:
+main():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:55
+
+/**
+ * @brief  Main routine.
+ */
+int main()
+{
+ 796:	1101                	addi	sp,sp,-32
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:58
+    /* System clock initialization */
+
+    SetSysClock(CLK_SOURCE_HSE_PLL_100MHz);
+ 798:	04600513          	li	a0,70
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:55
+{
+ 79c:	ce06                	sw	ra,28(sp)
+ 79e:	cc22                	sw	s0,24(sp)
+ 7a0:	ca26                	sw	s1,20(sp)
+ 7a2:	c84a                	sw	s2,16(sp)
+ 7a4:	c64e                	sw	s3,12(sp)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:58
+    SetSysClock(CLK_SOURCE_HSE_PLL_100MHz);
+ 7a6:	20000097          	auipc	ra,0x20000
+ 7aa:	8ea080e7          	jalr	-1814(ra) # 20000090 <SetSysClock>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:59
+    GPIOA_ModeCfg(GPIO_Pin_All, GPIO_ModeIN_PU);
+ 7ae:	4585                	li	a1,1
+ 7b0:	557d                	li	a0,-1
+ 7b2:	2099                	jal	7f8 <GPIOA_ModeCfg>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:61
+
+    DebugInit();
+ 7b4:	374d                	jal	756 <DebugInit>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:62
+    DelayMs(1000);
+ 7b6:	3e800513          	li	a0,1000
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:74
+    {
+        /*
+         * Turn LED ON.
+         * We call the macro "GPIOA_ResetBits" directly.
+         */
+        GPIOA_ResetBits(LED_PIN);
+ 7ba:	40001437          	lui	s0,0x40001
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:62
+    DelayMs(1000);
+ 7be:	20000097          	auipc	ra,0x20000
+ 7c2:	ba4080e7          	jalr	-1116(ra) # 20000362 <mDelaymS>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:74
+        GPIOA_ResetBits(LED_PIN);
+ 7c6:	0ac40913          	addi	s2,s0,172 # 400010ac <_eusrstack+0x1fffe0ac>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:64
+    LED_Init();
+ 7ca:	377d                	jal	778 <LED_Init>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:74
+        GPIOA_ResetBits(LED_PIN);
+ 7cc:	28b01493          	bseti	s1,zero,0xb
+ 7d0:	28b01993          	bseti	s3,zero,0xb
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:74 (discriminator 1)
+ 7d4:	01392023          	sw	s3,0(s2)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:77 (discriminator 1)
+
+        /* Wait for 500 milliseconds */
+        DelayMs(100);
+ 7d8:	06400513          	li	a0,100
+ 7dc:	20000097          	auipc	ra,0x20000
+ 7e0:	b86080e7          	jalr	-1146(ra) # 20000362 <mDelaymS>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:83 (discriminator 1)
+
+        /*
+         * Turn LED OFF.
+         * We call the macro "GPIOA_SetBits" directly.
+         */
+        GPIOA_SetBits(LED_PIN);
+ 7e4:	0b840793          	addi	a5,s0,184
+ 7e8:	c384                	sw	s1,0(a5)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:86 (discriminator 1)
+
+        /* Wait for 500 milliseconds */
+        DelayMs(1000);
+ 7ea:	3e800513          	li	a0,1000
+ 7ee:	20000097          	auipc	ra,0x20000
+ 7f2:	b74080e7          	jalr	-1164(ra) # 20000362 <mDelaymS>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../src/Main.c:68 (discriminator 1)
+    while(1)
+ 7f6:	bff9                	j	7d4 <main+0x3e>
+
+000007f8 <GPIOA_ModeCfg>:
+GPIOA_ModeCfg():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_gpio.c:27
+ *
+ * @return  none
+ */
+void GPIOA_ModeCfg(uint32_t pin, GPIOModeTypeDef mode)
+{
+    switch(mode)
+ 7f8:	4791                	li	a5,4
+ 7fa:	04b7ec63          	bltu	a5,a1,852 <GPIOA_ModeCfg+0x5a>
+ 7fe:	00000797          	auipc	a5,0x0
+ 802:	29a78793          	addi	a5,a5,666 # a98 <FLASH_EEPROM_CMD+0x136>
+ 806:	20f5c5b3          	sh2add	a1,a1,a5
+ 80a:	4198                	lw	a4,0(a1)
+ 80c:	973e                	add	a4,a4,a5
+ 80e:	400017b7          	lui	a5,0x40001
+ 812:	0b478793          	addi	a5,a5,180 # 400010b4 <_eusrstack+0x1fffe0b4>
+ 816:	8702                	jr	a4
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_gpio.c:30
+    {
+        case GPIO_ModeIN_Floating:
+            R32_PA_PD_DRV &= ~pin;
+ 818:	4394                	lw	a3,0(a5)
+ 81a:	40001737          	lui	a4,0x40001
+ 81e:	40a6f6b3          	andn	a3,a3,a0
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_gpio.c:42
+            R32_PA_PU |= pin;
+            R32_PA_DIR &= ~pin;
+            break;
+
+        case GPIO_ModeIN_PD:
+            R32_PA_PD_DRV |= pin;
+ 822:	c394                	sw	a3,0(a5)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_gpio.c:43
+            R32_PA_PU &= ~pin;
+ 824:	0b070693          	addi	a3,a4,176 # 400010b0 <_eusrstack+0x1fffe0b0>
+ 828:	429c                	lw	a5,0(a3)
+ 82a:	40a7f7b3          	andn	a5,a5,a0
+ 82e:	a819                	j	844 <GPIOA_ModeCfg+0x4c>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_gpio.c:36
+            R32_PA_PD_DRV &= ~pin;
+ 830:	4394                	lw	a3,0(a5)
+ 832:	40001737          	lui	a4,0x40001
+ 836:	40a6f6b3          	andn	a3,a3,a0
+ 83a:	c394                	sw	a3,0(a5)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_gpio.c:37
+            R32_PA_PU |= pin;
+ 83c:	0b070693          	addi	a3,a4,176 # 400010b0 <_eusrstack+0x1fffe0b0>
+ 840:	429c                	lw	a5,0(a3)
+ 842:	8fc9                	or	a5,a5,a0
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_gpio.c:43
+            R32_PA_PU &= ~pin;
+ 844:	c29c                	sw	a5,0(a3)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_gpio.c:44
+            R32_PA_DIR &= ~pin;
+ 846:	0a070793          	addi	a5,a4,160
+ 84a:	4398                	lw	a4,0(a5)
+ 84c:	40a77733          	andn	a4,a4,a0
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_gpio.c:54
+            R32_PA_DIR |= pin;
+            break;
+
+        case GPIO_ModeOut_PP_20mA:
+            R32_PA_PD_DRV |= pin;
+            R32_PA_DIR |= pin;
+ 850:	c398                	sw	a4,0(a5)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_gpio.c:60
+            break;
+
+        default:
+            break;
+    }
+}
+ 852:	8082                	ret
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_gpio.c:42
+            R32_PA_PD_DRV |= pin;
+ 854:	4394                	lw	a3,0(a5)
+ 856:	40001737          	lui	a4,0x40001
+ 85a:	8ec9                	or	a3,a3,a0
+ 85c:	b7d9                	j	822 <GPIOA_ModeCfg+0x2a>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_gpio.c:48
+            R32_PA_PD_DRV &= ~pin;
+ 85e:	4398                	lw	a4,0(a5)
+ 860:	40a77733          	andn	a4,a4,a0
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_gpio.c:53
+            R32_PA_PD_DRV |= pin;
+ 864:	c398                	sw	a4,0(a5)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_gpio.c:54
+            R32_PA_DIR |= pin;
+ 866:	400017b7          	lui	a5,0x40001
+ 86a:	0a078793          	addi	a5,a5,160 # 400010a0 <_eusrstack+0x1fffe0a0>
+ 86e:	4398                	lw	a4,0(a5)
+ 870:	8f49                	or	a4,a4,a0
+ 872:	bff9                	j	850 <GPIOA_ModeCfg+0x58>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_gpio.c:53
+            R32_PA_PD_DRV |= pin;
+ 874:	4398                	lw	a4,0(a5)
+ 876:	8f49                	or	a4,a4,a0
+ 878:	b7f5                	j	864 <GPIOA_ModeCfg+0x6c>
+
+0000087a <GetSysClock>:
+GetSysClock():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:101
+    if((R8_CLK_SYS_CFG & RB_CLK_SYS_MOD) == RB_CLK_SYS_MOD)
+ 87a:	400017b7          	lui	a5,0x40001
+ 87e:	2798                	lbu	a4,8(a5)
+ 880:	0c000693          	li	a3,192
+ 884:	0c077713          	andi	a4,a4,192
+ 888:	00d71763          	bne	a4,a3,896 <GetSysClock+0x1c>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:103
+        return (Freq_LSI);
+ 88c:	20000517          	auipc	a0,0x20000
+ 890:	e0c52503          	lw	a0,-500(a0) # 20000698 <Freq_LSI>
+ 894:	8082                	ret
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:105
+    else if((R8_CLK_SYS_CFG & RB_CLK_SYS_MOD) == 0x40)
+ 896:	2798                	lbu	a4,8(a5)
+ 898:	04000693          	li	a3,64
+ 89c:	0c077713          	andi	a4,a4,192
+ 8a0:	02d71063          	bne	a4,a3,8c0 <GetSysClock+0x46>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:107
+        return (600000000 / ((R8_CLK_SYS_CFG & 0x1f)?(R8_CLK_SYS_CFG & 0x1f):32));
+ 8a4:	2794                	lbu	a3,8(a5)
+ 8a6:	02000713          	li	a4,32
+ 8aa:	8afd                	andi	a3,a3,31
+ 8ac:	c299                	beqz	a3,8b2 <GetSysClock+0x38>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:107 (discriminator 1)
+ 8ae:	2798                	lbu	a4,8(a5)
+ 8b0:	8b7d                	andi	a4,a4,31
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:107 (discriminator 4)
+ 8b2:	23c34537          	lui	a0,0x23c34
+ 8b6:	60050513          	addi	a0,a0,1536 # 23c34600 <_eusrstack+0x3c31600>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:111 (discriminator 4)
+        return (32000000 / ((R8_CLK_SYS_CFG & 0x1f)?(R8_CLK_SYS_CFG & 0x1f):32));
+ 8ba:	02e54533          	div	a0,a0,a4
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:113 (discriminator 4)
+}
+ 8be:	8082                	ret
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:111
+        return (32000000 / ((R8_CLK_SYS_CFG & 0x1f)?(R8_CLK_SYS_CFG & 0x1f):32));
+ 8c0:	2794                	lbu	a3,8(a5)
+ 8c2:	02000713          	li	a4,32
+ 8c6:	8afd                	andi	a3,a3,31
+ 8c8:	c299                	beqz	a3,8ce <GetSysClock+0x54>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:111 (discriminator 1)
+ 8ca:	2798                	lbu	a4,8(a5)
+ 8cc:	8b7d                	andi	a4,a4,31
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_sys.c:111 (discriminator 4)
+ 8ce:	01e85537          	lui	a0,0x1e85
+ 8d2:	80050513          	addi	a0,a0,-2048 # 1e84800 <_data_lma+0x1e83d50>
+ 8d6:	b7d5                	j	8ba <GetSysClock+0x40>
+
+000008d8 <UART_BaudRateCfg>:
+UART_BaudRateCfg():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:43
+ * @param   baudrate    - 波特率
+ *
+ * @return  none
+ */
+void UART_BaudRateCfg(uint32_t baudrate)
+{
+ 8d8:	1141                	addi	sp,sp,-16
+ 8da:	c422                	sw	s0,8(sp)
+ 8dc:	c606                	sw	ra,12(sp)
+ 8de:	842a                	mv	s0,a0
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:46
+    uint32_t x;
+
+    x = 10 * GetSysClock() / 8 / baudrate;
+ 8e0:	3f69                	jal	87a <GetSysClock>
+ 8e2:	4729                	li	a4,10
+ 8e4:	02e507b3          	mul	a5,a0,a4
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:49
+    x = (x + 5) / 10;
+    R16_UART_DL = (uint16_t)x;
+}
+ 8e8:	40b2                	lw	ra,12(sp)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:46
+    x = 10 * GetSysClock() / 8 / baudrate;
+ 8ea:	838d                	srli	a5,a5,0x3
+ 8ec:	0287d7b3          	divu	a5,a5,s0
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:49
+}
+ 8f0:	4422                	lw	s0,8(sp)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:47
+    x = (x + 5) / 10;
+ 8f2:	0795                	addi	a5,a5,5 # 40001005 <_eusrstack+0x1fffe005>
+ 8f4:	02e7d7b3          	divu	a5,a5,a4
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:48
+    R16_UART_DL = (uint16_t)x;
+ 8f8:	40003737          	lui	a4,0x40003
+ 8fc:	0807c7b3          	zext.h	a5,a5
+ 900:	40f71623          	sh	a5,1036(a4) # 4000340c <_eusrstack+0x2000040c>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:49
+}
+ 904:	0141                	addi	sp,sp,16
+ 906:	8082                	ret
+
+00000908 <UART_DefInit>:
+UART_DefInit():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:26
+    UART_BaudRateCfg(115200);
+ 908:	6571                	lui	a0,0x1c
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:25
+{
+ 90a:	1141                	addi	sp,sp,-16
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:26
+    UART_BaudRateCfg(115200);
+ 90c:	20050513          	addi	a0,a0,512 # 1c200 <_data_lma+0x1b750>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:25
+{
+ 910:	c606                	sw	ra,12(sp)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:26
+    UART_BaudRateCfg(115200);
+ 912:	37d9                	jal	8d8 <UART_BaudRateCfg>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:27
+    R8_UART_FCR = (2 << 6) | RB_FCR_FIFO_EN; // FIFO打开，触发点4字节
+ 914:	400037b7          	lui	a5,0x40003
+ 918:	f8100713          	li	a4,-127
+ 91c:	40e78123          	sb	a4,1026(a5) # 40003402 <_eusrstack+0x20000402>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:28
+    R8_UART_LCR = RB_LCR_WORD_SZ;
+ 920:	470d                	li	a4,3
+ 922:	40e781a3          	sb	a4,1027(a5)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:29
+    R8_UART_IER = RB_IER_TXD_EN;
+ 926:	04000713          	li	a4,64
+ 92a:	40e780a3          	sb	a4,1025(a5)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:30
+    R8_UART_DIV = 1;
+ 92e:	4705                	li	a4,1
+ 930:	40e78723          	sb	a4,1038(a5)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:31
+}
+ 934:	40b2                	lw	ra,12(sp)
+ 936:	0141                	addi	sp,sp,16
+ 938:	8082                	ret
+
+0000093a <UART_Remap>:
+UART_Remap():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:153
+ */
+void UART_Remap(FunctionalState s, UARTTxPinRemapDef u_tx, UARTRxPinRemapDef u_rx)
+{
+    if(s)
+    {
+        R16_PIN_ALTERNATE_H &= ~(RB_UART_TXD | RB_UART_RXD); // 该寄存器仅在上电复位和ShutDown睡眠时清0
+ 93a:	40001737          	lui	a4,0x40001
+ 93e:	2f3e                	lhu	a5,26(a4)
+ 940:	0807c7b3          	zext.h	a5,a5
+ 944:	fc07f793          	andi	a5,a5,-64
+ 948:	0807c7b3          	zext.h	a5,a5
+ 94c:	af3e                	sh	a5,26(a4)
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:151
+    if(s)
+ 94e:	c909                	beqz	a0,960 <UART_Remap+0x26>
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:154
+        R16_PIN_ALTERNATE_H |= (u_tx << 3) | u_rx;
+ 950:	2f3e                	lhu	a5,26(a4)
+ 952:	058e                	slli	a1,a1,0x3
+ 954:	8e5d                	or	a2,a2,a5
+ 956:	8dd1                	or	a1,a1,a2
+ 958:	0805c5b3          	zext.h	a1,a1
+ 95c:	af2e                	sh	a1,26(a4)
+ 95e:	8082                	ret
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../StdPeriphDriver/CH57x_uart.c:160
+    }
+    else
+    {
+        R16_PIN_ALTERNATE_H &= ~(RB_UART_TXD | RB_UART_RXD);
+    }
+}
+ 960:	8082                	ret
+
+00000962 <FLASH_EEPROM_CMD>:
+FLASH_EEPROM_CMD():
+ 962:	1101                	addi	sp,sp,-32
+ 964:	872a                	mv	a4,a0
+ 966:	ce06                	sw	ra,28(sp)
+ 968:	852e                	mv	a0,a1
+ 96a:	cc26                	sw	s1,24(sp)
+ 96c:	85b2                	mv	a1,a2
+ 96e:	ca4a                	sw	s2,20(sp)
+ 970:	8636                	mv	a2,a3
+ 972:	c622                	sw	s0,12(sp)
+ 974:	40002437          	lui	s0,0x40002
+ 978:	e000e7b7          	lui	a5,0xe000e
+ 97c:	56fd                	li	a3,-1
+ 97e:	0007a903          	lw	s2,0(a5) # e000e000 <_eusrstack+0xc000b000>
+ 982:	43c4                	lw	s1,4(a5)
+ 984:	18d7a023          	sw	a3,384(a5)
+ 988:	18d7a223          	sw	a3,388(a5)
+ 98c:	fff70793          	addi	a5,a4,-1 # 40000fff <_eusrstack+0x1fffdfff>
+ 990:	0ff7f793          	zext.b	a5,a5
+ 994:	4689                	li	a3,2
+ 996:	0af6e063          	bltu	a3,a5,a36 <FLASH_EEPROM_CMD+0xd4>
+ 99a:	400017b7          	lui	a5,0x40001
+ 99e:	0457c783          	lbu	a5,69(a5) # 40001045 <_eusrstack+0x1fffe045>
+ 9a2:	000406b7          	lui	a3,0x40
+ 9a6:	0207f793          	andi	a5,a5,32
+ 9aa:	e399                	bnez	a5,9b0 <FLASH_EEPROM_CMD+0x4e>
+ 9ac:	0003c6b7          	lui	a3,0x3c
+ 9b0:	57f9                	li	a5,-2
+ 9b2:	04d57563          	bgeu	a0,a3,9fc <FLASH_EEPROM_CMD+0x9a>
+ 9b6:	00c50833          	add	a6,a0,a2
+ 9ba:	0506e163          	bltu	a3,a6,9fc <FLASH_EEPROM_CMD+0x9a>
+ 9be:	4789                	li	a5,2
+ 9c0:	04f71463          	bne	a4,a5,a08 <FLASH_EEPROM_CMD+0xa6>
+ 9c4:	8209                	srli	a2,a2,0x2
+ 9c6:	20000097          	auipc	ra,0x20000
+ 9ca:	ae2080e7          	jalr	-1310(ra) # 200004a8 <FLASH_CMD_ROM_WRITE>
+ 9ce:	87aa                	mv	a5,a0
+ 9d0:	40001737          	lui	a4,0x40001
+ 9d4:	05700693          	li	a3,87
+ 9d8:	04d70023          	sb	a3,64(a4) # 40001040 <_eusrstack+0x1fffe040>
+ 9dc:	fa800693          	li	a3,-88
+ 9e0:	04d70023          	sb	a3,64(a4)
+ 9e4:	04474683          	lbu	a3,68(a4)
+ 9e8:	8ac1                	andi	a3,a3,16
+ 9ea:	04d70223          	sb	a3,68(a4)
+ 9ee:	e000e737          	lui	a4,0xe000e
+ 9f2:	11272023          	sw	s2,256(a4) # e000e100 <_eusrstack+0xc000b100>
+ 9f6:	10972223          	sw	s1,260(a4)
+ 9fa:	4432                	lw	s0,12(sp)
+ 9fc:	40f2                	lw	ra,28(sp)
+ 9fe:	44e2                	lw	s1,24(sp)
+ a00:	4952                	lw	s2,20(sp)
+ a02:	853e                	mv	a0,a5
+ a04:	6105                	addi	sp,sp,32
+ a06:	8082                	ret
+ a08:	4785                	li	a5,1
+ a0a:	00f71f63          	bne	a4,a5,a28 <FLASH_EEPROM_CMD+0xc6>
+ a0e:	6785                	lui	a5,0x1
+ a10:	17fd                	addi	a5,a5,-1 # fff <_data_lma+0x54f>
+ a12:	963e                	add	a2,a2,a5
+ a14:	8fe9                	and	a5,a5,a0
+ a16:	963e                	add	a2,a2,a5
+ a18:	77fd                	lui	a5,0xfffff
+ a1a:	8e7d                	and	a2,a2,a5
+ a1c:	8d7d                	and	a0,a0,a5
+ a1e:	20000097          	auipc	ra,0x20000
+ a22:	aea080e7          	jalr	-1302(ra) # 20000508 <FLASH_CMD_ROM_ERASE>
+ a26:	b765                	j	9ce <FLASH_EEPROM_CMD+0x6c>
+ a28:	20000097          	auipc	ra,0x20000
+ a2c:	b52080e7          	jalr	-1198(ra) # 2000057a <FLASH_CMD_ROM_VERIFY>
+ a30:	00150793          	addi	a5,a0,1
+ a34:	bf71                	j	9d0 <FLASH_EEPROM_CMD+0x6e>
+ a36:	47b5                	li	a5,13
+ a38:	00f71a63          	bne	a4,a5,a4c <FLASH_EEPROM_CMD+0xea>
+ a3c:	0b900513          	li	a0,185
+ a40:	20000097          	auipc	ra,0x20000
+ a44:	b8a080e7          	jalr	-1142(ra) # 200005ca <FLASH_CMD_ROM_PWR>
+ a48:	4781                	li	a5,0
+ a4a:	b759                	j	9d0 <FLASH_EEPROM_CMD+0x6e>
+ a4c:	47b1                	li	a5,12
+ a4e:	00f71563          	bne	a4,a5,a58 <FLASH_EEPROM_CMD+0xf6>
+ a52:	0ab00513          	li	a0,171
+ a56:	b7ed                	j	a40 <FLASH_EEPROM_CMD+0xde>
+ a58:	4799                	li	a5,6
+ a5a:	00f71763          	bne	a4,a5,a68 <FLASH_EEPROM_CMD+0x106>
+ a5e:	20000097          	auipc	ra,0x20000
+ a62:	b7e080e7          	jalr	-1154(ra) # 200005dc <FLASH_CMD_GET_ROM_INFO>
+ a66:	b7cd                	j	a48 <FLASH_EEPROM_CMD+0xe6>
+ a68:	479d                	li	a5,7
+ a6a:	00f71b63          	bne	a4,a5,a80 <FLASH_EEPROM_CMD+0x11e>
+ a6e:	0005a023          	sw	zero,0(a1)
+ a72:	0005a223          	sw	zero,4(a1)
+ a76:	20000097          	auipc	ra,0x20000
+ a7a:	bc6080e7          	jalr	-1082(ra) # 2000063c <FLASH_CMD_GET_UNIQUE_ID>
+ a7e:	b7e9                	j	a48 <FLASH_EEPROM_CMD+0xe6>
+ a80:	4791                	li	a5,4
+ a82:	00f71763          	bne	a4,a5,a90 <FLASH_EEPROM_CMD+0x12e>
+ a86:	20000097          	auipc	ra,0x20000
+ a8a:	bf4080e7          	jalr	-1036(ra) # 2000067a <FLASH_CMD_ROM_SW_RESET>
+ a8e:	bf6d                	j	a48 <FLASH_EEPROM_CMD+0xe6>
+ a90:	4781                	li	a5,0
+ a92:	df1d                	beqz	a4,9d0 <FLASH_EEPROM_CMD+0x6e>
+ a94:	57f1                	li	a5,-4
+ a96:	bf2d                	j	9d0 <FLASH_EEPROM_CMD+0x6e>
+ a98:	fd80                	.2byte	0xfd80
+ a9a:	ffff                	.2byte	0xffff
+ a9c:	fd98                	.2byte	0xfd98
+ a9e:	ffff                	.2byte	0xffff
+ aa0:	fdbc                	.2byte	0xfdbc
+ aa2:	ffff                	.2byte	0xffff
+ aa4:	fdc6                	.2byte	0xfdc6
+ aa6:	ffff                	.2byte	0xffff
+ aa8:	fddc                	.2byte	0xfddc
+ aaa:	ffff                	.2byte	0xffff
+
+Disassembly of section .vector_handler:
+
+00000aac <BB_IRQHandler>:
+ENDOCE_IRQHandler():
+c:\Users\seanw\mounriver-studio-projects\CH570D-Flash-LED2\obj/../Startup/startup_CH572.S:111
+	j 1b
+ aac:	a001                	j	aac <BB_IRQHandler>
