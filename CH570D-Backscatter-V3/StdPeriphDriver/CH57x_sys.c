@@ -396,7 +396,8 @@ int _write(int fd, char *buf, int size)
     int i;
     for(i = 0; i < size; i++)
     {
-        while(R8_UART_TFC == UART_FIFO_SIZE);                  /* 等待数据发送 */
+        while(R8_UART_TFC == UART_FIFO_SIZE)
+        ;                  /* 等待数据发送 */
             R8_UART_THR = *buf++; /* 发送数据 */
     }
     return size;

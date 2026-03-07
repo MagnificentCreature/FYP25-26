@@ -21,12 +21,13 @@
  * Must match the SetSysClock() call in main().
  * Common values: 6400000 (HSE 6.4 MHz), 16000000 (PLL 16 MHz)
  */
-// #define SYS_CLK_FREQ           6400000
-//Outdated, change this in CH57x_common.h
+#define SYS_CLK_FREQ           6400000
+//Note: We override the value in CH57x_common.h by calling #define  FREQ_SYS	SYS_CLK_FREQ (line 53)
+
 
 /**
  * PWM clock prescaler divider.
- * PWM base frequency = FREQ_SYS / CLK_TICKS_PER_CYC.
+ * PWM base frequency = SYS_CLK_FREQ / CLK_TICKS_PER_CYC.
  * Must be >= 1. Increase only if PWM period counters would overflow 16 bits.
  */
 #define CLK_TICKS_PER_CYC     1
@@ -40,13 +41,13 @@
 
 /**
  * FSK frequency for logic '0' in Hz.
- * Must be less than FREQ_SYS / CLK_TICKS_PER_CYC.
+ * Must be less than SYS_CLK_FREQ / CLK_TICKS_PER_CYC.
  */
 #define FSK_FREQ0              80000
 
 /**
  * FSK frequency for logic '1' in Hz.
- * Must be less than FREQ_SYS / CLK_TICKS_PER_CYC.
+ * Must be less than SYS_CLK_FREQ / CLK_TICKS_PER_CYC.
  */
 #define FSK_FREQ1              100000
 
@@ -78,7 +79,7 @@
  *   #define BACKSCATTER_PERIOD_MS  1000    // transmit every 1 second
  *   #define BACKSCATTER_PERIOD_MS  500     // transmit every 500 ms
  */
-#define BACKSCATTER_PERIOD_MS  0
+#define BACKSCATTER_PERIOD_MS  500
 
 /*============================================================================
  * HARDWARE PIN CONFIGURATION
@@ -117,7 +118,7 @@
  *============================================================================*/
 
 /** PWM base frequency after prescaler division. */
-#define BASE_FREQ              (FREQ_SYS / CLK_TICKS_PER_CYC)
+#define BASE_FREQ              (SYS_CLK_FREQ / CLK_TICKS_PER_CYC)
 
 /** 16-bit PWM period register value for FSK frequency 0. */
 #define PWM_CYC_COUNT0         ((BASE_FREQ / FSK_FREQ0) - 1)
