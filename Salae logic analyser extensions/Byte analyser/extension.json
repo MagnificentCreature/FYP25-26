@@ -1,0 +1,13 @@
+{
+  "name": "Byte analyser",
+  "apiVersion": "1.0.0",
+  "author": "me!",
+  "version": "0.0.2",
+  "description": "",
+  "extensions": {
+    "Byte analyser": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "byte_decoder.Hla"
+    }
+  }
+}

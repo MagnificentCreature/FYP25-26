@@ -1,0 +1,13 @@
+{
+  "name": "FSK_Decoder",
+  "apiVersion": "1.0.0",
+  "author": "shy coder",
+  "version": "0.0.1",
+  "description": "",
+  "extensions": {
+    "FSK_Decoder": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "FSK_Decoder.Hla"
+    }
+  }
+}
