@@ -5,11 +5,12 @@
 		},
 		{
 			"name": "PM",
-			"path": "../"
+			"path": "C:\\Users\\seanw\\Documents\\Data D\\CP4101\\Git Repo\\CH570D-power-profiling"
 		}
 	],
 	"settings": {
 		"mrs.workspace.type": "project",
+		"mrs.init.arg": "",
 		"files.associations": {
 			"*.c": "c",
 			"*.h": "cpp",

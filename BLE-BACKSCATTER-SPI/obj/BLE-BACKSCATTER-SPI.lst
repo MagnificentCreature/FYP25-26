@@ -1,0 +1,3746 @@
+
+BLE-BACKSCATTER-SPI.elf:     file format elf32-littleriscv
+BLE-BACKSCATTER-SPI.elf
+architecture: riscv:rv32, flags 0x00000112:
+EXEC_P, HAS_SYMS, D_PAGED
+start address 0x00000000
+
+Program Header:
+0x70000003 off    0x0000dc06 vaddr 0x00000000 paddr 0x00000000 align 2**0
+         filesz 0x00000051 memsz 0x00000000 flags r--
+    LOAD off    0x00001000 vaddr 0x00000000 paddr 0x00000000 align 2**12
+         filesz 0x00000004 memsz 0x00000004 flags r-x
+    LOAD off    0x00002000 vaddr 0x20000000 paddr 0x00000004 align 2**12
+         filesz 0x00000810 memsz 0x00000810 flags r-x
+    LOAD off    0x00002814 vaddr 0x00000814 paddr 0x00000814 align 2**12
+         filesz 0x00001142 memsz 0x00001144 flags rwx
+    LOAD off    0x00004810 vaddr 0x20000810 paddr 0x00001958 align 2**12
+         filesz 0x0000007c memsz 0x000001c4 flags rw-
+
+Sections:
+Idx Name                 Size      VMA       LMA       File off  Algn  Flags
+  0 .init                00000004  00000000  00000000  00001000  2**1  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .highcode_initlalign 00000000  00000004  00000004  0000488c  2**0  CONTENTS
+  2 .highcodelalign      00000000  00000004  00000004  0000488c  2**0  CONTENTS
+  3 .highcode            00000810  20000000  00000004  00002000  2**1  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .text                00001140  00000814  00000814  00002814  2**2  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .vector_handler      00000002  00001954  00001954  00003954  2**0  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  6 .fini                00000002  00001956  00001956  00003956  2**0  ALLOC, CODE
+  7 .dlalign             00000000  00001958  00001958  0000488c  2**0  CONTENTS
+  8 .data                0000007c  20000810  00001958  00004810  2**2  CONTENTS, ALLOC, LOAD, DATA
+  9 .bss                 00000148  2000088c  000019d4  0000488c  2**2  ALLOC
+ 10 .stack               00000000  20003000  20003000  0000488c  2**0  CONTENTS
+ 11 .debug_info          0000263b  00000000  00000000  0000488c  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 12 .debug_abbrev        00000bc4  00000000  00000000  00006ec7  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 13 .debug_loclists      000011c6  00000000  00000000  00007a8b  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 14 .debug_aranges       00000230  00000000  00000000  00008c58  2**3  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 15 .debug_rnglists      00000310  00000000  00000000  00008e88  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 16 .debug_line          00003852  00000000  00000000  00009198  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 17 .debug_str           00000def  00000000  00000000  0000c9ea  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 18 .debug_line_str      000003c9  00000000  00000000  0000d7d9  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 19 .comment             00000064  00000000  00000000  0000dba2  2**0  CONTENTS, READONLY
+ 20 .riscv.attributes    00000051  00000000  00000000  0000dc06  2**0  CONTENTS, READONLY
+ 21 .debug_frame         00000494  00000000  00000000  0000dc58  2**2  CONTENTS, READONLY, DEBUGGING, OCTETS
+SYMBOL TABLE:
+00000000 l    d  .init	00000000 .init
+00000004 l    d  .highcode_initlalign	00000000 .highcode_initlalign
+00000004 l    d  .highcodelalign	00000000 .highcodelalign
+20000000 l    d  .highcode	00000000 .highcode
+00000814 l    d  .text	00000000 .text
+00001954 l    d  .vector_handler	00000000 .vector_handler
+00001956 l    d  .fini	00000000 .fini
+00001958 l    d  .dlalign	00000000 .dlalign
+20000810 l    d  .data	00000000 .data
+2000088c l    d  .bss	00000000 .bss
+20003000 l    d  .stack	00000000 .stack
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loclists	00000000 .debug_loclists
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_rnglists	00000000 .debug_rnglists
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_line_str	00000000 .debug_line_str
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .riscv.attributes	00000000 .riscv.attributes
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    df *ABS*	00000000 startup_CH572.o
+00001954 l       .vector_handler	00000000 ENDOCE_IRQHandler
+00000000 l    df *ABS*	00000000 Main.c
+00000000 l    df *ABS*	00000000 CH57x_sys.c
+20000880 l     O .data	00000004 curbrk.0
+00000000 l    df *ABS*	00000000 ISP572.c
+2000054a l       .highcode	00000000 .loop52
+20000558 l       .highcode	00000000 .loop63
+20000566 l       .highcode	00000000 .loop74
+20000666 l       .highcode	00000000 .loop247
+00000000 l    df *ABS*	00000000 lib_a-memset.o
+00000000 l    df *ABS*	00000000 CH57x_clk.c
+00000000 l    df *ABS*	00000000 CH57x_gpio.c
+00000000 l    df *ABS*	00000000 CH57x_uart.c
+00000000 l    df *ABS*	00000000 lib_a-puts.o
+00000000 l    df *ABS*	00000000 lib_a-wbuf.o
+00000000 l    df *ABS*	00000000 lib_a-wsetup.o
+00000000 l    df *ABS*	00000000 lib_a-fflush.o
+00000000 l    df *ABS*	00000000 lib_a-findfp.o
+00001196 l     F .text	00000066 std
+00000000 l    df *ABS*	00000000 lib_a-fwalk.o
+00000000 l    df *ABS*	00000000 lib_a-lock.o
+00000000 l    df *ABS*	00000000 lib_a-makebuf.o
+00000000 l    df *ABS*	00000000 lib_a-nano-freer.o
+00000000 l    df *ABS*	00000000 lib_a-nano-mallocr.o
+00001568 l     F .text	00000054 sbrk_aligned
+00000000 l    df *ABS*	00000000 lib_a-sbrkr.o
+00000000 l    df *ABS*	00000000 lib_a-stdio.o
+00000000 l    df *ABS*	00000000 lib_a-writer.o
+00000000 l    df *ABS*	00000000 lib_a-closer.o
+00000000 l    df *ABS*	00000000 lib_a-fstatr.o
+00000000 l    df *ABS*	00000000 lib_a-isattyr.o
+00000000 l    df *ABS*	00000000 lib_a-lseekr.o
+00000000 l    df *ABS*	00000000 lib_a-mlock.o
+00000000 l    df *ABS*	00000000 lib_a-readr.o
+00000000 l    df *ABS*	00000000 close.o
+00000000 l    df *ABS*	00000000 fstat.o
+00000000 l    df *ABS*	00000000 isatty.o
+00000000 l    df *ABS*	00000000 lseek.o
+00000000 l    df *ABS*	00000000 read.o
+00000000 l    df *ABS*	00000000 lib_a-impure.o
+2000081c l     O .data	00000060 impure_data
+00001804 g     F .text	00000026 _isatty_r
+00000d20 g     F .text	00000104 _puts_r
+0000182a g     F .text	0000002a _lseek_r
+20000566 g     F .highcode	0000000e FLASH_ROM_OUT
+00001954  w      .vector_handler	00000000 CMP_IRQHandler
+20001080 g       .data	00000000 __global_pointer$
+00001756 g     F .text	0000002e __sseek
+00001264 g     F .text	00000068 __sinit
+00000e30 g     F .text	000000bc __swbuf_r
+200004d6 g     F .highcode	0000000e mDelayuS
+20000450  w    F .highcode	00000084 HardFault_Handler
+00001206 g     F .text	00000046 __sfmoreglue
+0000185a g     F .text	00000006 __malloc_unlock
+00001954  w      .vector_handler	00000000 GPIOA_IRQHandler
+00001954  w      .vector_handler	00000000 SysTick_Handler
+200004d4  w    F .highcode	00000002 NMI_Handler
+200001b6 g     F .highcode	0000004a UART_IRQHandler
+000017dc g     F .text	00000028 _fstat_r
+200008a4 g     O .bss	00000004 errno
+2000062a g     F .highcode	00000060 FLASH_CMD_ROM_WRITE
+2000088c g       .bss	00000000 _sbss
+00000bae g     F .text	00000020 UART_RecvString
+20000558 g     F .highcode	0000000e FLASH_ROM_IN
+00000b58 g     F .text	00000032 UART_DefInit
+000009ae g     F .text	00000050 HSECFG_Capacitance
+000011fc g     F .text	0000000a _cleanup_r
+00000e24 g     F .text	0000000c puts
+00001954  w      .vector_handler	00000000 SWI_Handler
+00001896 g     F .text	0000000c _fstat
+00000004 g       .init	00000000 _einit
+00001954  w      .vector_handler	00000000 BB_IRQHandler
+00000bf6 g     F .text	0000012a FLASH_EEPROM_CMD
+00001954  w      .vector_handler	00000000 Break_Point_Handler
+200005f4 g     F .highcode	00000036 FLASH_START
+000016be g     F .text	00000028 _sbrk_r
+00001860 g     F .text	0000002a _read_r
+20000536 g     F .highcode	00000014 FLASH_ROM_BEG
+2000068a g     F .highcode	00000072 FLASH_CMD_ROM_ERASE
+200004e4 g     F .highcode	0000001e mDelaymS
+00001954  w      .vector_handler	00000000 Ecall_M_Mode_Handler
+000018a2 g     F .text	0000000c _isatty
+20000898 g     O .bss	00000001 __lock___sinit_recursive_mutex
+20000888 g     O .data	00000004 _global_impure_ptr
+20000574 g     F .highcode	00000048 FLASH_ROM_ADDR
+00000b00 g     F .text	00000028 _sbrk
+00001954  w      .vector_handler	00000000 RTC_IRQHandler
+200009d4 g       .bss	00000000 _ebss
+00001954  w      .vector_handler	00000000 SPI_IRQHandler
+20000890 g     O .bss	00000001 __lock___malloc_recursive_mutex
+200005bc g     F .highcode	00000038 FLASH_ROM_WAIT
+00000bce g     F .text	00000028 UART_Remap
+000018f4 g     O .text	00000020 __sf_fake_stderr
+20000000 g       .highcode	00000000 _vector_base
+000013de g     F .text	00000002 __retarget_lock_release_recursive
+00001954  w      .vector_handler	00000000 PWMX_IRQHandler
+00000b8a g     F .text	00000024 UART_SendString
+0000124c g     F .text	00000006 __sfp_lock_acquire
+000014ca g     F .text	0000009e _free_r
+00000986 g     F .text	00000028 DebugInit
+00000000 g       .init	00000000 _start
+000018ae g     F .text	0000000c _lseek
+20000000 g       .highcode	00000000 _highcode_vma_start
+000017b6 g     F .text	00000026 _close_r
+00001954  w      .vector_handler	00000000 KEYSCAN_IRQHandler
+20000810 g       .data	00000000 _data_vma
+20000200 g     F .highcode	00000250 SetSysClock
+00001954  w      .vector_handler	00000000 USB_IRQHandler
+00000eec g     F .text	000000f2 __swsetup_r
+200007b8 g     F .highcode	0000003e FLASH_CMD_GET_UNIQUE_ID
+000012cc g     F .text	000000a6 __sfp
+2000074c g     F .highcode	00000012 FLASH_CMD_ROM_PWR
+0000125e g     F .text	00000006 __sinit_lock_release
+000016e6 g     F .text	0000002a __sread
+00001854 g     F .text	00000006 __malloc_lock
+00001110 g     F .text	00000086 _fflush_r
+00001934 g     O .text	00000020 __sf_fake_stdin
+000013dc g     F .text	00000002 __retarget_lock_acquire_recursive
+00001954  w      .vector_handler	00000000 I2C_IRQHandler
+000008c6 g     F .text	00000010 memset
+200000fa g     F .highcode	000000bc main
+000013da g     F .text	00000002 __retarget_lock_init_recursive
+00001784 g     F .text	00000006 __sclose
+200008a8 g     O .bss	000000c8 spi_tx_buffer
+000015bc g     F .text	00000102 _malloc_r
+00000004 g       .highcodelalign	00000000 _highcode_lma
+20000090 g     F .highcode	0000006a start_fsk_spi
+00000948 g     F .text	0000003e SPI_FSK_Init
+00001954  w      .vector_handler	00000000 LLE_IRQHandler
+00000000 g       .init	00000000 _sinit
+0000178a g     F .text	0000002c _write_r
+200007f6 g     F .highcode	0000001a FLASH_CMD_ROM_SW_RESET
+00001954  w      .vector_handler	00000000 TMR_IRQHandler
+20000884 g     O .data	00000004 _impure_ptr
+00000fde g     F .text	00000132 __sflush_r
+2000088c g     O .bss	00000004 Freq_LSI
+000008d6 g     F .text	00000072 generate_fsk_buffer
+00001954  w      .vector_handler	00000000 WDOG_BAT_IRQHandler
+00001954  w      .vector_handler	00000000 Ecall_U_Mode_Handler
+20000970 g     O .bss	00000064 RxBuff
+20003000 g       .stack	00000000 _eusrstack
+000009fe g     F .text	00000082 GPIOA_ModeCfg
+000013e0 g     F .text	00000058 __swhatbuf_r
+00000a80 g     F .text	0000005a GetSysClock
+20000502 g     F .highcode	00000034 FLASH_ROM_BEG_FF
+2000075e g     F .highcode	0000005a FLASH_CMD_GET_ROM_INFO
+00000ada g     F .text	00000026 _write
+2000088c g       .data	00000000 _edata
+200009d4 g       .bss	00000000 _end
+20000810 g       .highcode	00000000 _highcode_vma_end
+00001958 g       .dlalign	00000000 _data_lma
+00001710 g     F .text	00000046 __swrite
+00001372 g     F .text	00000068 _fwalk_reent
+00001252 g     F .text	00000006 __sfp_lock_release
+00001914 g     O .text	00000020 __sf_fake_stdout
+000018ba g     F .text	0000000c _read
+00000814  w      .text	00000000 handle_reset
+00001438 g     F .text	00000092 __smakebuf_r
+2000089c g     O .bss	00000004 __malloc_sbrk_start
+00000b28 g     F .text	00000030 UART_BaudRateCfg
+2000054a g     F .highcode	0000000e FLASH_ROM_END
+200008a0 g     O .bss	00000004 __malloc_free_list
+200006fc g     F .highcode	00000050 FLASH_CMD_ROM_VERIFY
+20000894 g     O .bss	00000001 __lock___sfp_recursive_mutex
+0000188a g     F .text	0000000c _close
+20000810 g     O .data	0000000a ble_packet
+00001258 g     F .text	00000006 __sinit_lock_acquire
+
+
+
+Disassembly of section .init:
+
+00000000 <_sinit>:
+_start():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:18
+	.section	.init,"ax",@progbits
+	.global	_start
+ 	.global	_vector_base
+	.align	1
+_start:
+	j	handle_reset
+   0:	0150006f          	j	814 <handle_reset>
+
+Disassembly of section .highcode:
+
+20000000 <_highcode_vma_start>:
+	...
+_vector_base():
+20000008:	200004d4          	.word	0x200004d4
+2000000c:	20000450          	.word	0x20000450
+20000010:	f3f9bda9          	.word	0xf3f9bda9
+20000014:	00001954          	.word	0x00001954
+	...
+20000020:	00001954          	.word	0x00001954
+20000024:	00001954          	.word	0x00001954
+	...
+20000030:	00001954          	.word	0x00001954
+20000034:	00000000          	.word	0x00000000
+20000038:	00001954          	.word	0x00001954
+	...
+20000044:	00001954          	.word	0x00001954
+20000048:	00000000          	.word	0x00000000
+2000004c:	00001954          	.word	0x00001954
+20000050:	00001954          	.word	0x00001954
+20000054:	00001954          	.word	0x00001954
+20000058:	00001954          	.word	0x00001954
+2000005c:	00000000          	.word	0x00000000
+20000060:	00001954          	.word	0x00001954
+	...
+2000006c:	200001b6          	.word	0x200001b6
+20000070:	00001954          	.word	0x00001954
+20000074:	00001954          	.word	0x00001954
+20000078:	00001954          	.word	0x00001954
+2000007c:	00001954          	.word	0x00001954
+20000080:	00000000          	.word	0x00000000
+20000084:	00001954          	.word	0x00001954
+20000088:	00000000          	.word	0x00000000
+2000008c:	00001954          	.word	0x00001954
+
+20000090 <start_fsk_spi>:
+start_fsk_spi():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:152
+    // 4. Configure Bit Order (LSB First for bluetooth)
+    R8_SPI_CTRL_CFG |= RB_SPI_BIT_ORDER; 
+}
+
+__HIGH_CODE
+void start_fsk_spi(uint32_t* buffer, uint16_t num_words) {
+20000090:	1141                	addi	sp,sp,-16
+20000092:	c226                	sw	s1,4(sp)
+20000094:	84aa                	mv	s1,a0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:153
+    PRINT("LETS GO\n");
+20000096:	e0002517          	auipc	a0,0xe0002
+2000009a:	83250513          	addi	a0,a0,-1998 # 18c8 <_read+0xe>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:152
+void start_fsk_spi(uint32_t* buffer, uint16_t num_words) {
+2000009e:	c606                	sw	ra,12(sp)
+200000a0:	c422                	sw	s0,8(sp)
+200000a2:	842e                	mv	s0,a1
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:153
+    PRINT("LETS GO\n");
+200000a4:	e0001097          	auipc	ra,0xe0001
+200000a8:	d80080e7          	jalr	-640(ra) # e24 <puts>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:154
+    DelayMs(10);
+200000ac:	4529                	li	a0,10
+200000ae:	291d                	jal	200004e4 <mDelaymS>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:155
+    R8_SPI_CTRL_MOD &= ~RB_SPI_FIFO_DIR;
+200000b0:	400047b7          	lui	a5,0x40004
+200000b4:	2398                	lbu	a4,0(a5)
+200000b6:	0ef77713          	andi	a4,a4,239
+200000ba:	a398                	sb	a4,0(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:158
+
+    // // 1. Set DMA Start and end Address
+    R16_SPI_DMA_BEG = (uint32_t)buffer;
+200000bc:	0804c733          	zext.h	a4,s1
+200000c0:	af9a                	sh	a4,24(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:159
+    R16_SPI_DMA_END = (uint32_t)(buffer + num_words * 4);
+200000c2:	00441713          	slli	a4,s0,0x4
+200000c6:	94ba                	add	s1,s1,a4
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:161
+
+    R16_SPI_TOTAL_CNT = num_words * 4;
+200000c8:	040a                	slli	s0,s0,0x2
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:159
+    R16_SPI_DMA_END = (uint32_t)(buffer + num_words * 4);
+200000ca:	0804c4b3          	zext.h	s1,s1
+200000ce:	afc6                	sh	s1,28(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:162
+    R8_SPI_INT_FLAG = RB_SPI_IF_CNT_END | RB_SPI_IF_DMA_END;
+200000d0:	4725                	li	a4,9
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:161
+    R16_SPI_TOTAL_CNT = num_words * 4;
+200000d2:	08044433          	zext.h	s0,s0
+200000d6:	a7c2                	sh	s0,12(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:162
+    R8_SPI_INT_FLAG = RB_SPI_IF_CNT_END | RB_SPI_IF_DMA_END;
+200000d8:	a3f8                	sb	a4,6(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:163
+    R8_SPI_CTRL_CFG |= RB_SPI_DMA_ENABLE;
+200000da:	3398                	lbu	a4,1(a5)
+200000dc:	00176713          	ori	a4,a4,1
+200000e0:	b398                	sb	a4,1(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:164 (discriminator 1)
+    while(!(R8_SPI_INT_FLAG & RB_SPI_IF_CNT_END));
+200000e2:	23f8                	lbu	a4,6(a5)
+200000e4:	8b05                	andi	a4,a4,1
+200000e6:	df75                	beqz	a4,200000e2 <start_fsk_spi+0x52>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:165
+    R8_SPI_CTRL_CFG &= ~RB_SPI_DMA_ENABLE;
+200000e8:	3398                	lbu	a4,1(a5)
+200000ea:	0fe77713          	andi	a4,a4,254
+200000ee:	b398                	sb	a4,1(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:166
+}
+200000f0:	40b2                	lw	ra,12(sp)
+200000f2:	4422                	lw	s0,8(sp)
+200000f4:	4492                	lw	s1,4(sp)
+200000f6:	0141                	addi	sp,sp,16
+200000f8:	8082                	ret
+
+200000fa <main>:
+main():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:216
+int main()
+{
+    uint8_t len;
+
+    // 关闭两线调试
+    R16_PIN_ALTERNATE &= ~RB_PIN_DEBUG_EN;
+200000fa:	400016b7          	lui	a3,0x40001
+200000fe:	2e9e                	lhu	a5,24(a3)
+20000100:	7771                	lui	a4,0xffffc
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:212
+{
+20000102:	1101                	addi	sp,sp,-32
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:216
+    R16_PIN_ALTERNATE &= ~RB_PIN_DEBUG_EN;
+20000104:	177d                	addi	a4,a4,-1 # ffffbfff <_eusrstack+0xdfff8fff>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:212
+{
+20000106:	ce06                	sw	ra,28(sp)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:216
+    R16_PIN_ALTERNATE &= ~RB_PIN_DEBUG_EN;
+20000108:	8ff9                	and	a5,a5,a4
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:212
+{
+2000010a:	cc22                	sw	s0,24(sp)
+2000010c:	ca26                	sw	s1,20(sp)
+2000010e:	c84a                	sw	s2,16(sp)
+20000110:	c64e                	sw	s3,12(sp)
+20000112:	c452                	sw	s4,8(sp)
+20000114:	c256                	sw	s5,4(sp)
+20000116:	c05a                	sw	s6,0(sp)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:216
+    R16_PIN_ALTERNATE &= ~RB_PIN_DEBUG_EN;
+20000118:	ae9e                	sh	a5,24(a3)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:217
+    HSECFG_Capacitance(HSECap_18p);
+2000011a:	4519                	li	a0,6
+2000011c:	e0001097          	auipc	ra,0xe0001
+20000120:	892080e7          	jalr	-1902(ra) # 9ae <HSECFG_Capacitance>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:218
+    SetSysClock(CLK_SOURCE_HSE_PLL_100MHz);
+20000124:	04600513          	li	a0,70
+20000128:	28e1                	jal	20000200 <SetSysClock>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:227
+    SPI_FSK_Init();
+
+#if 1 // 查询方式：接收数据后发送出去
+    while(1)
+    {
+        len = UART_RecvString(RxBuff);
+2000012a:	8f018b13          	addi	s6,gp,-1808 # 20000970 <RxBuff>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:221
+    DebugInit();
+2000012e:	e0001097          	auipc	ra,0xe0001
+20000132:	858080e7          	jalr	-1960(ra) # 986 <DebugInit>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:230
+        if(len)
+        {
+            PRINT("SPI DMA\n");
+20000136:	e0001a97          	auipc	s5,0xe0001
+2000013a:	79aa8a93          	addi	s5,s5,1946 # 18d0 <_read+0x16>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:222
+    SPI_FSK_Init();
+2000013e:	e0001097          	auipc	ra,0xe0001
+20000142:	80a080e7          	jalr	-2038(ra) # 948 <SPI_FSK_Init>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:232
+            DelayMs(10);
+            generate_fsk_buffer(ble_packet, HEADER_LEN * 8, spi_tx_buffer);
+20000146:	00000917          	auipc	s2,0x0
+2000014a:	76290913          	addi	s2,s2,1890 # 200008a8 <spi_tx_buffer>
+2000014e:	00000a17          	auipc	s4,0x0
+20000152:	6c2a0a13          	addi	s4,s4,1730 # 20000810 <_highcode_vma_end>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:238
+            // generate_fsk_buffer_uint8(ble_packet, HEADER_LEN * 8, spi_tx_buffer_uint8);
+            // print_uint8_array_bin(spi_tx_buffer_uint8, sizeof(spi_tx_buffer_uint8) / sizeof(spi_tx_buffer_uint8[0]));
+            // print_uint32_array(spi_tx_buffer, sizeof(spi_tx_buffer)/sizeof(spi_tx_buffer[0]));
+            // DelayMs(2000);            
+
+            GPIOA_ResetBits(GPIO_Pin_4);
+20000156:	400014b7          	lui	s1,0x40001
+2000015a:	4441                	li	s0,16
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:255
+            // DMA 连续发送
+            // GPIOA_ResetBits(GPIO_Pin_4);
+            // SPI_MasterDMATrans(spi_tx_buffer_uint8, HEADER_LEN * SPI_BITS_PER_BLE_BIT);
+            // GPIOA_SetBits(GPIO_Pin_4);
+            DelayMs(10);
+            PRINT("END ...\n");
+2000015c:	e0001997          	auipc	s3,0xe0001
+20000160:	77c98993          	addi	s3,s3,1916 # 18d8 <_read+0x1e>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:227
+        len = UART_RecvString(RxBuff);
+20000164:	855a                	mv	a0,s6
+20000166:	e0001097          	auipc	ra,0xe0001
+2000016a:	a48080e7          	jalr	-1464(ra) # bae <UART_RecvString>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:228
+        if(len)
+2000016e:	0ff57513          	zext.b	a0,a0
+20000172:	d96d                	beqz	a0,20000164 <main+0x6a>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:230
+            PRINT("SPI DMA\n");
+20000174:	8556                	mv	a0,s5
+20000176:	e0001097          	auipc	ra,0xe0001
+2000017a:	cae080e7          	jalr	-850(ra) # e24 <puts>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:231
+            DelayMs(10);
+2000017e:	4529                	li	a0,10
+20000180:	2695                	jal	200004e4 <mDelaymS>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:232
+            generate_fsk_buffer(ble_packet, HEADER_LEN * 8, spi_tx_buffer);
+20000182:	864a                	mv	a2,s2
+20000184:	8552                	mv	a0,s4
+20000186:	05000593          	li	a1,80
+2000018a:	e0000097          	auipc	ra,0xe0000
+2000018e:	74c080e7          	jalr	1868(ra) # 8d6 <generate_fsk_buffer>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:238
+            GPIOA_ResetBits(GPIO_Pin_4);
+20000192:	0ac48793          	addi	a5,s1,172 # 400010ac <_eusrstack+0x1fffe0ac>
+20000196:	c380                	sw	s0,0(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:242
+            start_fsk_spi(spi_tx_buffer, 4 * sizeof(spi_tx_buffer) / sizeof(spi_tx_buffer[0]));
+20000198:	0c800593          	li	a1,200
+2000019c:	854a                	mv	a0,s2
+2000019e:	3dcd                	jal	20000090 <start_fsk_spi>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:243
+            GPIOA_SetBits(GPIO_Pin_4);
+200001a0:	0b848793          	addi	a5,s1,184
+200001a4:	c380                	sw	s0,0(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:254
+            DelayMs(10);
+200001a6:	4529                	li	a0,10
+200001a8:	2e35                	jal	200004e4 <mDelaymS>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:255
+            PRINT("END ...\n");
+200001aa:	854e                	mv	a0,s3
+200001ac:	e0001097          	auipc	ra,0xe0001
+200001b0:	c78080e7          	jalr	-904(ra) # e24 <puts>
+200001b4:	bf45                	j	20000164 <main+0x6a>
+
+200001b6 <UART_IRQHandler>:
+UART_IRQHandler():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:277
+__HIGH_CODE
+void UART_IRQHandler(void)
+{
+    volatile uint8_t i;
+
+    switch(UART_GetITFlag())
+200001b6:	40003737          	lui	a4,0x40003
+200001ba:	40474783          	lbu	a5,1028(a4) # 40003404 <_eusrstack+0x20000404>
+200001be:	4699                	li	a3,6
+200001c0:	8bbd                	andi	a5,a5,15
+200001c2:	00d78763          	beq	a5,a3,200001d0 <UART_IRQHandler+0x1a>
+200001c6:	4731                	li	a4,12
+200001c8:	00e78863          	beq	a5,a4,200001d8 <UART_IRQHandler+0x22>
+200001cc:	30200073          	mret
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:281
+    {
+        case UART_II_LINE_STAT: // 线路状态错误
+        {
+            UART_GetLinSTA();
+200001d0:	40574783          	lbu	a5,1029(a4)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:282
+            break;
+200001d4:	30200073          	mret
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:274
+{
+200001d8:	1141                	addi	sp,sp,-16
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:289
+
+        case UART_II_RECV_RDY: // 数据达到设置触发点
+            break;
+
+        case UART_II_RECV_TOUT: // 接收超时，暂时一帧数据接收完成
+            i = UART_RecvString(RxBuff);
+200001da:	8f018513          	addi	a0,gp,-1808 # 20000970 <RxBuff>
+200001de:	e0001097          	auipc	ra,0xe0001
+200001e2:	9d0080e7          	jalr	-1584(ra) # bae <UART_RecvString>
+200001e6:	0ff57513          	zext.b	a0,a0
+200001ea:	87c8                	sb	a0,15(sp)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:290
+            UART_SendString(RxBuff, i);
+200001ec:	878c                	lbu	a1,15(sp)
+200001ee:	8f018513          	addi	a0,gp,-1808 # 20000970 <RxBuff>
+200001f2:	e0001097          	auipc	ra,0xe0001
+200001f6:	998080e7          	jalr	-1640(ra) # b8a <UART_SendString>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:299
+            break;
+
+        default:
+            break;
+    }
+200001fa:	0141                	addi	sp,sp,16
+200001fc:	30200073          	mret
+
+20000200 <SetSysClock>:
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:31
+{
+    uint16_t clk_sys_cfg;
+    uint8_t i;
+    uint8_t x32M_c;
+
+    if(sc == RB_CLK_SYS_MOD)  // LSI
+20000200:	0c000793          	li	a5,192
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:26
+{
+20000204:	1101                	addi	sp,sp,-32
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:31
+    if(sc == RB_CLK_SYS_MOD)  // LSI
+20000206:	04f51863          	bne	a0,a5,20000256 <SetSysClock+0x56>
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:154
+ */
+__attribute__((always_inline)) RV_STATIC_INLINE uint32_t __risc_v_disable_irq(void)
+{
+    uint32_t result;
+
+    __asm volatile("csrrc %0, 0x800, %1" : \
+2000020a:	08800793          	li	a5,136
+2000020e:	8007b7f3          	csrrc	a5,0x800,a5
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:156
+                   "=r"(result): "r"(0x88) : "memory");
+    return result & 0x88;
+20000212:	0887f793          	andi	a5,a5,136
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:33
+    {
+        sys_safe_access_enable();
+20000216:	c03e                	sw	a5,0(sp)
+20000218:	0000100f          	fence.i
+2000021c:	400017b7          	lui	a5,0x40001
+20000220:	05700713          	li	a4,87
+20000224:	04e78023          	sb	a4,64(a5) # 40001040 <_eusrstack+0x1fffe040>
+20000228:	fa800713          	li	a4,-88
+2000022c:	04e78023          	sb	a4,64(a5)
+20000230:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:34
+        R8_SLP_POWER_CTRL |= 0x40;
+20000234:	37f8                	lbu	a4,15(a5)
+20000236:	04076713          	ori	a4,a4,64
+2000023a:	b7f8                	sb	a4,15(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:35
+        R8_CLK_SYS_CFG |= RB_CLK_SYS_MOD;
+2000023c:	2798                	lbu	a4,8(a5)
+2000023e:	0c076713          	ori	a4,a4,192
+20000242:	a798                	sb	a4,8(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:36
+        sys_safe_access_disable();
+20000244:	04078023          	sb	zero,64(a5)
+20000248:	4782                	lw	a5,0(sp)
+__risc_v_enable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:138
+    __asm volatile("csrrs %0, 0x800, %1" : \
+2000024a:	8007a7f3          	csrrs	a5,0x800,a5
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:88
+        }
+
+        sys_safe_access_enable();
+        R8_SLP_POWER_CTRL |= 0x40;
+        R8_CLK_SYS_CFG = sc;
+        sys_safe_access_disable();
+2000024e:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:90
+    }
+}
+20000252:	6105                	addi	sp,sp,32
+20000254:	8082                	ret
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:40
+        if(!(R8_HFCK_PWR_CTRL & RB_CLK_XT32M_PON))
+20000256:	400017b7          	lui	a5,0x40001
+2000025a:	27b8                	lbu	a4,10(a5)
+2000025c:	8b11                	andi	a4,a4,4
+2000025e:	eb69                	bnez	a4,20000330 <SetSysClock+0x130>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:42
+            x32M_c = R8_XT32M_TUNE;
+20000260:	04e7c683          	lbu	a3,78(a5) # 4000104e <_eusrstack+0x1fffe04e>
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:154
+    __asm volatile("csrrc %0, 0x800, %1" : \
+20000264:	08800713          	li	a4,136
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:42
+20000268:	0ff6f693          	zext.b	a3,a3
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:154
+2000026c:	80073673          	csrrc	a2,0x800,a4
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:156
+    return result & 0x88;
+20000270:	08867613          	andi	a2,a2,136
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:43
+            sys_safe_access_enable();
+20000274:	c232                	sw	a2,4(sp)
+20000276:	0000100f          	fence.i
+2000027a:	05700813          	li	a6,87
+2000027e:	05078023          	sb	a6,64(a5)
+20000282:	fa800593          	li	a1,-88
+20000286:	04b78023          	sb	a1,64(a5)
+2000028a:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:44
+            R8_XT32M_TUNE |= 0x03;
+2000028e:	04e7c603          	lbu	a2,78(a5)
+20000292:	00366613          	ori	a2,a2,3
+20000296:	04c78723          	sb	a2,78(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:45
+            R8_HFCK_PWR_CTRL |= RB_CLK_XT32M_PON;
+2000029a:	27b0                	lbu	a2,10(a5)
+2000029c:	00466613          	ori	a2,a2,4
+200002a0:	a7b0                	sb	a2,10(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:46
+            sys_safe_access_disable();
+200002a2:	04078023          	sb	zero,64(a5)
+200002a6:	4612                	lw	a2,4(sp)
+__risc_v_enable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:138
+    __asm volatile("csrrs %0, 0x800, %1" : \
+200002a8:	80062673          	csrrs	a2,0x800,a2
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:46
+200002ac:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:47
+            clk_sys_cfg = R8_CLK_SYS_CFG;
+200002b0:	2790                	lbu	a2,8(a5)
+200002b2:	0ff67613          	zext.b	a2,a2
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:154
+    __asm volatile("csrrc %0, 0x800, %1" : \
+200002b6:	80073773          	csrrc	a4,0x800,a4
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:156
+    return result & 0x88;
+200002ba:	08877713          	andi	a4,a4,136
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:48
+            sys_safe_access_enable();
+200002be:	c43a                	sw	a4,8(sp)
+200002c0:	0000100f          	fence.i
+200002c4:	05078023          	sb	a6,64(a5)
+200002c8:	04b78023          	sb	a1,64(a5)
+200002cc:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:49
+            R8_CLK_SYS_CFG |= 0xC0;
+200002d0:	2798                	lbu	a4,8(a5)
+200002d2:	0c076713          	ori	a4,a4,192
+200002d6:	a798                	sb	a4,8(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:50
+            sys_safe_access_disable();
+200002d8:	04078023          	sb	zero,64(a5)
+200002dc:	47a2                	lw	a5,8(sp)
+__risc_v_enable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:138
+    __asm volatile("csrrs %0, 0x800, %1" : \
+200002de:	8007a7f3          	csrrs	a5,0x800,a5
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:50
+200002e2:	0000100f          	fence.i
+200002e6:	47a5                	li	a5,9
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:53 (discriminator 3)
+                __nop();
+200002e8:	0001                	nop
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:51 (discriminator 3)
+            for(i=0; i<9; i++)
+200002ea:	17fd                	addi	a5,a5,-1
+200002ec:	0ff7f793          	zext.b	a5,a5
+200002f0:	ffe5                	bnez	a5,200002e8 <SetSysClock+0xe8>
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:154
+    __asm volatile("csrrc %0, 0x800, %1" : \
+200002f2:	08800793          	li	a5,136
+200002f6:	8007b7f3          	csrrc	a5,0x800,a5
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:156
+    return result & 0x88;
+200002fa:	0887f793          	andi	a5,a5,136
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:55
+            sys_safe_access_enable();
+200002fe:	c63e                	sw	a5,12(sp)
+20000300:	0000100f          	fence.i
+20000304:	400017b7          	lui	a5,0x40001
+20000308:	05700713          	li	a4,87
+2000030c:	04e78023          	sb	a4,64(a5) # 40001040 <_eusrstack+0x1fffe040>
+20000310:	fa800713          	li	a4,-88
+20000314:	04e78023          	sb	a4,64(a5)
+20000318:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:56
+            R8_CLK_SYS_CFG = clk_sys_cfg;
+2000031c:	a790                	sb	a2,8(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:57
+            R8_XT32M_TUNE = x32M_c;
+2000031e:	04d78723          	sb	a3,78(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:58
+            sys_safe_access_disable();
+20000322:	04078023          	sb	zero,64(a5)
+20000326:	47b2                	lw	a5,12(sp)
+__risc_v_enable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:138
+    __asm volatile("csrrs %0, 0x800, %1" : \
+20000328:	8007a7f3          	csrrs	a5,0x800,a5
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:58
+2000032c:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:61
+        if((sc & RB_CLK_SYS_MOD) == 0x40) // PLL div
+20000330:	0c057793          	andi	a5,a0,192
+20000334:	04000713          	li	a4,64
+20000338:	08e79d63          	bne	a5,a4,200003d2 <SetSysClock+0x1d2>
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:154
+    __asm volatile("csrrc %0, 0x800, %1" : \
+2000033c:	08800793          	li	a5,136
+20000340:	8007b7f3          	csrrc	a5,0x800,a5
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:156
+    return result & 0x88;
+20000344:	0887f793          	andi	a5,a5,136
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:63
+            sys_safe_access_enable();
+20000348:	c83e                	sw	a5,16(sp)
+2000034a:	0000100f          	fence.i
+2000034e:	400017b7          	lui	a5,0x40001
+20000352:	05700713          	li	a4,87
+20000356:	04e78023          	sb	a4,64(a5) # 40001040 <_eusrstack+0x1fffe040>
+2000035a:	fa800713          	li	a4,-88
+2000035e:	04e78023          	sb	a4,64(a5)
+20000362:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:64
+            R8_HFCK_PWR_CTRL |= RB_CLK_PLL_PON;
+20000366:	27b8                	lbu	a4,10(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:65
+            R8_FLASH_CFG = 0X01;
+20000368:	4685                	li	a3,1
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:64
+            R8_HFCK_PWR_CTRL |= RB_CLK_PLL_PON;
+2000036a:	01076713          	ori	a4,a4,16
+2000036e:	a7b8                	sb	a4,10(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:65
+            R8_FLASH_CFG = 0X01;
+20000370:	40002737          	lui	a4,0x40002
+20000374:	80d703a3          	sb	a3,-2041(a4) # 40001807 <_eusrstack+0x1fffe807>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:66
+            R8_FLASH_SCK |= 1<<4; //50M
+20000378:	80574683          	lbu	a3,-2043(a4)
+2000037c:	0106e693          	ori	a3,a3,16
+20000380:	80d702a3          	sb	a3,-2043(a4)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:67
+            sys_safe_access_disable();
+20000384:	04078023          	sb	zero,64(a5)
+20000388:	47c2                	lw	a5,16(sp)
+__risc_v_enable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:138
+    __asm volatile("csrrs %0, 0x800, %1" : \
+2000038a:	8007a7f3          	csrrs	a5,0x800,a5
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:81
+                sys_safe_access_disable();
+2000038e:	0000100f          	fence.i
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:154
+    __asm volatile("csrrc %0, 0x800, %1" : \
+20000392:	08800793          	li	a5,136
+20000396:	8007b7f3          	csrrc	a5,0x800,a5
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:156
+    return result & 0x88;
+2000039a:	0887f793          	andi	a5,a5,136
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:85
+        sys_safe_access_enable();
+2000039e:	ce3e                	sw	a5,28(sp)
+200003a0:	0000100f          	fence.i
+200003a4:	400017b7          	lui	a5,0x40001
+200003a8:	05700713          	li	a4,87
+200003ac:	04e78023          	sb	a4,64(a5) # 40001040 <_eusrstack+0x1fffe040>
+200003b0:	fa800713          	li	a4,-88
+200003b4:	04e78023          	sb	a4,64(a5)
+200003b8:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:86
+        R8_SLP_POWER_CTRL |= 0x40;
+200003bc:	37f8                	lbu	a4,15(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:87
+        R8_CLK_SYS_CFG = sc;
+200003be:	0ff57513          	zext.b	a0,a0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:86
+        R8_SLP_POWER_CTRL |= 0x40;
+200003c2:	04076713          	ori	a4,a4,64
+200003c6:	b7f8                	sb	a4,15(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:87
+        R8_CLK_SYS_CFG = sc;
+200003c8:	a788                	sb	a0,8(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:88
+        sys_safe_access_disable();
+200003ca:	04078023          	sb	zero,64(a5)
+200003ce:	47f2                	lw	a5,28(sp)
+200003d0:	bdad                	j	2000024a <SetSysClock+0x4a>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:71
+            if((sc&0x1F) )
+200003d2:	01f57793          	andi	a5,a0,31
+200003d6:	cf9d                	beqz	a5,20000414 <SetSysClock+0x214>
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:154
+    __asm volatile("csrrc %0, 0x800, %1" : \
+200003d8:	08800793          	li	a5,136
+200003dc:	8007b7f3          	csrrc	a5,0x800,a5
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:156
+    return result & 0x88;
+200003e0:	0887f793          	andi	a5,a5,136
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:73
+                sys_safe_access_enable();
+200003e4:	ca3e                	sw	a5,20(sp)
+200003e6:	0000100f          	fence.i
+200003ea:	400017b7          	lui	a5,0x40001
+200003ee:	05700713          	li	a4,87
+200003f2:	04e78023          	sb	a4,64(a5) # 40001040 <_eusrstack+0x1fffe040>
+200003f6:	fa800713          	li	a4,-88
+200003fa:	04e78023          	sb	a4,64(a5)
+200003fe:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:74
+                R8_FLASH_CFG = 0X02;
+20000402:	40002737          	lui	a4,0x40002
+20000406:	4689                	li	a3,2
+20000408:	80d703a3          	sb	a3,-2041(a4) # 40001807 <_eusrstack+0x1fffe807>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:75
+                sys_safe_access_disable();
+2000040c:	04078023          	sb	zero,64(a5)
+20000410:	47d2                	lw	a5,20(sp)
+__risc_v_enable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:138
+    __asm volatile("csrrs %0, 0x800, %1" : \
+20000412:	bfa5                	j	2000038a <SetSysClock+0x18a>
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:154
+    __asm volatile("csrrc %0, 0x800, %1" : \
+20000414:	08800793          	li	a5,136
+20000418:	8007b7f3          	csrrc	a5,0x800,a5
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:156
+    return result & 0x88;
+2000041c:	0887f793          	andi	a5,a5,136
+SetSysClock():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:79
+                sys_safe_access_enable();
+20000420:	cc3e                	sw	a5,24(sp)
+20000422:	0000100f          	fence.i
+20000426:	400017b7          	lui	a5,0x40001
+2000042a:	05700713          	li	a4,87
+2000042e:	04e78023          	sb	a4,64(a5) # 40001040 <_eusrstack+0x1fffe040>
+20000432:	fa800713          	li	a4,-88
+20000436:	04e78023          	sb	a4,64(a5)
+2000043a:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:80
+                R8_FLASH_CFG = 0X07;
+2000043e:	40002737          	lui	a4,0x40002
+20000442:	469d                	li	a3,7
+20000444:	80d703a3          	sb	a3,-2041(a4) # 40001807 <_eusrstack+0x1fffe807>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:81
+                sys_safe_access_disable();
+20000448:	04078023          	sb	zero,64(a5)
+2000044c:	47e2                	lw	a5,24(sp)
+2000044e:	bf35                	j	2000038a <SetSysClock+0x18a>
+
+20000450 <HardFault_Handler>:
+HardFault_Handler():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:285
+ */
+__INTERRUPT
+__HIGH_CODE
+__attribute__((weak))
+void HardFault_Handler(void)
+{
+20000450:	1141                	addi	sp,sp,-16
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:286
+    FLASH_ROM_SW_RESET();
+20000452:	4681                	li	a3,0
+20000454:	4601                	li	a2,0
+20000456:	4581                	li	a1,0
+20000458:	4511                	li	a0,4
+2000045a:	e0000097          	auipc	ra,0xe0000
+2000045e:	79c080e7          	jalr	1948(ra) # bf6 <FLASH_EEPROM_CMD>
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:154
+    __asm volatile("csrrc %0, 0x800, %1" : \
+20000462:	08800713          	li	a4,136
+20000466:	800737f3          	csrrc	a5,0x800,a4
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:156
+    return result & 0x88;
+2000046a:	0887f793          	andi	a5,a5,136
+HardFault_Handler():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:287
+    sys_safe_access_enable();
+2000046e:	c43e                	sw	a5,8(sp)
+20000470:	0000100f          	fence.i
+20000474:	400017b7          	lui	a5,0x40001
+20000478:	05700613          	li	a2,87
+2000047c:	04c78023          	sb	a2,64(a5) # 40001040 <_eusrstack+0x1fffe040>
+20000480:	fa800693          	li	a3,-88
+20000484:	04d78023          	sb	a3,64(a5)
+20000488:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:288
+    R16_INT_LSI_TUNE = 0xFFFF;
+2000048c:	55fd                	li	a1,-1
+2000048e:	b7ce                	sh	a1,44(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:289
+    sys_safe_access_disable();
+20000490:	04078023          	sb	zero,64(a5)
+20000494:	45a2                	lw	a1,8(sp)
+__risc_v_enable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:138
+    __asm volatile("csrrs %0, 0x800, %1" : \
+20000496:	8005a5f3          	csrrs	a1,0x800,a1
+HardFault_Handler():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:289
+2000049a:	0000100f          	fence.i
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:154
+    __asm volatile("csrrc %0, 0x800, %1" : \
+2000049e:	80073773          	csrrc	a4,0x800,a4
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:156
+    return result & 0x88;
+200004a2:	08877713          	andi	a4,a4,136
+HardFault_Handler():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:290
+    sys_safe_access_enable();
+200004a6:	c63a                	sw	a4,12(sp)
+200004a8:	0000100f          	fence.i
+200004ac:	04c78023          	sb	a2,64(a5)
+200004b0:	04d78023          	sb	a3,64(a5)
+200004b4:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:291
+    R8_RST_WDOG_CTRL |= RB_SOFTWARE_RESET;
+200004b8:	0467c703          	lbu	a4,70(a5)
+200004bc:	00176713          	ori	a4,a4,1
+200004c0:	04e78323          	sb	a4,70(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:292
+    sys_safe_access_disable();
+200004c4:	04078023          	sb	zero,64(a5)
+200004c8:	47b2                	lw	a5,12(sp)
+__risc_v_enable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:138
+    __asm volatile("csrrs %0, 0x800, %1" : \
+200004ca:	8007a7f3          	csrrs	a5,0x800,a5
+HardFault_Handler():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:292
+200004ce:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:293 (discriminator 1)
+    while(1);
+200004d2:	a001                	j	200004d2 <HardFault_Handler+0x82>
+
+200004d4 <NMI_Handler>:
+NMI_Handler():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:310 (discriminator 1)
+__INTERRUPT
+__HIGH_CODE
+__attribute__((weak))
+void NMI_Handler(void)
+{
+    while(1);
+200004d4:	a001                	j	200004d4 <NMI_Handler>
+
+200004d6 <mDelayuS>:
+mDelayuS():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:327
+__HIGH_CODE
+void mDelayuS(uint16_t t)
+{
+    uint32_t i;
+#if(FREQ_SYS == 100000000)
+    i = t * 25;
+200004d6:	47e5                	li	a5,25
+200004d8:	02f50533          	mul	a0,a0,a5
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:370 (discriminator 1)
+        __nop();
+    };
+#else
+    do
+    {
+        __nop();
+200004dc:	0001                	nop
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:371 (discriminator 1)
+    }while(--i);
+200004de:	157d                	addi	a0,a0,-1
+200004e0:	fd75                	bnez	a0,200004dc <mDelayuS+0x6>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:373
+#endif
+}
+200004e2:	8082                	ret
+
+200004e4 <mDelaymS>:
+mDelaymS():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:386
+ *
+ * @return  none
+ */
+__HIGH_CODE
+void mDelaymS(uint16_t t)
+{
+200004e4:	1141                	addi	sp,sp,-16
+200004e6:	c422                	sw	s0,8(sp)
+200004e8:	c606                	sw	ra,12(sp)
+200004ea:	842a                	mv	s0,a0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:389 (discriminator 1)
+    do
+    {
+        mDelayuS(1000);
+200004ec:	3e800513          	li	a0,1000
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:390 (discriminator 1)
+    }while(--t);
+200004f0:	147d                	addi	s0,s0,-1
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:389 (discriminator 1)
+        mDelayuS(1000);
+200004f2:	37d5                	jal	200004d6 <mDelayuS>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:390 (discriminator 1)
+    }while(--t);
+200004f4:	08044433          	zext.h	s0,s0
+200004f8:	f875                	bnez	s0,200004ec <mDelaymS+0x8>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:391
+}
+200004fa:	40b2                	lw	ra,12(sp)
+200004fc:	4422                	lw	s0,8(sp)
+200004fe:	0141                	addi	sp,sp,16
+20000500:	8082                	ret
+
+20000502 <FLASH_ROM_BEG_FF>:
+FLASH_ROM_BEG_FF():
+20000502:	80040323          	sb	zero,-2042(s0)
+20000506:	4715                	li	a4,5
+20000508:	87a2                	mv	a5,s0
+2000050a:	80e40323          	sb	a4,-2042(s0)
+2000050e:	0001                	nop
+20000510:	0001                	nop
+20000512:	80a40223          	sb	a0,-2044(s0)
+20000516:	8067c703          	lbu	a4,-2042(a5)
+2000051a:	0762                	slli	a4,a4,0x18
+2000051c:	8761                	srai	a4,a4,0x18
+2000051e:	fe074ce3          	bltz	a4,20000516 <FLASH_ROM_BEG_FF+0x14>
+20000522:	80a78223          	sb	a0,-2044(a5)
+20000526:	8722                	mv	a4,s0
+20000528:	80674783          	lbu	a5,-2042(a4)
+2000052c:	07e2                	slli	a5,a5,0x18
+2000052e:	87e1                	srai	a5,a5,0x18
+20000530:	fe07cce3          	bltz	a5,20000528 <FLASH_ROM_BEG_FF+0x26>
+20000534:	8082                	ret
+
+20000536 <FLASH_ROM_BEG>:
+FLASH_ROM_BEG():
+20000536:	80040323          	sb	zero,-2042(s0)
+2000053a:	4715                	li	a4,5
+2000053c:	80e40323          	sb	a4,-2042(s0)
+20000540:	0001                	nop
+20000542:	0001                	nop
+20000544:	80a40223          	sb	a0,-2044(s0)
+20000548:	8082                	ret
+
+2000054a <FLASH_ROM_END>:
+FLASH_ROM_END():
+2000054a:	80640783          	lb	a5,-2042(s0)
+2000054e:	fe07cee3          	bltz	a5,2000054a <FLASH_ROM_END>
+20000552:	80040323          	sb	zero,-2042(s0)
+20000556:	8082                	ret
+
+20000558 <FLASH_ROM_IN>:
+FLASH_ROM_IN():
+20000558:	80640783          	lb	a5,-2042(s0)
+2000055c:	fe07cee3          	bltz	a5,20000558 <FLASH_ROM_IN>
+20000560:	80444503          	lbu	a0,-2044(s0)
+20000564:	8082                	ret
+
+20000566 <FLASH_ROM_OUT>:
+FLASH_ROM_OUT():
+20000566:	80640783          	lb	a5,-2042(s0)
+2000056a:	fe07cee3          	bltz	a5,20000566 <FLASH_ROM_OUT>
+2000056e:	80a40223          	sb	a0,-2044(s0)
+20000572:	8082                	ret
+
+20000574 <FLASH_ROM_ADDR>:
+FLASH_ROM_ADDR():
+20000574:	1141                	addi	sp,sp,-16
+20000576:	c426                	sw	s1,8(sp)
+20000578:	c24a                	sw	s2,4(sp)
+2000057a:	c04e                	sw	s3,0(sp)
+2000057c:	c606                	sw	ra,12(sp)
+2000057e:	0bf57713          	andi	a4,a0,191
+20000582:	47ad                	li	a5,11
+20000584:	89aa                	mv	s3,a0
+20000586:	892e                	mv	s2,a1
+20000588:	4495                	li	s1,5
+2000058a:	00f70663          	beq	a4,a5,20000596 <FLASH_ROM_ADDR+0x22>
+2000058e:	4519                	li	a0,6
+20000590:	375d                	jal	20000536 <FLASH_ROM_BEG>
+20000592:	3f65                	jal	2000054a <FLASH_ROM_END>
+20000594:	448d                	li	s1,3
+20000596:	854e                	mv	a0,s3
+20000598:	3f79                	jal	20000536 <FLASH_ROM_BEG>
+2000059a:	59fd                	li	s3,-1
+2000059c:	14fd                	addi	s1,s1,-1
+2000059e:	01349863          	bne	s1,s3,200005ae <FLASH_ROM_ADDR+0x3a>
+200005a2:	40b2                	lw	ra,12(sp)
+200005a4:	44a2                	lw	s1,8(sp)
+200005a6:	4912                	lw	s2,4(sp)
+200005a8:	4982                	lw	s3,0(sp)
+200005aa:	0141                	addi	sp,sp,16
+200005ac:	8082                	ret
+200005ae:	01095513          	srli	a0,s2,0x10
+200005b2:	0ff57513          	zext.b	a0,a0
+200005b6:	3f45                	jal	20000566 <FLASH_ROM_OUT>
+200005b8:	0922                	slli	s2,s2,0x8
+200005ba:	b7cd                	j	2000059c <FLASH_ROM_ADDR+0x28>
+
+200005bc <FLASH_ROM_WAIT>:
+FLASH_ROM_WAIT():
+200005bc:	1101                	addi	sp,sp,-32
+200005be:	cc26                	sw	s1,24(sp)
+200005c0:	ce06                	sw	ra,28(sp)
+200005c2:	000804b7          	lui	s1,0x80
+200005c6:	3751                	jal	2000054a <FLASH_ROM_END>
+200005c8:	4515                	li	a0,5
+200005ca:	37b5                	jal	20000536 <FLASH_ROM_BEG>
+200005cc:	3771                	jal	20000558 <FLASH_ROM_IN>
+200005ce:	3769                	jal	20000558 <FLASH_ROM_IN>
+200005d0:	c62a                	sw	a0,12(sp)
+200005d2:	3fa5                	jal	2000054a <FLASH_ROM_END>
+200005d4:	4532                	lw	a0,12(sp)
+200005d6:	00157793          	andi	a5,a0,1
+200005da:	eb89                	bnez	a5,200005ec <FLASH_ROM_WAIT+0x30>
+200005dc:	00156513          	ori	a0,a0,1
+200005e0:	0ff57513          	zext.b	a0,a0
+200005e4:	40f2                	lw	ra,28(sp)
+200005e6:	44e2                	lw	s1,24(sp)
+200005e8:	6105                	addi	sp,sp,32
+200005ea:	8082                	ret
+200005ec:	14fd                	addi	s1,s1,-1 # 7ffff <_data_lma+0x7e6a7>
+200005ee:	fce9                	bnez	s1,200005c8 <FLASH_ROM_WAIT+0xc>
+200005f0:	4501                	li	a0,0
+200005f2:	bfcd                	j	200005e4 <FLASH_ROM_WAIT+0x28>
+
+200005f4 <FLASH_START>:
+FLASH_START():
+200005f4:	1141                	addi	sp,sp,-16
+200005f6:	c606                	sw	ra,12(sp)
+200005f8:	400017b7          	lui	a5,0x40001
+200005fc:	05700713          	li	a4,87
+20000600:	04e78023          	sb	a4,64(a5) # 40001040 <_eusrstack+0x1fffe040>
+20000604:	fa800713          	li	a4,-88
+20000608:	04e78023          	sb	a4,64(a5)
+2000060c:	0447c703          	lbu	a4,68(a5)
+20000610:	0ff00513          	li	a0,255
+20000614:	0e076713          	ori	a4,a4,224
+20000618:	04e78223          	sb	a4,68(a5)
+2000061c:	4791                	li	a5,4
+2000061e:	80f40323          	sb	a5,-2042(s0)
+20000622:	35c5                	jal	20000502 <FLASH_ROM_BEG_FF>
+20000624:	40b2                	lw	ra,12(sp)
+20000626:	0141                	addi	sp,sp,16
+20000628:	b70d                	j	2000054a <FLASH_ROM_END>
+
+2000062a <FLASH_CMD_ROM_WRITE>:
+FLASH_CMD_ROM_WRITE():
+2000062a:	1101                	addi	sp,sp,-32
+2000062c:	cc26                	sw	s1,24(sp)
+2000062e:	ca4a                	sw	s2,20(sp)
+20000630:	c84e                	sw	s3,16(sp)
+20000632:	c652                	sw	s4,12(sp)
+20000634:	ce06                	sw	ra,28(sp)
+20000636:	892a                	mv	s2,a0
+20000638:	89ae                	mv	s3,a1
+2000063a:	84b2                	mv	s1,a2
+2000063c:	4a55                	li	s4,21
+2000063e:	3f5d                	jal	200005f4 <FLASH_START>
+20000640:	e891                	bnez	s1,20000654 <FLASH_CMD_ROM_WRITE+0x2a>
+20000642:	3721                	jal	2000054a <FLASH_ROM_END>
+20000644:	40f2                	lw	ra,28(sp)
+20000646:	8526                	mv	a0,s1
+20000648:	4952                	lw	s2,20(sp)
+2000064a:	44e2                	lw	s1,24(sp)
+2000064c:	49c2                	lw	s3,16(sp)
+2000064e:	4a32                	lw	s4,12(sp)
+20000650:	6105                	addi	sp,sp,32
+20000652:	8082                	ret
+20000654:	85ca                	mv	a1,s2
+20000656:	4509                	li	a0,2
+20000658:	3f31                	jal	20000574 <FLASH_ROM_ADDR>
+2000065a:	0991                	addi	s3,s3,4
+2000065c:	ffc9a703          	lw	a4,-4(s3)
+20000660:	4791                	li	a5,4
+20000662:	80e42023          	sw	a4,-2048(s0)
+
+20000666 <.loop247>:
+20000666:	80640703          	lb	a4,-2042(s0)
+2000066a:	fe074ee3          	bltz	a4,20000666 <.loop247>
+2000066e:	81440323          	sb	s4,-2042(s0)
+20000672:	17fd                	addi	a5,a5,-1
+20000674:	fbed                	bnez	a5,20000666 <.loop247>
+20000676:	14fd                	addi	s1,s1,-1
+20000678:	0911                	addi	s2,s2,4
+2000067a:	c481                	beqz	s1,20000682 <.loop247+0x1c>
+2000067c:	0ff97793          	zext.b	a5,s2
+20000680:	ffe9                	bnez	a5,2000065a <FLASH_CMD_ROM_WRITE+0x30>
+20000682:	3f2d                	jal	200005bc <FLASH_ROM_WAIT>
+20000684:	fd55                	bnez	a0,20000640 <FLASH_CMD_ROM_WRITE+0x16>
+20000686:	54fd                	li	s1,-1
+20000688:	bf75                	j	20000644 <FLASH_CMD_ROM_WRITE+0x1a>
+
+2000068a <FLASH_CMD_ROM_ERASE>:
+FLASH_CMD_ROM_ERASE():
+2000068a:	1101                	addi	sp,sp,-32
+2000068c:	cc26                	sw	s1,24(sp)
+2000068e:	ca4a                	sw	s2,20(sp)
+20000690:	c84e                	sw	s3,16(sp)
+20000692:	c652                	sw	s4,12(sp)
+20000694:	c456                	sw	s5,8(sp)
+20000696:	c25a                	sw	s6,4(sp)
+20000698:	ce06                	sw	ra,28(sp)
+2000069a:	892a                	mv	s2,a0
+2000069c:	8a32                	mv	s4,a2
+2000069e:	498d                	li	s3,3
+200006a0:	3f91                	jal	200005f4 <FLASH_START>
+200006a2:	64c1                	lui	s1,0x10
+200006a4:	6ac1                	lui	s5,0x10
+200006a6:	6b05                	lui	s6,0x1
+200006a8:	fff48793          	addi	a5,s1,-1 # ffff <_data_lma+0xe6a7>
+200006ac:	0127f7b3          	and	a5,a5,s2
+200006b0:	e399                	bnez	a5,200006b6 <FLASH_CMD_ROM_ERASE+0x2c>
+200006b2:	029a7163          	bgeu	s4,s1,200006d4 <FLASH_CMD_ROM_ERASE+0x4a>
+200006b6:	19fd                	addi	s3,s3,-1
+200006b8:	8091                	srli	s1,s1,0x4
+200006ba:	fe0997e3          	bnez	s3,200006a8 <FLASH_CMD_ROM_ERASE+0x1e>
+200006be:	3571                	jal	2000054a <FLASH_ROM_END>
+200006c0:	4501                	li	a0,0
+200006c2:	40f2                	lw	ra,28(sp)
+200006c4:	44e2                	lw	s1,24(sp)
+200006c6:	4952                	lw	s2,20(sp)
+200006c8:	49c2                	lw	s3,16(sp)
+200006ca:	4a32                	lw	s4,12(sp)
+200006cc:	4aa2                	lw	s5,8(sp)
+200006ce:	4b12                	lw	s6,4(sp)
+200006d0:	6105                	addi	sp,sp,32
+200006d2:	8082                	ret
+200006d4:	0d800513          	li	a0,216
+200006d8:	01548863          	beq	s1,s5,200006e8 <FLASH_CMD_ROM_ERASE+0x5e>
+200006dc:	02000513          	li	a0,32
+200006e0:	01648463          	beq	s1,s6,200006e8 <FLASH_CMD_ROM_ERASE+0x5e>
+200006e4:	08100513          	li	a0,129
+200006e8:	85ca                	mv	a1,s2
+200006ea:	3569                	jal	20000574 <FLASH_ROM_ADDR>
+200006ec:	3dc1                	jal	200005bc <FLASH_ROM_WAIT>
+200006ee:	c509                	beqz	a0,200006f8 <FLASH_CMD_ROM_ERASE+0x6e>
+200006f0:	9926                	add	s2,s2,s1
+200006f2:	409a0a33          	sub	s4,s4,s1
+200006f6:	bf75                	j	200006b2 <FLASH_CMD_ROM_ERASE+0x28>
+200006f8:	557d                	li	a0,-1
+200006fa:	b7e1                	j	200006c2 <FLASH_CMD_ROM_ERASE+0x38>
+
+200006fc <FLASH_CMD_ROM_VERIFY>:
+FLASH_CMD_ROM_VERIFY():
+200006fc:	1101                	addi	sp,sp,-32
+200006fe:	ce06                	sw	ra,28(sp)
+20000700:	cc26                	sw	s1,24(sp)
+20000702:	ca4a                	sw	s2,20(sp)
+20000704:	84b2                	mv	s1,a2
+20000706:	c84e                	sw	s3,16(sp)
+20000708:	c62a                	sw	a0,12(sp)
+2000070a:	892e                	mv	s2,a1
+2000070c:	35e5                	jal	200005f4 <FLASH_START>
+2000070e:	4532                	lw	a0,12(sp)
+20000710:	14fd                	addi	s1,s1,-1
+20000712:	59fd                	li	s3,-1
+20000714:	85aa                	mv	a1,a0
+20000716:	452d                	li	a0,11
+20000718:	3db1                	jal	20000574 <FLASH_ROM_ADDR>
+2000071a:	01349a63          	bne	s1,s3,2000072e <FLASH_CMD_ROM_VERIFY+0x32>
+2000071e:	3535                	jal	2000054a <FLASH_ROM_END>
+20000720:	40f2                	lw	ra,28(sp)
+20000722:	8526                	mv	a0,s1
+20000724:	4952                	lw	s2,20(sp)
+20000726:	44e2                	lw	s1,24(sp)
+20000728:	49c2                	lw	s3,16(sp)
+2000072a:	6105                	addi	sp,sp,32
+2000072c:	8082                	ret
+2000072e:	352d                	jal	20000558 <FLASH_ROM_IN>
+20000730:	0034f793          	andi	a5,s1,3
+20000734:	eb91                	bnez	a5,20000748 <FLASH_CMD_ROM_VERIFY+0x4c>
+20000736:	80042683          	lw	a3,-2048(s0)
+2000073a:	00092703          	lw	a4,0(s2)
+2000073e:	00490793          	addi	a5,s2,4
+20000742:	fce69ee3          	bne	a3,a4,2000071e <FLASH_CMD_ROM_VERIFY+0x22>
+20000746:	893e                	mv	s2,a5
+20000748:	14fd                	addi	s1,s1,-1
+2000074a:	bfc1                	j	2000071a <FLASH_CMD_ROM_VERIFY+0x1e>
+
+2000074c <FLASH_CMD_ROM_PWR>:
+FLASH_CMD_ROM_PWR():
+2000074c:	1101                	addi	sp,sp,-32
+2000074e:	ce06                	sw	ra,28(sp)
+20000750:	c62a                	sw	a0,12(sp)
+20000752:	354d                	jal	200005f4 <FLASH_START>
+20000754:	4532                	lw	a0,12(sp)
+20000756:	33c5                	jal	20000536 <FLASH_ROM_BEG>
+20000758:	40f2                	lw	ra,28(sp)
+2000075a:	6105                	addi	sp,sp,32
+2000075c:	b3fd                	j	2000054a <FLASH_ROM_END>
+
+2000075e <FLASH_CMD_GET_ROM_INFO>:
+FLASH_CMD_GET_ROM_INFO():
+2000075e:	1101                	addi	sp,sp,-32
+20000760:	ce06                	sw	ra,28(sp)
+20000762:	cc26                	sw	s1,24(sp)
+20000764:	ca4a                	sw	s2,20(sp)
+20000766:	c84e                	sw	s3,16(sp)
+20000768:	c652                	sw	s4,12(sp)
+2000076a:	89aa                	mv	s3,a0
+2000076c:	c456                	sw	s5,8(sp)
+2000076e:	892e                	mv	s2,a1
+20000770:	3551                	jal	200005f4 <FLASH_START>
+20000772:	85ce                	mv	a1,s3
+20000774:	452d                	li	a0,11
+20000776:	3bfd                	jal	20000574 <FLASH_ROM_ADDR>
+20000778:	4481                	li	s1,0
+2000077a:	4a8d                	li	s5,3
+2000077c:	4a21                	li	s4,8
+2000077e:	3be9                	jal	20000558 <FLASH_ROM_IN>
+20000780:	01549663          	bne	s1,s5,2000078c <FLASH_CMD_GET_ROM_INFO+0x2e>
+20000784:	80042783          	lw	a5,-2048(s0)
+20000788:	00f92023          	sw	a5,0(s2)
+2000078c:	0485                	addi	s1,s1,1
+2000078e:	ff4498e3          	bne	s1,s4,2000077e <FLASH_CMD_GET_ROM_INFO+0x20>
+20000792:	80042783          	lw	a5,-2048(s0)
+20000796:	01299713          	slli	a4,s3,0x12
+2000079a:	00075c63          	bgez	a4,200007b2 <FLASH_CMD_GET_ROM_INFO+0x54>
+2000079e:	00f91223          	sh	a5,4(s2)
+200007a2:	40f2                	lw	ra,28(sp)
+200007a4:	44e2                	lw	s1,24(sp)
+200007a6:	4952                	lw	s2,20(sp)
+200007a8:	49c2                	lw	s3,16(sp)
+200007aa:	4a32                	lw	s4,12(sp)
+200007ac:	4aa2                	lw	s5,8(sp)
+200007ae:	6105                	addi	sp,sp,32
+200007b0:	bb69                	j	2000054a <FLASH_ROM_END>
+200007b2:	00f92223          	sw	a5,4(s2)
+200007b6:	b7f5                	j	200007a2 <FLASH_CMD_GET_ROM_INFO+0x44>
+
+200007b8 <FLASH_CMD_GET_UNIQUE_ID>:
+FLASH_CMD_GET_UNIQUE_ID():
+200007b8:	1141                	addi	sp,sp,-16
+200007ba:	c606                	sw	ra,12(sp)
+200007bc:	c426                	sw	s1,8(sp)
+200007be:	c24a                	sw	s2,4(sp)
+200007c0:	c04e                	sw	s3,0(sp)
+200007c2:	89ae                	mv	s3,a1
+200007c4:	3d05                	jal	200005f4 <FLASH_START>
+200007c6:	4581                	li	a1,0
+200007c8:	04b00513          	li	a0,75
+200007cc:	3365                	jal	20000574 <FLASH_ROM_ADDR>
+200007ce:	44bd                	li	s1,15
+200007d0:	597d                	li	s2,-1
+200007d2:	3359                	jal	20000558 <FLASH_ROM_IN>
+200007d4:	0074f793          	andi	a5,s1,7
+200007d8:	97ce                	add	a5,a5,s3
+200007da:	0007c703          	lbu	a4,0(a5)
+200007de:	14fd                	addi	s1,s1,-1
+200007e0:	8d39                	xor	a0,a0,a4
+200007e2:	00a78023          	sb	a0,0(a5)
+200007e6:	ff2496e3          	bne	s1,s2,200007d2 <FLASH_CMD_GET_UNIQUE_ID+0x1a>
+200007ea:	40b2                	lw	ra,12(sp)
+200007ec:	44a2                	lw	s1,8(sp)
+200007ee:	4912                	lw	s2,4(sp)
+200007f0:	4982                	lw	s3,0(sp)
+200007f2:	0141                	addi	sp,sp,16
+200007f4:	bb99                	j	2000054a <FLASH_ROM_END>
+
+200007f6 <FLASH_CMD_ROM_SW_RESET>:
+FLASH_CMD_ROM_SW_RESET():
+200007f6:	1141                	addi	sp,sp,-16
+200007f8:	c606                	sw	ra,12(sp)
+200007fa:	3bed                	jal	200005f4 <FLASH_START>
+200007fc:	06600513          	li	a0,102
+20000800:	3b1d                	jal	20000536 <FLASH_ROM_BEG>
+20000802:	33a1                	jal	2000054a <FLASH_ROM_END>
+20000804:	09900513          	li	a0,153
+20000808:	333d                	jal	20000536 <FLASH_ROM_BEG>
+2000080a:	40b2                	lw	ra,12(sp)
+2000080c:	0141                	addi	sp,sp,16
+2000080e:	bb35                	j	2000054a <FLASH_ROM_END>
+
+Disassembly of section .text:
+
+00000814 <handle_reset>:
+handle_reset():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:119
+	.weak	handle_reset
+	.align	1
+handle_reset:
+.option push 
+.option	norelax 
+	la gp, __global_pointer$
+     814:	20001197          	auipc	gp,0x20001
+     818:	86c18193          	addi	gp,gp,-1940 # 20001080 <__global_pointer$>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:121
+1:
+	la sp, _eusrstack 
+     81c:	20002117          	auipc	sp,0x20002
+     820:	7e410113          	addi	sp,sp,2020 # 20003000 <_eusrstack>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:126
+.option	pop
+
+/* Load highcode code  section from flash to RAM */
+2:
+    la a0, _highcode_lma
+     824:	00400513          	li	a0,4
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:127
+    la a1, _highcode_vma_start
+     828:	1ffff597          	auipc	a1,0x1ffff
+     82c:	7d858593          	addi	a1,a1,2008 # 20000000 <_highcode_vma_start>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:128
+    la a2, _highcode_vma_end
+     830:	20000617          	auipc	a2,0x20000
+     834:	fe060613          	addi	a2,a2,-32 # 20000810 <ble_packet>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:129
+    bgeu a1, a2, 2f
+     838:	00c5fa63          	bgeu	a1,a2,84c <handle_reset+0x38>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:131
+1:
+    lw t0, (a0)
+     83c:	00052283          	lw	t0,0(a0)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:132
+    sw t0, (a1)
+     840:	0055a023          	sw	t0,0(a1)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:133
+    addi a0, a0, 4
+     844:	0511                	addi	a0,a0,4
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:134
+    addi a1, a1, 4
+     846:	0591                	addi	a1,a1,4
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:135
+    bltu a1, a2, 1b
+     848:	fec5eae3          	bltu	a1,a2,83c <handle_reset+0x28>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:139
+
+/* Load data section from flash to RAM */
+2:
+	la a0, _data_lma
+     84c:	00001517          	auipc	a0,0x1
+     850:	10c50513          	addi	a0,a0,268 # 1958 <_data_lma>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:140
+	la a1, _data_vma
+     854:	20000597          	auipc	a1,0x20000
+     858:	fbc58593          	addi	a1,a1,-68 # 20000810 <ble_packet>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:141
+	la a2, _edata
+     85c:	80c18613          	addi	a2,gp,-2036 # 2000088c <Freq_LSI>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:142
+	bgeu a1, a2, 2f
+     860:	00c5fa63          	bgeu	a1,a2,874 <handle_reset+0x60>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:144
+1:
+	lw t0, (a0)
+     864:	00052283          	lw	t0,0(a0)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:145
+	sw t0, (a1)
+     868:	0055a023          	sw	t0,0(a1)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:146
+	addi a0, a0, 4
+     86c:	0511                	addi	a0,a0,4
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:147
+	addi a1, a1, 4
+     86e:	0591                	addi	a1,a1,4
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:148
+	bltu a1, a2, 1b
+     870:	fec5eae3          	bltu	a1,a2,864 <handle_reset+0x50>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:151
+2:
+	/* clear bss section */
+	la a0, _sbss
+     874:	80c18513          	addi	a0,gp,-2036 # 2000088c <Freq_LSI>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:152
+	la a1, _ebss
+     878:	95418593          	addi	a1,gp,-1708 # 200009d4 <_ebss>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:153
+	bgeu a0, a1, 2f
+     87c:	00b57763          	bgeu	a0,a1,88a <handle_reset+0x76>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:155
+1:
+	sw zero, (a0)
+     880:	00052023          	sw	zero,0(a0)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:156
+	addi a0, a0, 4
+     884:	0511                	addi	a0,a0,4
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:157
+	bltu a0, a1, 1b
+     886:	feb56de3          	bltu	a0,a1,880 <handle_reset+0x6c>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:161
+2:
+	/* 用户模式中断使能 */
+	/*预取使能*/
+	li t0, 0x25
+     88a:	02500293          	li	t0,37
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:162
+	csrw 0xbc0, t0
+     88e:	bc029073          	csrw	0xbc0,t0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:164
+	/* 打开嵌套中断、硬件压栈功能 */
+	li t0, 0x3
+     892:	428d                	li	t0,3
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:165
+	csrw 0x804, t0
+     894:	80429073          	csrw	0x804,t0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:166
+	li t0, 0x1
+     898:	4285                	li	t0,1
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:167
+	csrw 0xbc1, t0
+     89a:	bc129073          	csrw	0xbc1,t0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:169
+	
+    li t0, 0x88
+     89e:	08800293          	li	t0,136
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:170
+    csrw mstatus, t0
+     8a2:	30029073          	csrw	mstatus,t0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:171
+	la t0, _vector_base
+     8a6:	1ffff297          	auipc	t0,0x1ffff
+     8aa:	75a28293          	addi	t0,t0,1882 # 20000000 <_highcode_vma_start>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:174
+
+	/* 配置向量表模式为绝对地址模式 */
+    ori t0, t0, 3
+     8ae:	0032e293          	ori	t0,t0,3
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:175
+	csrw mtvec, t0
+     8b2:	30529073          	csrw	mtvec,t0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:177
+
+	la t0, main
+     8b6:	20000297          	auipc	t0,0x20000
+     8ba:	84428293          	addi	t0,t0,-1980 # 200000fa <main>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:178
+	csrw mepc, t0
+     8be:	34129073          	csrw	mepc,t0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:180
+	
+	mret
+     8c2:	30200073          	mret
+
+000008c6 <memset>:
+memset():
+     8c6:	832a                	mv	t1,a0
+     8c8:	c611                	beqz	a2,8d4 <memset+0xe>
+     8ca:	00b30023          	sb	a1,0(t1)
+     8ce:	167d                	addi	a2,a2,-1
+     8d0:	0305                	addi	t1,t1,1
+     8d2:	fe65                	bnez	a2,8ca <memset+0x4>
+     8d4:	8082                	ret
+
+000008d6 <generate_fsk_buffer>:
+generate_fsk_buffer():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:49
+    for (size_t bit_idx = 0; bit_idx < num_ble_bits; bit_idx++) {
+     8d6:	4781                	li	a5,0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:48
+    uint8_t ticks_in_current_level = 0; 
+     8d8:	4681                	li	a3,0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:47
+    uint8_t current_level = 1;          
+     8da:	4305                	li	t1,1
+     8dc:	4fd1                	li	t6,20
+     8de:	03f78733          	mul	a4,a5,t6
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:49 (discriminator 1)
+    for (size_t bit_idx = 0; bit_idx < num_ble_bits; bit_idx++) {
+     8e2:	00b79363          	bne	a5,a1,8e8 <generate_fsk_buffer+0x12>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:83
+}
+     8e6:	8082                	ret
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:52
+        uint8_t byte_idx = bit_idx / 8;
+     8e8:	0037d813          	srli	a6,a5,0x3
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:54
+        uint8_t current_ble_bit = (ble_packet[byte_idx] >> bit_pos) & 0x01;
+     8ec:	0ff87813          	zext.b	a6,a6
+     8f0:	982a                	add	a6,a6,a0
+     8f2:	00084803          	lbu	a6,0(a6)
+     8f6:	0077f893          	andi	a7,a5,7
+     8fa:	41185833          	sra	a6,a6,a7
+     8fe:	00187813          	andi	a6,a6,1
+     902:	4891                	li	a7,4
+     904:	00081363          	bnez	a6,90a <generate_fsk_buffer+0x34>
+     908:	4895                	li	a7,5
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:60
+        for (uint8_t tick = 0; tick < SPI_BITS_PER_BLE_BIT; tick++) {
+     90a:	0785                	addi	a5,a5,1
+     90c:	01470293          	addi	t0,a4,20
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:63
+            size_t word_idx = spi_bit_index / 32;
+     910:	00575813          	srli	a6,a4,0x5
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:68
+                spi_tx_buffer[word_idx] |= (1UL << bit_shift);
+     914:	20c84833          	sh2add	a6,a6,a2
+     918:	00082e83          	lw	t4,0(a6)
+     91c:	28e01f33          	bset	t5,zero,a4
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:70
+                spi_tx_buffer[word_idx] &= ~(1UL << bit_shift);
+     920:	41eefe33          	andn	t3,t4,t5
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:67
+            if (current_level) {
+     924:	00030463          	beqz	t1,92c <generate_fsk_buffer+0x56>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:68
+                spi_tx_buffer[word_idx] |= (1UL << bit_shift);
+     928:	01df6e33          	or	t3,t5,t4
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:74
+            ticks_in_current_level++;
+     92c:	0685                	addi	a3,a3,1 # 40001001 <_eusrstack+0x1fffe001>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:68
+                spi_tx_buffer[word_idx] |= (1UL << bit_shift);
+     92e:	01c82023          	sw	t3,0(a6)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:74
+            ticks_in_current_level++;
+     932:	0ff6f693          	zext.b	a3,a3
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:73
+            spi_bit_index++;
+     936:	0705                	addi	a4,a4,1
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:77
+            if (ticks_in_current_level >= half_period_ticks) {
+     938:	0116e563          	bltu	a3,a7,942 <generate_fsk_buffer+0x6c>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:78
+                current_level ^= 1;
+     93c:	00134313          	xori	t1,t1,1
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:79
+                ticks_in_current_level = 0; 
+     940:	4681                	li	a3,0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:60 (discriminator 2)
+        for (uint8_t tick = 0; tick < SPI_BITS_PER_BLE_BIT; tick++) {
+     942:	fce297e3          	bne	t0,a4,910 <generate_fsk_buffer+0x3a>
+     946:	bf61                	j	8de <generate_fsk_buffer+0x8>
+
+00000948 <SPI_FSK_Init>:
+SPI_FSK_Init():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:128
+void SPI_FSK_Init() {
+     948:	1141                	addi	sp,sp,-16
+     94a:	c606                	sw	ra,12(sp)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:130
+    GPIOA_SetBits(GPIO_Pin_4);
+     94c:	400017b7          	lui	a5,0x40001
+     950:	4741                	li	a4,16
+     952:	0ae7ac23          	sw	a4,184(a5) # 400010b8 <_eusrstack+0x1fffe0b8>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:131
+    GPIOA_ModeCfg(GPIO_Pin_4 | GPIO_Pin_7, GPIO_ModeOut_PP_5mA);
+     956:	458d                	li	a1,3
+     958:	09000513          	li	a0,144
+     95c:	204d                	jal	9fe <GPIOA_ModeCfg>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:134
+    R8_SPI_CLOCK_DIV = TICKS_FOR_20MHz; 
+     95e:	400047b7          	lui	a5,0x40004
+     962:	4715                	li	a4,5
+     964:	b3b8                	sb	a4,3(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:140
+    R8_SPI_CTRL_MOD = RB_SPI_ALL_CLEAR;
+     966:	4709                	li	a4,2
+     968:	a398                	sb	a4,0(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:141
+    R8_SPI_CTRL_MOD = RB_SPI_MOSI_OE | RB_SPI_SCK_OE | RB_SPI_2WIRE_MOD; 
+     96a:	06400713          	li	a4,100
+     96e:	a398                	sb	a4,0(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:143
+    R8_SPI_CTRL_CFG |= RB_SPI_AUTO_IF;
+     970:	3398                	lbu	a4,1(a5)
+     972:	01076713          	ori	a4,a4,16
+     976:	b398                	sb	a4,1(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:148
+    R8_SPI_CTRL_CFG |= RB_SPI_BIT_ORDER; 
+     978:	3398                	lbu	a4,1(a5)
+     97a:	02076713          	ori	a4,a4,32
+     97e:	b398                	sb	a4,1(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:149
+}
+     980:	40b2                	lw	ra,12(sp)
+     982:	0141                	addi	sp,sp,16
+     984:	8082                	ret
+
+00000986 <DebugInit>:
+DebugInit():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:195
+{
+     986:	1141                	addi	sp,sp,-16
+     988:	c606                	sw	ra,12(sp)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:196
+    GPIOA_SetBits(bTXD_0);
+     98a:	400017b7          	lui	a5,0x40001
+     98e:	4721                	li	a4,8
+     990:	0ae7ac23          	sw	a4,184(a5) # 400010b8 <_eusrstack+0x1fffe0b8>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:197
+    GPIOA_ModeCfg(bRXD_0, GPIO_ModeIN_PU);      // RXD-配置上拉输入
+     994:	4585                	li	a1,1
+     996:	4511                	li	a0,4
+     998:	209d                	jal	9fe <GPIOA_ModeCfg>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:198
+    GPIOA_ModeCfg(bTXD_0, GPIO_ModeOut_PP_5mA); // TXD-配置推挽输出，注意先让IO口输出高电平
+     99a:	458d                	li	a1,3
+     99c:	4521                	li	a0,8
+     99e:	2085                	jal	9fe <GPIOA_ModeCfg>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:199
+    UART_Remap(ENABLE, UART_TX_REMAP_PA3, UART_RX_REMAP_PA2);
+     9a0:	4601                	li	a2,0
+     9a2:	4581                	li	a1,0
+     9a4:	4505                	li	a0,1
+     9a6:	2425                	jal	bce <UART_Remap>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:201
+}
+     9a8:	40b2                	lw	ra,12(sp)
+     9aa:	0141                	addi	sp,sp,16
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../src/Main.c:200
+    UART_DefInit();
+     9ac:	a275                	j	b58 <UART_DefInit>
+
+000009ae <HSECFG_Capacitance>:
+HSECFG_Capacitance():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_clk.c:81
+ */
+void HSECFG_Capacitance(HSECapTypeDef c)
+{
+    uint8_t x32M_c;
+
+    x32M_c = R8_XT32M_TUNE;
+     9ae:	40001737          	lui	a4,0x40001
+     9b2:	04e74783          	lbu	a5,78(a4) # 4000104e <_eusrstack+0x1fffe04e>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_clk.c:82
+    x32M_c = (x32M_c & 0x0f) | (c << 4);
+     9b6:	0512                	slli	a0,a0,0x4
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_clk.c:78
+{
+     9b8:	1141                	addi	sp,sp,-16
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_clk.c:82
+    x32M_c = (x32M_c & 0x0f) | (c << 4);
+     9ba:	8bbd                	andi	a5,a5,15
+     9bc:	8fc9                	or	a5,a5,a0
+     9be:	0ff7f793          	zext.b	a5,a5
+__risc_v_disable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:154
+    __asm volatile("csrrc %0, 0x800, %1" : \
+     9c2:	08800693          	li	a3,136
+     9c6:	8006b6f3          	csrrc	a3,0x800,a3
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:156
+    return result & 0x88;
+     9ca:	0886f693          	andi	a3,a3,136
+HSECFG_Capacitance():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_clk.c:84
+
+    sys_safe_access_enable();
+     9ce:	c636                	sw	a3,12(sp)
+     9d0:	0000100f          	fence.i
+     9d4:	05700693          	li	a3,87
+     9d8:	04d70023          	sb	a3,64(a4)
+     9dc:	fa800693          	li	a3,-88
+     9e0:	04d70023          	sb	a3,64(a4)
+     9e4:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_clk.c:85
+    R8_XT32M_TUNE = x32M_c;
+     9e8:	04f70723          	sb	a5,78(a4)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_clk.c:86
+    sys_safe_access_disable();
+     9ec:	04070023          	sb	zero,64(a4)
+     9f0:	47b2                	lw	a5,12(sp)
+__risc_v_enable_irq():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:138
+    __asm volatile("csrrs %0, 0x800, %1" : \
+     9f2:	8007a7f3          	csrrs	a5,0x800,a5
+HSECFG_Capacitance():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_clk.c:86
+     9f6:	0000100f          	fence.i
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_clk.c:87
+}
+     9fa:	0141                	addi	sp,sp,16
+     9fc:	8082                	ret
+
+000009fe <GPIOA_ModeCfg>:
+GPIOA_ModeCfg():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_gpio.c:27
+ *
+ * @return  none
+ */
+void GPIOA_ModeCfg(uint32_t pin, GPIOModeTypeDef mode)
+{
+    switch(mode)
+     9fe:	4791                	li	a5,4
+     a00:	04b7ec63          	bltu	a5,a1,a58 <GPIOA_ModeCfg+0x5a>
+     a04:	00001797          	auipc	a5,0x1
+     a08:	edc78793          	addi	a5,a5,-292 # 18e0 <_read+0x26>
+     a0c:	20f5c5b3          	sh2add	a1,a1,a5
+     a10:	4198                	lw	a4,0(a1)
+     a12:	973e                	add	a4,a4,a5
+     a14:	400017b7          	lui	a5,0x40001
+     a18:	0b478793          	addi	a5,a5,180 # 400010b4 <_eusrstack+0x1fffe0b4>
+     a1c:	8702                	jr	a4
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_gpio.c:30
+    {
+        case GPIO_ModeIN_Floating:
+            R32_PA_PD_DRV &= ~pin;
+     a1e:	4394                	lw	a3,0(a5)
+     a20:	40001737          	lui	a4,0x40001
+     a24:	40a6f6b3          	andn	a3,a3,a0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_gpio.c:42
+            R32_PA_PU |= pin;
+            R32_PA_DIR &= ~pin;
+            break;
+
+        case GPIO_ModeIN_PD:
+            R32_PA_PD_DRV |= pin;
+     a28:	c394                	sw	a3,0(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_gpio.c:43
+            R32_PA_PU &= ~pin;
+     a2a:	0b070693          	addi	a3,a4,176 # 400010b0 <_eusrstack+0x1fffe0b0>
+     a2e:	429c                	lw	a5,0(a3)
+     a30:	40a7f7b3          	andn	a5,a5,a0
+     a34:	a819                	j	a4a <GPIOA_ModeCfg+0x4c>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_gpio.c:36
+            R32_PA_PD_DRV &= ~pin;
+     a36:	4394                	lw	a3,0(a5)
+     a38:	40001737          	lui	a4,0x40001
+     a3c:	40a6f6b3          	andn	a3,a3,a0
+     a40:	c394                	sw	a3,0(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_gpio.c:37
+            R32_PA_PU |= pin;
+     a42:	0b070693          	addi	a3,a4,176 # 400010b0 <_eusrstack+0x1fffe0b0>
+     a46:	429c                	lw	a5,0(a3)
+     a48:	8fc9                	or	a5,a5,a0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_gpio.c:43
+            R32_PA_PU &= ~pin;
+     a4a:	c29c                	sw	a5,0(a3)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_gpio.c:44
+            R32_PA_DIR &= ~pin;
+     a4c:	0a070793          	addi	a5,a4,160
+     a50:	4398                	lw	a4,0(a5)
+     a52:	40a77733          	andn	a4,a4,a0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_gpio.c:54
+            R32_PA_DIR |= pin;
+            break;
+
+        case GPIO_ModeOut_PP_20mA:
+            R32_PA_PD_DRV |= pin;
+            R32_PA_DIR |= pin;
+     a56:	c398                	sw	a4,0(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_gpio.c:60
+            break;
+
+        default:
+            break;
+    }
+}
+     a58:	8082                	ret
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_gpio.c:42
+            R32_PA_PD_DRV |= pin;
+     a5a:	4394                	lw	a3,0(a5)
+     a5c:	40001737          	lui	a4,0x40001
+     a60:	8ec9                	or	a3,a3,a0
+     a62:	b7d9                	j	a28 <GPIOA_ModeCfg+0x2a>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_gpio.c:48
+            R32_PA_PD_DRV &= ~pin;
+     a64:	4398                	lw	a4,0(a5)
+     a66:	40a77733          	andn	a4,a4,a0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_gpio.c:53
+            R32_PA_PD_DRV |= pin;
+     a6a:	c398                	sw	a4,0(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_gpio.c:54
+            R32_PA_DIR |= pin;
+     a6c:	400017b7          	lui	a5,0x40001
+     a70:	0a078793          	addi	a5,a5,160 # 400010a0 <_eusrstack+0x1fffe0a0>
+     a74:	4398                	lw	a4,0(a5)
+     a76:	8f49                	or	a4,a4,a0
+     a78:	bff9                	j	a56 <GPIOA_ModeCfg+0x58>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_gpio.c:53
+            R32_PA_PD_DRV |= pin;
+     a7a:	4398                	lw	a4,0(a5)
+     a7c:	8f49                	or	a4,a4,a0
+     a7e:	b7f5                	j	a6a <GPIOA_ModeCfg+0x6c>
+
+00000a80 <GetSysClock>:
+GetSysClock():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:103
+    if((R8_CLK_SYS_CFG & RB_CLK_SYS_MOD) == RB_CLK_SYS_MOD)
+     a80:	400017b7          	lui	a5,0x40001
+     a84:	2798                	lbu	a4,8(a5)
+     a86:	0c000693          	li	a3,192
+     a8a:	0c077713          	andi	a4,a4,192
+     a8e:	00d71563          	bne	a4,a3,a98 <GetSysClock+0x18>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:105
+        return (Freq_LSI);
+     a92:	80c1a503          	lw	a0,-2036(gp) # 2000088c <Freq_LSI>
+     a96:	8082                	ret
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:107
+    else if((R8_CLK_SYS_CFG & RB_CLK_SYS_MOD) == 0x40)
+     a98:	2798                	lbu	a4,8(a5)
+     a9a:	04000693          	li	a3,64
+     a9e:	0c077713          	andi	a4,a4,192
+     aa2:	02d71063          	bne	a4,a3,ac2 <GetSysClock+0x42>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:109
+        return (600000000 / ((R8_CLK_SYS_CFG & 0x1f)?(R8_CLK_SYS_CFG & 0x1f):32));
+     aa6:	2794                	lbu	a3,8(a5)
+     aa8:	02000713          	li	a4,32
+     aac:	8afd                	andi	a3,a3,31
+     aae:	c299                	beqz	a3,ab4 <GetSysClock+0x34>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:109 (discriminator 1)
+     ab0:	2798                	lbu	a4,8(a5)
+     ab2:	8b7d                	andi	a4,a4,31
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:109 (discriminator 4)
+     ab4:	23c34537          	lui	a0,0x23c34
+     ab8:	60050513          	addi	a0,a0,1536 # 23c34600 <_eusrstack+0x3c31600>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:113 (discriminator 4)
+        return (32000000 / ((R8_CLK_SYS_CFG & 0x1f)?(R8_CLK_SYS_CFG & 0x1f):32));
+     abc:	02e54533          	div	a0,a0,a4
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:115 (discriminator 4)
+}
+     ac0:	8082                	ret
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:113
+        return (32000000 / ((R8_CLK_SYS_CFG & 0x1f)?(R8_CLK_SYS_CFG & 0x1f):32));
+     ac2:	2794                	lbu	a3,8(a5)
+     ac4:	02000713          	li	a4,32
+     ac8:	8afd                	andi	a3,a3,31
+     aca:	c299                	beqz	a3,ad0 <GetSysClock+0x50>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:113 (discriminator 1)
+     acc:	2798                	lbu	a4,8(a5)
+     ace:	8b7d                	andi	a4,a4,31
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:113 (discriminator 4)
+     ad0:	01e85537          	lui	a0,0x1e85
+     ad4:	80050513          	addi	a0,a0,-2048 # 1e84800 <_data_lma+0x1e82ea8>
+     ad8:	b7d5                	j	abc <GetSysClock+0x3c>
+
+00000ada <_write>:
+_write():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:395
+
+#ifdef DEBUG
+int _write(int fd, char *buf, int size)
+{
+     ada:	8532                	mv	a0,a2
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:397
+    int i;
+    for(i = 0; i < size; i++)
+     adc:	4781                	li	a5,0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:399
+    {
+        while(R8_UART_TFC == UART_FIFO_SIZE);                  /* 等待数据发送 */
+     ade:	40003737          	lui	a4,0x40003
+     ae2:	46a1                	li	a3,8
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:397 (discriminator 1)
+    for(i = 0; i < size; i++)
+     ae4:	00a7c363          	blt	a5,a0,aea <_write+0x10>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:403
+            R8_UART_THR = *buf++; /* 发送数据 */
+    }
+    return size;
+}
+     ae8:	8082                	ret
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:399 (discriminator 1)
+        while(R8_UART_TFC == UART_FIFO_SIZE);                  /* 等待数据发送 */
+     aea:	40b74603          	lbu	a2,1035(a4) # 4000340b <_eusrstack+0x2000040b>
+     aee:	fed60ee3          	beq	a2,a3,aea <_write+0x10>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:400 (discriminator 2)
+            R8_UART_THR = *buf++; /* 发送数据 */
+     af2:	00f58633          	add	a2,a1,a5
+     af6:	2210                	lbu	a2,0(a2)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:397 (discriminator 2)
+    for(i = 0; i < size; i++)
+     af8:	0785                	addi	a5,a5,1 # 40001001 <_eusrstack+0x1fffe001>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:400 (discriminator 2)
+            R8_UART_THR = *buf++; /* 发送数据 */
+     afa:	40c70423          	sb	a2,1032(a4)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:397 (discriminator 2)
+    for(i = 0; i < size; i++)
+     afe:	b7dd                	j	ae4 <_write+0xa>
+
+00000b00 <_sbrk>:
+_sbrk():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:420
+void *_sbrk(ptrdiff_t incr)
+{
+    extern char _end[];
+    static char *curbrk = _end;
+
+    if ((curbrk + incr < _end) || ((uint32_t)curbrk + incr > (__get_SP() - 64)))
+     b00:	20000697          	auipc	a3,0x20000
+     b04:	d8068693          	addi	a3,a3,-640 # 20000880 <curbrk.0>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:416
+{
+     b08:	87aa                	mv	a5,a0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:420
+    if ((curbrk + incr < _end) || ((uint32_t)curbrk + incr > (__get_SP() - 64)))
+     b0a:	4288                	lw	a0,0(a3)
+     b0c:	95418713          	addi	a4,gp,-1708 # 200009d4 <_ebss>
+     b10:	97aa                	add	a5,a5,a0
+     b12:	00e7e963          	bltu	a5,a4,b24 <_sbrk+0x24>
+__get_SP():
+c:/Users/seanw/mounriver-studio-projects/BLE-BACKSCATTER-SPI/RVMSIS/core_riscv.h:630 (discriminator 1)
+ */
+__attribute__((always_inline)) RV_STATIC_INLINE uint32_t __get_SP(void)
+{
+    uint32_t result;
+
+    __ASM volatile("mv %0," "sp" : "=r"(result) :);
+     b16:	870a                	mv	a4,sp
+_sbrk():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:420 (discriminator 1)
+     b18:	fc070713          	addi	a4,a4,-64
+     b1c:	00f76463          	bltu	a4,a5,b24 <_sbrk+0x24>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:423
+    return NULL - 1;
+
+    curbrk += incr;
+     b20:	c29c                	sw	a5,0(a3)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:424
+    return curbrk - incr;
+     b22:	8082                	ret
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:421
+    return NULL - 1;
+     b24:	557d                	li	a0,-1
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_sys.c:425
+}
+     b26:	8082                	ret
+
+00000b28 <UART_BaudRateCfg>:
+UART_BaudRateCfg():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:43
+ * @param   baudrate    - 波特率
+ *
+ * @return  none
+ */
+void UART_BaudRateCfg(uint32_t baudrate)
+{
+     b28:	1141                	addi	sp,sp,-16
+     b2a:	c422                	sw	s0,8(sp)
+     b2c:	c606                	sw	ra,12(sp)
+     b2e:	842a                	mv	s0,a0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:46
+    uint32_t x;
+
+    x = 10 * GetSysClock() / 8 / baudrate;
+     b30:	3f81                	jal	a80 <GetSysClock>
+     b32:	4729                	li	a4,10
+     b34:	02e507b3          	mul	a5,a0,a4
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:49
+    x = (x + 5) / 10;
+    R16_UART_DL = (uint16_t)x;
+}
+     b38:	40b2                	lw	ra,12(sp)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:46
+    x = 10 * GetSysClock() / 8 / baudrate;
+     b3a:	838d                	srli	a5,a5,0x3
+     b3c:	0287d7b3          	divu	a5,a5,s0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:49
+}
+     b40:	4422                	lw	s0,8(sp)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:47
+    x = (x + 5) / 10;
+     b42:	0795                	addi	a5,a5,5
+     b44:	02e7d7b3          	divu	a5,a5,a4
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:48
+    R16_UART_DL = (uint16_t)x;
+     b48:	40003737          	lui	a4,0x40003
+     b4c:	0807c7b3          	zext.h	a5,a5
+     b50:	40f71623          	sh	a5,1036(a4) # 4000340c <_eusrstack+0x2000040c>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:49
+}
+     b54:	0141                	addi	sp,sp,16
+     b56:	8082                	ret
+
+00000b58 <UART_DefInit>:
+UART_DefInit():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:26
+    UART_BaudRateCfg(115200);
+     b58:	6571                	lui	a0,0x1c
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:25
+{
+     b5a:	1141                	addi	sp,sp,-16
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:26
+    UART_BaudRateCfg(115200);
+     b5c:	20050513          	addi	a0,a0,512 # 1c200 <_data_lma+0x1a8a8>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:25
+{
+     b60:	c606                	sw	ra,12(sp)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:26
+    UART_BaudRateCfg(115200);
+     b62:	37d9                	jal	b28 <UART_BaudRateCfg>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:27
+    R8_UART_FCR = (2 << 6) | RB_FCR_FIFO_EN; // FIFO打开，触发点4字节
+     b64:	400037b7          	lui	a5,0x40003
+     b68:	f8100713          	li	a4,-127
+     b6c:	40e78123          	sb	a4,1026(a5) # 40003402 <_eusrstack+0x20000402>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:28
+    R8_UART_LCR = RB_LCR_WORD_SZ;
+     b70:	470d                	li	a4,3
+     b72:	40e781a3          	sb	a4,1027(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:29
+    R8_UART_IER = RB_IER_TXD_EN;
+     b76:	04000713          	li	a4,64
+     b7a:	40e780a3          	sb	a4,1025(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:30
+    R8_UART_DIV = 1;
+     b7e:	4705                	li	a4,1
+     b80:	40e78723          	sb	a4,1038(a5)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:31
+}
+     b84:	40b2                	lw	ra,12(sp)
+     b86:	0141                	addi	sp,sp,16
+     b88:	8082                	ret
+
+00000b8a <UART_SendString>:
+UART_SendString():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:106
+ */
+void UART_SendString(uint8_t *buf, uint16_t l)
+{
+    uint16_t len = l;
+
+    while(len)
+     b8a:	95aa                	add	a1,a1,a0
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:108
+    {
+        if(R8_UART_TFC != UART_FIFO_SIZE)
+     b8c:	400037b7          	lui	a5,0x40003
+     b90:	4721                	li	a4,8
+     b92:	400036b7          	lui	a3,0x40003
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:106
+    while(len)
+     b96:	00b51363          	bne	a0,a1,b9c <UART_SendString+0x12>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:114
+        {
+            R8_UART_THR = *buf++;
+            len--;
+        }
+    }
+}
+     b9a:	8082                	ret
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:108
+        if(R8_UART_TFC != UART_FIFO_SIZE)
+     b9c:	40b7c603          	lbu	a2,1035(a5) # 4000340b <_eusrstack+0x2000040b>
+     ba0:	fee60be3          	beq	a2,a4,b96 <UART_SendString+0xc>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:110
+            R8_UART_THR = *buf++;
+     ba4:	2110                	lbu	a2,0(a0)
+     ba6:	0505                	addi	a0,a0,1
+     ba8:	40c68423          	sb	a2,1032(a3) # 40003408 <_eusrstack+0x20000408>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:111
+            len--;
+     bac:	b7ed                	j	b96 <UART_SendString+0xc>
+
+00000bae <UART_RecvString>:
+UART_RecvString():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:129
+ */
+uint16_t UART_RecvString(uint8_t *buf)
+{
+    uint16_t len = 0;
+
+    while(R8_UART_RFC)
+     bae:	4781                	li	a5,0
+     bb0:	40003737          	lui	a4,0x40003
+     bb4:	40a74683          	lbu	a3,1034(a4) # 4000340a <_eusrstack+0x2000040a>
+     bb8:	e681                	bnez	a3,bc0 <UART_RecvString+0x12>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:136
+        *buf++ = R8_UART_RBR;
+        len++;
+    }
+
+    return (len);
+}
+     bba:	0807c533          	zext.h	a0,a5
+     bbe:	8082                	ret
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:131
+        *buf++ = R8_UART_RBR;
+     bc0:	40874603          	lbu	a2,1032(a4)
+     bc4:	00f506b3          	add	a3,a0,a5
+     bc8:	0785                	addi	a5,a5,1
+     bca:	a290                	sb	a2,0(a3)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:132
+        len++;
+     bcc:	b7e5                	j	bb4 <UART_RecvString+0x6>
+
+00000bce <UART_Remap>:
+UART_Remap():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:153
+ */
+void UART_Remap(FunctionalState s, UARTTxPinRemapDef u_tx, UARTRxPinRemapDef u_rx)
+{
+    if(s)
+    {
+        R16_PIN_ALTERNATE_H &= ~(RB_UART_TXD | RB_UART_RXD); // 该寄存器仅在上电复位和ShutDown睡眠时清0
+     bce:	40001737          	lui	a4,0x40001
+     bd2:	2f3e                	lhu	a5,26(a4)
+     bd4:	0807c7b3          	zext.h	a5,a5
+     bd8:	fc07f793          	andi	a5,a5,-64
+     bdc:	0807c7b3          	zext.h	a5,a5
+     be0:	af3e                	sh	a5,26(a4)
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:151
+    if(s)
+     be2:	c909                	beqz	a0,bf4 <UART_Remap+0x26>
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:154
+        R16_PIN_ALTERNATE_H |= (u_tx << 3) | u_rx;
+     be4:	2f3e                	lhu	a5,26(a4)
+     be6:	058e                	slli	a1,a1,0x3
+     be8:	8e5d                	or	a2,a2,a5
+     bea:	8dd1                	or	a1,a1,a2
+     bec:	0805c5b3          	zext.h	a1,a1
+     bf0:	af2e                	sh	a1,26(a4)
+     bf2:	8082                	ret
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../StdPeriphDriver/CH57x_uart.c:160
+    }
+    else
+    {
+        R16_PIN_ALTERNATE_H &= ~(RB_UART_TXD | RB_UART_RXD);
+    }
+}
+     bf4:	8082                	ret
+
+00000bf6 <FLASH_EEPROM_CMD>:
+FLASH_EEPROM_CMD():
+     bf6:	1101                	addi	sp,sp,-32
+     bf8:	872a                	mv	a4,a0
+     bfa:	ce06                	sw	ra,28(sp)
+     bfc:	852e                	mv	a0,a1
+     bfe:	cc26                	sw	s1,24(sp)
+     c00:	85b2                	mv	a1,a2
+     c02:	ca4a                	sw	s2,20(sp)
+     c04:	8636                	mv	a2,a3
+     c06:	c622                	sw	s0,12(sp)
+     c08:	40002437          	lui	s0,0x40002
+     c0c:	e000e7b7          	lui	a5,0xe000e
+     c10:	56fd                	li	a3,-1
+     c12:	0007a903          	lw	s2,0(a5) # e000e000 <_eusrstack+0xc000b000>
+     c16:	43c4                	lw	s1,4(a5)
+     c18:	18d7a023          	sw	a3,384(a5)
+     c1c:	18d7a223          	sw	a3,388(a5)
+     c20:	fff70793          	addi	a5,a4,-1 # 40000fff <_eusrstack+0x1fffdfff>
+     c24:	0ff7f793          	zext.b	a5,a5
+     c28:	4809                	li	a6,2
+     c2a:	08f86a63          	bltu	a6,a5,cbe <FLASH_EEPROM_CMD+0xc8>
+     c2e:	400017b7          	lui	a5,0x40001
+     c32:	0457c783          	lbu	a5,69(a5) # 40001045 <_eusrstack+0x1fffe045>
+     c36:	0003c8b7          	lui	a7,0x3c
+     c3a:	57f9                	li	a5,-2
+     c3c:	05157463          	bgeu	a0,a7,c84 <FLASH_EEPROM_CMD+0x8e>
+     c40:	00c506b3          	add	a3,a0,a2
+     c44:	04d8e063          	bltu	a7,a3,c84 <FLASH_EEPROM_CMD+0x8e>
+     c48:	05071463          	bne	a4,a6,c90 <FLASH_EEPROM_CMD+0x9a>
+     c4c:	8209                	srli	a2,a2,0x2
+     c4e:	20000097          	auipc	ra,0x20000
+     c52:	9dc080e7          	jalr	-1572(ra) # 2000062a <FLASH_CMD_ROM_WRITE>
+     c56:	87aa                	mv	a5,a0
+     c58:	40001737          	lui	a4,0x40001
+     c5c:	05700693          	li	a3,87
+     c60:	04d70023          	sb	a3,64(a4) # 40001040 <_eusrstack+0x1fffe040>
+     c64:	fa800693          	li	a3,-88
+     c68:	04d70023          	sb	a3,64(a4)
+     c6c:	04474683          	lbu	a3,68(a4)
+     c70:	8ac1                	andi	a3,a3,16
+     c72:	04d70223          	sb	a3,68(a4)
+     c76:	e000e737          	lui	a4,0xe000e
+     c7a:	11272023          	sw	s2,256(a4) # e000e100 <_eusrstack+0xc000b100>
+     c7e:	10972223          	sw	s1,260(a4)
+     c82:	4432                	lw	s0,12(sp)
+     c84:	40f2                	lw	ra,28(sp)
+     c86:	44e2                	lw	s1,24(sp)
+     c88:	4952                	lw	s2,20(sp)
+     c8a:	853e                	mv	a0,a5
+     c8c:	6105                	addi	sp,sp,32
+     c8e:	8082                	ret
+     c90:	4785                	li	a5,1
+     c92:	00f71f63          	bne	a4,a5,cb0 <FLASH_EEPROM_CMD+0xba>
+     c96:	6785                	lui	a5,0x1
+     c98:	17fd                	addi	a5,a5,-1 # fff <__sflush_r+0x21>
+     c9a:	963e                	add	a2,a2,a5
+     c9c:	8fe9                	and	a5,a5,a0
+     c9e:	963e                	add	a2,a2,a5
+     ca0:	77fd                	lui	a5,0xfffff
+     ca2:	8e7d                	and	a2,a2,a5
+     ca4:	8d7d                	and	a0,a0,a5
+     ca6:	20000097          	auipc	ra,0x20000
+     caa:	9e4080e7          	jalr	-1564(ra) # 2000068a <FLASH_CMD_ROM_ERASE>
+     cae:	b765                	j	c56 <FLASH_EEPROM_CMD+0x60>
+     cb0:	20000097          	auipc	ra,0x20000
+     cb4:	a4c080e7          	jalr	-1460(ra) # 200006fc <FLASH_CMD_ROM_VERIFY>
+     cb8:	00150793          	addi	a5,a0,1
+     cbc:	bf71                	j	c58 <FLASH_EEPROM_CMD+0x62>
+     cbe:	47b5                	li	a5,13
+     cc0:	00f71a63          	bne	a4,a5,cd4 <FLASH_EEPROM_CMD+0xde>
+     cc4:	0b900513          	li	a0,185
+     cc8:	20000097          	auipc	ra,0x20000
+     ccc:	a84080e7          	jalr	-1404(ra) # 2000074c <FLASH_CMD_ROM_PWR>
+     cd0:	4781                	li	a5,0
+     cd2:	b759                	j	c58 <FLASH_EEPROM_CMD+0x62>
+     cd4:	47b1                	li	a5,12
+     cd6:	00f71563          	bne	a4,a5,ce0 <FLASH_EEPROM_CMD+0xea>
+     cda:	0ab00513          	li	a0,171
+     cde:	b7ed                	j	cc8 <FLASH_EEPROM_CMD+0xd2>
+     ce0:	4799                	li	a5,6
+     ce2:	00f71763          	bne	a4,a5,cf0 <FLASH_EEPROM_CMD+0xfa>
+     ce6:	20000097          	auipc	ra,0x20000
+     cea:	a78080e7          	jalr	-1416(ra) # 2000075e <FLASH_CMD_GET_ROM_INFO>
+     cee:	b7cd                	j	cd0 <FLASH_EEPROM_CMD+0xda>
+     cf0:	479d                	li	a5,7
+     cf2:	00f71b63          	bne	a4,a5,d08 <FLASH_EEPROM_CMD+0x112>
+     cf6:	0005a023          	sw	zero,0(a1)
+     cfa:	0005a223          	sw	zero,4(a1)
+     cfe:	20000097          	auipc	ra,0x20000
+     d02:	aba080e7          	jalr	-1350(ra) # 200007b8 <FLASH_CMD_GET_UNIQUE_ID>
+     d06:	b7e9                	j	cd0 <FLASH_EEPROM_CMD+0xda>
+     d08:	4791                	li	a5,4
+     d0a:	00f71763          	bne	a4,a5,d18 <FLASH_EEPROM_CMD+0x122>
+     d0e:	20000097          	auipc	ra,0x20000
+     d12:	ae8080e7          	jalr	-1304(ra) # 200007f6 <FLASH_CMD_ROM_SW_RESET>
+     d16:	bf6d                	j	cd0 <FLASH_EEPROM_CMD+0xda>
+     d18:	4781                	li	a5,0
+     d1a:	df1d                	beqz	a4,c58 <FLASH_EEPROM_CMD+0x62>
+     d1c:	57f1                	li	a5,-4
+     d1e:	bf2d                	j	c58 <FLASH_EEPROM_CMD+0x62>
+
+00000d20 <_puts_r>:
+_puts_r():
+     d20:	1101                	addi	sp,sp,-32
+     d22:	ca26                	sw	s1,20(sp)
+     d24:	ce06                	sw	ra,28(sp)
+     d26:	cc22                	sw	s0,24(sp)
+     d28:	c84a                	sw	s2,16(sp)
+     d2a:	c64e                	sw	s3,12(sp)
+     d2c:	c452                	sw	s4,8(sp)
+     d2e:	84aa                	mv	s1,a0
+     d30:	e119                	bnez	a0,d36 <_puts_r+0x16>
+     d32:	451c                	lw	a5,8(a0)
+     d34:	9002                	ebreak
+     d36:	4d1c                	lw	a5,24(a0)
+     d38:	892e                	mv	s2,a1
+     d3a:	e3ad                	bnez	a5,d9c <_puts_r+0x7c>
+     d3c:	2325                	jal	1264 <__sinit>
+     d3e:	4c9c                	lw	a5,24(s1)
+     d40:	4480                	lw	s0,8(s1)
+     d42:	cfb9                	beqz	a5,da0 <_puts_r+0x80>
+     d44:	00001797          	auipc	a5,0x1
+     d48:	bf078793          	addi	a5,a5,-1040 # 1934 <__sf_fake_stdin>
+     d4c:	04f41d63          	bne	s0,a5,da6 <_puts_r+0x86>
+     d50:	40c0                	lw	s0,4(s1)
+     d52:	507c                	lw	a5,100(s0)
+     d54:	8b85                	andi	a5,a5,1
+     d56:	e799                	bnez	a5,d64 <_puts_r+0x44>
+     d58:	245e                	lhu	a5,12(s0)
+     d5a:	2007f793          	andi	a5,a5,512
+     d5e:	e399                	bnez	a5,d64 <_puts_r+0x44>
+     d60:	4c28                	lw	a0,88(s0)
+     d62:	2dad                	jal	13dc <__retarget_lock_acquire_recursive>
+     d64:	245e                	lhu	a5,12(s0)
+     d66:	8ba1                	andi	a5,a5,8
+     d68:	c399                	beqz	a5,d6e <_puts_r+0x4e>
+     d6a:	481c                	lw	a5,16(s0)
+     d6c:	e3d5                	bnez	a5,e10 <_puts_r+0xf0>
+     d6e:	85a2                	mv	a1,s0
+     d70:	8526                	mv	a0,s1
+     d72:	2aad                	jal	eec <__swsetup_r>
+     d74:	cd51                	beqz	a0,e10 <_puts_r+0xf0>
+     d76:	54fd                	li	s1,-1
+     d78:	507c                	lw	a5,100(s0)
+     d7a:	8b85                	andi	a5,a5,1
+     d7c:	e799                	bnez	a5,d8a <_puts_r+0x6a>
+     d7e:	245e                	lhu	a5,12(s0)
+     d80:	2007f793          	andi	a5,a5,512
+     d84:	e399                	bnez	a5,d8a <_puts_r+0x6a>
+     d86:	4c28                	lw	a0,88(s0)
+     d88:	2d99                	jal	13de <__retarget_lock_release_recursive>
+     d8a:	40f2                	lw	ra,28(sp)
+     d8c:	4462                	lw	s0,24(sp)
+     d8e:	4942                	lw	s2,16(sp)
+     d90:	49b2                	lw	s3,12(sp)
+     d92:	4a22                	lw	s4,8(sp)
+     d94:	8526                	mv	a0,s1
+     d96:	44d2                	lw	s1,20(sp)
+     d98:	6105                	addi	sp,sp,32
+     d9a:	8082                	ret
+     d9c:	4500                	lw	s0,8(a0)
+     d9e:	b75d                	j	d44 <_puts_r+0x24>
+     da0:	8526                	mv	a0,s1
+     da2:	21c9                	jal	1264 <__sinit>
+     da4:	b745                	j	d44 <_puts_r+0x24>
+     da6:	00001797          	auipc	a5,0x1
+     daa:	b6e78793          	addi	a5,a5,-1170 # 1914 <__sf_fake_stdout>
+     dae:	00f41463          	bne	s0,a5,db6 <_puts_r+0x96>
+     db2:	4480                	lw	s0,8(s1)
+     db4:	bf79                	j	d52 <_puts_r+0x32>
+     db6:	00001797          	auipc	a5,0x1
+     dba:	b3e78793          	addi	a5,a5,-1218 # 18f4 <__sf_fake_stderr>
+     dbe:	f8f41ae3          	bne	s0,a5,d52 <_puts_r+0x32>
+     dc2:	44c0                	lw	s0,12(s1)
+     dc4:	b779                	j	d52 <_puts_r+0x32>
+     dc6:	c41c                	sw	a5,8(s0)
+     dc8:	0905                	addi	s2,s2,1
+     dca:	0207c863          	bltz	a5,dfa <_puts_r+0xda>
+     dce:	401c                	lw	a5,0(s0)
+     dd0:	00178713          	addi	a4,a5,1
+     dd4:	c018                	sw	a4,0(s0)
+     dd6:	a38c                	sb	a1,0(a5)
+     dd8:	441c                	lw	a5,8(s0)
+     dda:	00094583          	lbu	a1,0(s2)
+     dde:	17fd                	addi	a5,a5,-1
+     de0:	f1fd                	bnez	a1,dc6 <_puts_r+0xa6>
+     de2:	c41c                	sw	a5,8(s0)
+     de4:	0207d963          	bgez	a5,e16 <_puts_r+0xf6>
+     de8:	8622                	mv	a2,s0
+     dea:	45a9                	li	a1,10
+     dec:	8526                	mv	a0,s1
+     dee:	2089                	jal	e30 <__swbuf_r>
+     df0:	57fd                	li	a5,-1
+     df2:	f8f502e3          	beq	a0,a5,d76 <_puts_r+0x56>
+     df6:	44a9                	li	s1,10
+     df8:	b741                	j	d78 <_puts_r+0x58>
+     dfa:	4c18                	lw	a4,24(s0)
+     dfc:	00e7c463          	blt	a5,a4,e04 <_puts_r+0xe4>
+     e00:	fd4597e3          	bne	a1,s4,dce <_puts_r+0xae>
+     e04:	8622                	mv	a2,s0
+     e06:	8526                	mv	a0,s1
+     e08:	2025                	jal	e30 <__swbuf_r>
+     e0a:	fd3517e3          	bne	a0,s3,dd8 <_puts_r+0xb8>
+     e0e:	b7a5                	j	d76 <_puts_r+0x56>
+     e10:	59fd                	li	s3,-1
+     e12:	4a29                	li	s4,10
+     e14:	b7d1                	j	dd8 <_puts_r+0xb8>
+     e16:	401c                	lw	a5,0(s0)
+     e18:	00178713          	addi	a4,a5,1
+     e1c:	c018                	sw	a4,0(s0)
+     e1e:	4729                	li	a4,10
+     e20:	a398                	sb	a4,0(a5)
+     e22:	bfd1                	j	df6 <_puts_r+0xd6>
+
+00000e24 <puts>:
+puts():
+     e24:	85aa                	mv	a1,a0
+     e26:	20000517          	auipc	a0,0x20000
+     e2a:	a5e52503          	lw	a0,-1442(a0) # 20000884 <_impure_ptr>
+     e2e:	bdcd                	j	d20 <_puts_r>
+
+00000e30 <__swbuf_r>:
+__swbuf_r():
+     e30:	1101                	addi	sp,sp,-32
+     e32:	cc22                	sw	s0,24(sp)
+     e34:	ca26                	sw	s1,20(sp)
+     e36:	c84a                	sw	s2,16(sp)
+     e38:	ce06                	sw	ra,28(sp)
+     e3a:	c64e                	sw	s3,12(sp)
+     e3c:	84aa                	mv	s1,a0
+     e3e:	892e                	mv	s2,a1
+     e40:	8432                	mv	s0,a2
+     e42:	c501                	beqz	a0,e4a <__swbuf_r+0x1a>
+     e44:	4d1c                	lw	a5,24(a0)
+     e46:	e391                	bnez	a5,e4a <__swbuf_r+0x1a>
+     e48:	2931                	jal	1264 <__sinit>
+     e4a:	00001797          	auipc	a5,0x1
+     e4e:	aea78793          	addi	a5,a5,-1302 # 1934 <__sf_fake_stdin>
+     e52:	02f41763          	bne	s0,a5,e80 <__swbuf_r+0x50>
+     e56:	40c0                	lw	s0,4(s1)
+     e58:	4c1c                	lw	a5,24(s0)
+     e5a:	c41c                	sw	a5,8(s0)
+     e5c:	245e                	lhu	a5,12(s0)
+     e5e:	8ba1                	andi	a5,a5,8
+     e60:	c399                	beqz	a5,e66 <__swbuf_r+0x36>
+     e62:	481c                	lw	a5,16(s0)
+     e64:	ef95                	bnez	a5,ea0 <__swbuf_r+0x70>
+     e66:	85a2                	mv	a1,s0
+     e68:	8526                	mv	a0,s1
+     e6a:	2049                	jal	eec <__swsetup_r>
+     e6c:	c915                	beqz	a0,ea0 <__swbuf_r+0x70>
+     e6e:	597d                	li	s2,-1
+     e70:	40f2                	lw	ra,28(sp)
+     e72:	4462                	lw	s0,24(sp)
+     e74:	44d2                	lw	s1,20(sp)
+     e76:	49b2                	lw	s3,12(sp)
+     e78:	854a                	mv	a0,s2
+     e7a:	4942                	lw	s2,16(sp)
+     e7c:	6105                	addi	sp,sp,32
+     e7e:	8082                	ret
+     e80:	00001797          	auipc	a5,0x1
+     e84:	a9478793          	addi	a5,a5,-1388 # 1914 <__sf_fake_stdout>
+     e88:	00f41463          	bne	s0,a5,e90 <__swbuf_r+0x60>
+     e8c:	4480                	lw	s0,8(s1)
+     e8e:	b7e9                	j	e58 <__swbuf_r+0x28>
+     e90:	00001797          	auipc	a5,0x1
+     e94:	a6478793          	addi	a5,a5,-1436 # 18f4 <__sf_fake_stderr>
+     e98:	fcf410e3          	bne	s0,a5,e58 <__swbuf_r+0x28>
+     e9c:	44c0                	lw	s0,12(s1)
+     e9e:	bf6d                	j	e58 <__swbuf_r+0x28>
+     ea0:	481c                	lw	a5,16(s0)
+     ea2:	4008                	lw	a0,0(s0)
+     ea4:	0ff97993          	zext.b	s3,s2
+     ea8:	0ff97913          	zext.b	s2,s2
+     eac:	8d1d                	sub	a0,a0,a5
+     eae:	485c                	lw	a5,20(s0)
+     eb0:	00f54663          	blt	a0,a5,ebc <__swbuf_r+0x8c>
+     eb4:	85a2                	mv	a1,s0
+     eb6:	8526                	mv	a0,s1
+     eb8:	2ca1                	jal	1110 <_fflush_r>
+     eba:	f955                	bnez	a0,e6e <__swbuf_r+0x3e>
+     ebc:	441c                	lw	a5,8(s0)
+     ebe:	0505                	addi	a0,a0,1
+     ec0:	17fd                	addi	a5,a5,-1
+     ec2:	c41c                	sw	a5,8(s0)
+     ec4:	401c                	lw	a5,0(s0)
+     ec6:	00178713          	addi	a4,a5,1
+     eca:	c018                	sw	a4,0(s0)
+     ecc:	01378023          	sb	s3,0(a5)
+     ed0:	485c                	lw	a5,20(s0)
+     ed2:	00a78863          	beq	a5,a0,ee2 <__swbuf_r+0xb2>
+     ed6:	245e                	lhu	a5,12(s0)
+     ed8:	8b85                	andi	a5,a5,1
+     eda:	dbd9                	beqz	a5,e70 <__swbuf_r+0x40>
+     edc:	47a9                	li	a5,10
+     ede:	f8f919e3          	bne	s2,a5,e70 <__swbuf_r+0x40>
+     ee2:	85a2                	mv	a1,s0
+     ee4:	8526                	mv	a0,s1
+     ee6:	242d                	jal	1110 <_fflush_r>
+     ee8:	d541                	beqz	a0,e70 <__swbuf_r+0x40>
+     eea:	b751                	j	e6e <__swbuf_r+0x3e>
+
+00000eec <__swsetup_r>:
+__swsetup_r():
+     eec:	1141                	addi	sp,sp,-16
+     eee:	c422                	sw	s0,8(sp)
+     ef0:	c226                	sw	s1,4(sp)
+     ef2:	c04a                	sw	s2,0(sp)
+     ef4:	c606                	sw	ra,12(sp)
+     ef6:	20000497          	auipc	s1,0x20000
+     efa:	98e4a483          	lw	s1,-1650(s1) # 20000884 <_impure_ptr>
+     efe:	892a                	mv	s2,a0
+     f00:	842e                	mv	s0,a1
+     f02:	c489                	beqz	s1,f0c <__swsetup_r+0x20>
+     f04:	4c9c                	lw	a5,24(s1)
+     f06:	e399                	bnez	a5,f0c <__swsetup_r+0x20>
+     f08:	8526                	mv	a0,s1
+     f0a:	2ea9                	jal	1264 <__sinit>
+     f0c:	00001797          	auipc	a5,0x1
+     f10:	a2878793          	addi	a5,a5,-1496 # 1934 <__sf_fake_stdin>
+     f14:	02f41363          	bne	s0,a5,f3a <__swsetup_r+0x4e>
+     f18:	40c0                	lw	s0,4(s1)
+     f1a:	00c41783          	lh	a5,12(s0) # 4000200c <_eusrstack+0x1ffff00c>
+     f1e:	0087f713          	andi	a4,a5,8
+     f22:	e725                	bnez	a4,f8a <__swsetup_r+0x9e>
+     f24:	0107f713          	andi	a4,a5,16
+     f28:	eb0d                	bnez	a4,f5a <__swsetup_r+0x6e>
+     f2a:	4725                	li	a4,9
+     f2c:	00e92023          	sw	a4,0(s2)
+     f30:	0407e793          	ori	a5,a5,64
+     f34:	a45e                	sh	a5,12(s0)
+     f36:	557d                	li	a0,-1
+     f38:	a071                	j	fc4 <__swsetup_r+0xd8>
+     f3a:	00001797          	auipc	a5,0x1
+     f3e:	9da78793          	addi	a5,a5,-1574 # 1914 <__sf_fake_stdout>
+     f42:	00f41463          	bne	s0,a5,f4a <__swsetup_r+0x5e>
+     f46:	4480                	lw	s0,8(s1)
+     f48:	bfc9                	j	f1a <__swsetup_r+0x2e>
+     f4a:	00001797          	auipc	a5,0x1
+     f4e:	9aa78793          	addi	a5,a5,-1622 # 18f4 <__sf_fake_stderr>
+     f52:	fcf414e3          	bne	s0,a5,f1a <__swsetup_r+0x2e>
+     f56:	44c0                	lw	s0,12(s1)
+     f58:	b7c9                	j	f1a <__swsetup_r+0x2e>
+     f5a:	8b91                	andi	a5,a5,4
+     f5c:	c39d                	beqz	a5,f82 <__swsetup_r+0x96>
+     f5e:	584c                	lw	a1,52(s0)
+     f60:	c989                	beqz	a1,f72 <__swsetup_r+0x86>
+     f62:	04440793          	addi	a5,s0,68
+     f66:	00f58463          	beq	a1,a5,f6e <__swsetup_r+0x82>
+     f6a:	854a                	mv	a0,s2
+     f6c:	2bb9                	jal	14ca <_free_r>
+     f6e:	02042a23          	sw	zero,52(s0)
+     f72:	245e                	lhu	a5,12(s0)
+     f74:	00042223          	sw	zero,4(s0)
+     f78:	fdb7f793          	andi	a5,a5,-37
+     f7c:	a45e                	sh	a5,12(s0)
+     f7e:	481c                	lw	a5,16(s0)
+     f80:	c01c                	sw	a5,0(s0)
+     f82:	245e                	lhu	a5,12(s0)
+     f84:	0087e793          	ori	a5,a5,8
+     f88:	a45e                	sh	a5,12(s0)
+     f8a:	481c                	lw	a5,16(s0)
+     f8c:	eb99                	bnez	a5,fa2 <__swsetup_r+0xb6>
+     f8e:	245e                	lhu	a5,12(s0)
+     f90:	20000713          	li	a4,512
+     f94:	2807f793          	andi	a5,a5,640
+     f98:	00e78563          	beq	a5,a4,fa2 <__swsetup_r+0xb6>
+     f9c:	85a2                	mv	a1,s0
+     f9e:	854a                	mv	a0,s2
+     fa0:	2961                	jal	1438 <__smakebuf_r>
+     fa2:	00c41783          	lh	a5,12(s0)
+     fa6:	0017f713          	andi	a4,a5,1
+     faa:	c31d                	beqz	a4,fd0 <__swsetup_r+0xe4>
+     fac:	4858                	lw	a4,20(s0)
+     fae:	00042423          	sw	zero,8(s0)
+     fb2:	40e00733          	neg	a4,a4
+     fb6:	cc18                	sw	a4,24(s0)
+     fb8:	4818                	lw	a4,16(s0)
+     fba:	4501                	li	a0,0
+     fbc:	e701                	bnez	a4,fc4 <__swsetup_r+0xd8>
+     fbe:	0807f713          	andi	a4,a5,128
+     fc2:	f73d                	bnez	a4,f30 <__swsetup_r+0x44>
+     fc4:	40b2                	lw	ra,12(sp)
+     fc6:	4422                	lw	s0,8(sp)
+     fc8:	4492                	lw	s1,4(sp)
+     fca:	4902                	lw	s2,0(sp)
+     fcc:	0141                	addi	sp,sp,16
+     fce:	8082                	ret
+     fd0:	0027f713          	andi	a4,a5,2
+     fd4:	4681                	li	a3,0
+     fd6:	e311                	bnez	a4,fda <__swsetup_r+0xee>
+     fd8:	4854                	lw	a3,20(s0)
+     fda:	c414                	sw	a3,8(s0)
+     fdc:	bff1                	j	fb8 <__swsetup_r+0xcc>
+
+00000fde <__sflush_r>:
+__sflush_r():
+     fde:	00c59783          	lh	a5,12(a1)
+     fe2:	1101                	addi	sp,sp,-32
+     fe4:	cc22                	sw	s0,24(sp)
+     fe6:	ca26                	sw	s1,20(sp)
+     fe8:	ce06                	sw	ra,28(sp)
+     fea:	c84a                	sw	s2,16(sp)
+     fec:	c64e                	sw	s3,12(sp)
+     fee:	0087f713          	andi	a4,a5,8
+     ff2:	84aa                	mv	s1,a0
+     ff4:	842e                	mv	s0,a1
+     ff6:	e379                	bnez	a4,10bc <__sflush_r+0xde>
+     ff8:	41d8                	lw	a4,4(a1)
+     ffa:	00e04563          	bgtz	a4,1004 <__sflush_r+0x26>
+     ffe:	41b8                	lw	a4,64(a1)
+    1000:	08e05663          	blez	a4,108c <__sflush_r+0xae>
+    1004:	5458                	lw	a4,44(s0)
+    1006:	c359                	beqz	a4,108c <__sflush_r+0xae>
+    1008:	0004a903          	lw	s2,0(s1)
+    100c:	0004a023          	sw	zero,0(s1)
+    1010:	500c                	lw	a1,32(s0)
+    1012:	48c7d793          	bexti	a5,a5,0xc
+    1016:	cba9                	beqz	a5,1068 <__sflush_r+0x8a>
+    1018:	4870                	lw	a2,84(s0)
+    101a:	245e                	lhu	a5,12(s0)
+    101c:	8b91                	andi	a5,a5,4
+    101e:	c799                	beqz	a5,102c <__sflush_r+0x4e>
+    1020:	405c                	lw	a5,4(s0)
+    1022:	8e1d                	sub	a2,a2,a5
+    1024:	585c                	lw	a5,52(s0)
+    1026:	c399                	beqz	a5,102c <__sflush_r+0x4e>
+    1028:	403c                	lw	a5,64(s0)
+    102a:	8e1d                	sub	a2,a2,a5
+    102c:	545c                	lw	a5,44(s0)
+    102e:	500c                	lw	a1,32(s0)
+    1030:	4681                	li	a3,0
+    1032:	8526                	mv	a0,s1
+    1034:	9782                	jalr	a5
+    1036:	57fd                	li	a5,-1
+    1038:	04f50c63          	beq	a0,a5,1090 <__sflush_r+0xb2>
+    103c:	481c                	lw	a5,16(s0)
+    103e:	6705                	lui	a4,0x1
+    1040:	00042223          	sw	zero,4(s0)
+    1044:	c01c                	sw	a5,0(s0)
+    1046:	245e                	lhu	a5,12(s0)
+    1048:	8ff9                	and	a5,a5,a4
+    104a:	c391                	beqz	a5,104e <__sflush_r+0x70>
+    104c:	c868                	sw	a0,84(s0)
+    104e:	584c                	lw	a1,52(s0)
+    1050:	0124a023          	sw	s2,0(s1)
+    1054:	cd85                	beqz	a1,108c <__sflush_r+0xae>
+    1056:	04440793          	addi	a5,s0,68
+    105a:	00f58463          	beq	a1,a5,1062 <__sflush_r+0x84>
+    105e:	8526                	mv	a0,s1
+    1060:	21ad                	jal	14ca <_free_r>
+    1062:	02042a23          	sw	zero,52(s0)
+    1066:	a01d                	j	108c <__sflush_r+0xae>
+    1068:	4601                	li	a2,0
+    106a:	4685                	li	a3,1
+    106c:	8526                	mv	a0,s1
+    106e:	9702                	jalr	a4
+    1070:	57fd                	li	a5,-1
+    1072:	862a                	mv	a2,a0
+    1074:	faf513e3          	bne	a0,a5,101a <__sflush_r+0x3c>
+    1078:	409c                	lw	a5,0(s1)
+    107a:	d3c5                	beqz	a5,101a <__sflush_r+0x3c>
+    107c:	4775                	li	a4,29
+    107e:	00e78563          	beq	a5,a4,1088 <__sflush_r+0xaa>
+    1082:	4759                	li	a4,22
+    1084:	06e79563          	bne	a5,a4,10ee <__sflush_r+0x110>
+    1088:	0124a023          	sw	s2,0(s1)
+    108c:	4501                	li	a0,0
+    108e:	a0b5                	j	10fa <__sflush_r+0x11c>
+    1090:	4098                	lw	a4,0(s1)
+    1092:	00c41783          	lh	a5,12(s0)
+    1096:	cf01                	beqz	a4,10ae <__sflush_r+0xd0>
+    1098:	46f5                	li	a3,29
+    109a:	00d70563          	beq	a4,a3,10a4 <__sflush_r+0xc6>
+    109e:	46d9                	li	a3,22
+    10a0:	04d71963          	bne	a4,a3,10f2 <__sflush_r+0x114>
+    10a4:	481c                	lw	a5,16(s0)
+    10a6:	00042223          	sw	zero,4(s0)
+    10aa:	c01c                	sw	a5,0(s0)
+    10ac:	b74d                	j	104e <__sflush_r+0x70>
+    10ae:	4818                	lw	a4,16(s0)
+    10b0:	00042223          	sw	zero,4(s0)
+    10b4:	48c7d793          	bexti	a5,a5,0xc
+    10b8:	c018                	sw	a4,0(s0)
+    10ba:	bf41                	j	104a <__sflush_r+0x6c>
+    10bc:	0105a983          	lw	s3,16(a1)
+    10c0:	fc0986e3          	beqz	s3,108c <__sflush_r+0xae>
+    10c4:	0005a903          	lw	s2,0(a1)
+    10c8:	8b8d                	andi	a5,a5,3
+    10ca:	0135a023          	sw	s3,0(a1)
+    10ce:	41390933          	sub	s2,s2,s3
+    10d2:	4701                	li	a4,0
+    10d4:	e391                	bnez	a5,10d8 <__sflush_r+0xfa>
+    10d6:	49d8                	lw	a4,20(a1)
+    10d8:	c418                	sw	a4,8(s0)
+    10da:	fb2059e3          	blez	s2,108c <__sflush_r+0xae>
+    10de:	541c                	lw	a5,40(s0)
+    10e0:	500c                	lw	a1,32(s0)
+    10e2:	86ca                	mv	a3,s2
+    10e4:	864e                	mv	a2,s3
+    10e6:	8526                	mv	a0,s1
+    10e8:	9782                	jalr	a5
+    10ea:	00a04f63          	bgtz	a0,1108 <__sflush_r+0x12a>
+    10ee:	00c41783          	lh	a5,12(s0)
+    10f2:	0407e793          	ori	a5,a5,64
+    10f6:	a45e                	sh	a5,12(s0)
+    10f8:	557d                	li	a0,-1
+    10fa:	40f2                	lw	ra,28(sp)
+    10fc:	4462                	lw	s0,24(sp)
+    10fe:	44d2                	lw	s1,20(sp)
+    1100:	4942                	lw	s2,16(sp)
+    1102:	49b2                	lw	s3,12(sp)
+    1104:	6105                	addi	sp,sp,32
+    1106:	8082                	ret
+    1108:	99aa                	add	s3,s3,a0
+    110a:	40a90933          	sub	s2,s2,a0
+    110e:	b7f1                	j	10da <__sflush_r+0xfc>
+
+00001110 <_fflush_r>:
+_fflush_r():
+    1110:	499c                	lw	a5,16(a1)
+    1112:	1141                	addi	sp,sp,-16
+    1114:	c606                	sw	ra,12(sp)
+    1116:	c422                	sw	s0,8(sp)
+    1118:	c226                	sw	s1,4(sp)
+    111a:	eb81                	bnez	a5,112a <_fflush_r+0x1a>
+    111c:	4481                	li	s1,0
+    111e:	40b2                	lw	ra,12(sp)
+    1120:	4422                	lw	s0,8(sp)
+    1122:	8526                	mv	a0,s1
+    1124:	4492                	lw	s1,4(sp)
+    1126:	0141                	addi	sp,sp,16
+    1128:	8082                	ret
+    112a:	84aa                	mv	s1,a0
+    112c:	842e                	mv	s0,a1
+    112e:	c501                	beqz	a0,1136 <_fflush_r+0x26>
+    1130:	4d1c                	lw	a5,24(a0)
+    1132:	e391                	bnez	a5,1136 <_fflush_r+0x26>
+    1134:	2a05                	jal	1264 <__sinit>
+    1136:	00000797          	auipc	a5,0x0
+    113a:	7fe78793          	addi	a5,a5,2046 # 1934 <__sf_fake_stdin>
+    113e:	02f41c63          	bne	s0,a5,1176 <_fflush_r+0x66>
+    1142:	40c0                	lw	s0,4(s1)
+    1144:	00c41783          	lh	a5,12(s0)
+    1148:	dbf1                	beqz	a5,111c <_fflush_r+0xc>
+    114a:	5078                	lw	a4,100(s0)
+    114c:	8b05                	andi	a4,a4,1
+    114e:	e711                	bnez	a4,115a <_fflush_r+0x4a>
+    1150:	2007f793          	andi	a5,a5,512
+    1154:	e399                	bnez	a5,115a <_fflush_r+0x4a>
+    1156:	4c28                	lw	a0,88(s0)
+    1158:	2451                	jal	13dc <__retarget_lock_acquire_recursive>
+    115a:	8526                	mv	a0,s1
+    115c:	85a2                	mv	a1,s0
+    115e:	3541                	jal	fde <__sflush_r>
+    1160:	507c                	lw	a5,100(s0)
+    1162:	84aa                	mv	s1,a0
+    1164:	8b85                	andi	a5,a5,1
+    1166:	ffc5                	bnez	a5,111e <_fflush_r+0xe>
+    1168:	245e                	lhu	a5,12(s0)
+    116a:	2007f793          	andi	a5,a5,512
+    116e:	fbc5                	bnez	a5,111e <_fflush_r+0xe>
+    1170:	4c28                	lw	a0,88(s0)
+    1172:	24b5                	jal	13de <__retarget_lock_release_recursive>
+    1174:	b76d                	j	111e <_fflush_r+0xe>
+    1176:	00000797          	auipc	a5,0x0
+    117a:	79e78793          	addi	a5,a5,1950 # 1914 <__sf_fake_stdout>
+    117e:	00f41463          	bne	s0,a5,1186 <_fflush_r+0x76>
+    1182:	4480                	lw	s0,8(s1)
+    1184:	b7c1                	j	1144 <_fflush_r+0x34>
+    1186:	00000797          	auipc	a5,0x0
+    118a:	76e78793          	addi	a5,a5,1902 # 18f4 <__sf_fake_stderr>
+    118e:	faf41be3          	bne	s0,a5,1144 <_fflush_r+0x34>
+    1192:	44c0                	lw	s0,12(s1)
+    1194:	bf45                	j	1144 <_fflush_r+0x34>
+
+00001196 <std>:
+std():
+    1196:	1141                	addi	sp,sp,-16
+    1198:	c422                	sw	s0,8(sp)
+    119a:	c606                	sw	ra,12(sp)
+    119c:	842a                	mv	s0,a0
+    119e:	a54e                	sh	a1,12(a0)
+    11a0:	a572                	sh	a2,14(a0)
+    11a2:	00052023          	sw	zero,0(a0)
+    11a6:	00052223          	sw	zero,4(a0)
+    11aa:	00052423          	sw	zero,8(a0)
+    11ae:	06052223          	sw	zero,100(a0)
+    11b2:	00052823          	sw	zero,16(a0)
+    11b6:	00052a23          	sw	zero,20(a0)
+    11ba:	00052c23          	sw	zero,24(a0)
+    11be:	4621                	li	a2,8
+    11c0:	4581                	li	a1,0
+    11c2:	05c50513          	addi	a0,a0,92
+    11c6:	f00ff0ef          	jal	ra,8c6 <memset>
+    11ca:	00000797          	auipc	a5,0x0
+    11ce:	51c78793          	addi	a5,a5,1308 # 16e6 <__sread>
+    11d2:	d05c                	sw	a5,36(s0)
+    11d4:	00000797          	auipc	a5,0x0
+    11d8:	53c78793          	addi	a5,a5,1340 # 1710 <__swrite>
+    11dc:	d41c                	sw	a5,40(s0)
+    11de:	00000797          	auipc	a5,0x0
+    11e2:	57878793          	addi	a5,a5,1400 # 1756 <__sseek>
+    11e6:	d45c                	sw	a5,44(s0)
+    11e8:	00000797          	auipc	a5,0x0
+    11ec:	59c78793          	addi	a5,a5,1436 # 1784 <__sclose>
+    11f0:	40b2                	lw	ra,12(sp)
+    11f2:	d000                	sw	s0,32(s0)
+    11f4:	d81c                	sw	a5,48(s0)
+    11f6:	4422                	lw	s0,8(sp)
+    11f8:	0141                	addi	sp,sp,16
+    11fa:	8082                	ret
+
+000011fc <_cleanup_r>:
+_cleanup_r():
+    11fc:	00000597          	auipc	a1,0x0
+    1200:	f1458593          	addi	a1,a1,-236 # 1110 <_fflush_r>
+    1204:	a2bd                	j	1372 <_fwalk_reent>
+
+00001206 <__sfmoreglue>:
+__sfmoreglue():
+    1206:	1141                	addi	sp,sp,-16
+    1208:	c226                	sw	s1,4(sp)
+    120a:	06800793          	li	a5,104
+    120e:	fff58493          	addi	s1,a1,-1
+    1212:	02f484b3          	mul	s1,s1,a5
+    1216:	c04a                	sw	s2,0(sp)
+    1218:	892e                	mv	s2,a1
+    121a:	c422                	sw	s0,8(sp)
+    121c:	c606                	sw	ra,12(sp)
+    121e:	07448593          	addi	a1,s1,116
+    1222:	2e69                	jal	15bc <_malloc_r>
+    1224:	842a                	mv	s0,a0
+    1226:	cd01                	beqz	a0,123e <__sfmoreglue+0x38>
+    1228:	00052023          	sw	zero,0(a0)
+    122c:	01252223          	sw	s2,4(a0)
+    1230:	0531                	addi	a0,a0,12
+    1232:	c408                	sw	a0,8(s0)
+    1234:	06848613          	addi	a2,s1,104
+    1238:	4581                	li	a1,0
+    123a:	e8cff0ef          	jal	ra,8c6 <memset>
+    123e:	40b2                	lw	ra,12(sp)
+    1240:	8522                	mv	a0,s0
+    1242:	4422                	lw	s0,8(sp)
+    1244:	4492                	lw	s1,4(sp)
+    1246:	4902                	lw	s2,0(sp)
+    1248:	0141                	addi	sp,sp,16
+    124a:	8082                	ret
+
+0000124c <__sfp_lock_acquire>:
+__sfp_lock_acquire():
+    124c:	81418513          	addi	a0,gp,-2028 # 20000894 <__lock___sfp_recursive_mutex>
+    1250:	a271                	j	13dc <__retarget_lock_acquire_recursive>
+
+00001252 <__sfp_lock_release>:
+__sfp_lock_release():
+    1252:	81418513          	addi	a0,gp,-2028 # 20000894 <__lock___sfp_recursive_mutex>
+    1256:	a261                	j	13de <__retarget_lock_release_recursive>
+
+00001258 <__sinit_lock_acquire>:
+__sinit_lock_acquire():
+    1258:	81818513          	addi	a0,gp,-2024 # 20000898 <__lock___sinit_recursive_mutex>
+    125c:	a241                	j	13dc <__retarget_lock_acquire_recursive>
+
+0000125e <__sinit_lock_release>:
+__sinit_lock_release():
+    125e:	81818513          	addi	a0,gp,-2024 # 20000898 <__lock___sinit_recursive_mutex>
+    1262:	aab5                	j	13de <__retarget_lock_release_recursive>
+
+00001264 <__sinit>:
+__sinit():
+    1264:	1141                	addi	sp,sp,-16
+    1266:	c422                	sw	s0,8(sp)
+    1268:	c606                	sw	ra,12(sp)
+    126a:	842a                	mv	s0,a0
+    126c:	37f5                	jal	1258 <__sinit_lock_acquire>
+    126e:	4c1c                	lw	a5,24(s0)
+    1270:	c789                	beqz	a5,127a <__sinit+0x16>
+    1272:	4422                	lw	s0,8(sp)
+    1274:	40b2                	lw	ra,12(sp)
+    1276:	0141                	addi	sp,sp,16
+    1278:	b7dd                	j	125e <__sinit_lock_release>
+    127a:	00000797          	auipc	a5,0x0
+    127e:	f8278793          	addi	a5,a5,-126 # 11fc <_cleanup_r>
+    1282:	d41c                	sw	a5,40(s0)
+    1284:	04042423          	sw	zero,72(s0)
+    1288:	04042623          	sw	zero,76(s0)
+    128c:	04042823          	sw	zero,80(s0)
+    1290:	8081a783          	lw	a5,-2040(gp) # 20000888 <_global_impure_ptr>
+    1294:	00879463          	bne	a5,s0,129c <__sinit+0x38>
+    1298:	4785                	li	a5,1
+    129a:	cc1c                	sw	a5,24(s0)
+    129c:	8522                	mv	a0,s0
+    129e:	203d                	jal	12cc <__sfp>
+    12a0:	c048                	sw	a0,4(s0)
+    12a2:	8522                	mv	a0,s0
+    12a4:	2025                	jal	12cc <__sfp>
+    12a6:	c408                	sw	a0,8(s0)
+    12a8:	8522                	mv	a0,s0
+    12aa:	200d                	jal	12cc <__sfp>
+    12ac:	c448                	sw	a0,12(s0)
+    12ae:	4048                	lw	a0,4(s0)
+    12b0:	4601                	li	a2,0
+    12b2:	4591                	li	a1,4
+    12b4:	35cd                	jal	1196 <std>
+    12b6:	4408                	lw	a0,8(s0)
+    12b8:	4605                	li	a2,1
+    12ba:	45a5                	li	a1,9
+    12bc:	3de9                	jal	1196 <std>
+    12be:	4448                	lw	a0,12(s0)
+    12c0:	4609                	li	a2,2
+    12c2:	45c9                	li	a1,18
+    12c4:	3dc9                	jal	1196 <std>
+    12c6:	4785                	li	a5,1
+    12c8:	cc1c                	sw	a5,24(s0)
+    12ca:	b765                	j	1272 <__sinit+0xe>
+
+000012cc <__sfp>:
+__sfp():
+    12cc:	1141                	addi	sp,sp,-16
+    12ce:	c226                	sw	s1,4(sp)
+    12d0:	c04a                	sw	s2,0(sp)
+    12d2:	c606                	sw	ra,12(sp)
+    12d4:	c422                	sw	s0,8(sp)
+    12d6:	892a                	mv	s2,a0
+    12d8:	3f95                	jal	124c <__sfp_lock_acquire>
+    12da:	8081a483          	lw	s1,-2040(gp) # 20000888 <_global_impure_ptr>
+    12de:	4c9c                	lw	a5,24(s1)
+    12e0:	e399                	bnez	a5,12e6 <__sfp+0x1a>
+    12e2:	8526                	mv	a0,s1
+    12e4:	3741                	jal	1264 <__sinit>
+    12e6:	04848493          	addi	s1,s1,72
+    12ea:	4480                	lw	s0,8(s1)
+    12ec:	40dc                	lw	a5,4(s1)
+    12ee:	17fd                	addi	a5,a5,-1
+    12f0:	0007d663          	bgez	a5,12fc <__sfp+0x30>
+    12f4:	409c                	lw	a5,0(s1)
+    12f6:	c3bd                	beqz	a5,135c <__sfp+0x90>
+    12f8:	4084                	lw	s1,0(s1)
+    12fa:	bfc5                	j	12ea <__sfp+0x1e>
+    12fc:	00c41703          	lh	a4,12(s0)
+    1300:	eb39                	bnez	a4,1356 <__sfp+0x8a>
+    1302:	77c1                	lui	a5,0xffff0
+    1304:	0785                	addi	a5,a5,1 # ffff0001 <_eusrstack+0xdffed001>
+    1306:	c45c                	sw	a5,12(s0)
+    1308:	05840513          	addi	a0,s0,88
+    130c:	06042223          	sw	zero,100(s0)
+    1310:	20e9                	jal	13da <__retarget_lock_init_recursive>
+    1312:	3781                	jal	1252 <__sfp_lock_release>
+    1314:	4621                	li	a2,8
+    1316:	00042023          	sw	zero,0(s0)
+    131a:	00042423          	sw	zero,8(s0)
+    131e:	00042223          	sw	zero,4(s0)
+    1322:	00042823          	sw	zero,16(s0)
+    1326:	00042a23          	sw	zero,20(s0)
+    132a:	00042c23          	sw	zero,24(s0)
+    132e:	4581                	li	a1,0
+    1330:	05c40513          	addi	a0,s0,92
+    1334:	d92ff0ef          	jal	ra,8c6 <memset>
+    1338:	02042a23          	sw	zero,52(s0)
+    133c:	02042c23          	sw	zero,56(s0)
+    1340:	04042423          	sw	zero,72(s0)
+    1344:	04042623          	sw	zero,76(s0)
+    1348:	40b2                	lw	ra,12(sp)
+    134a:	8522                	mv	a0,s0
+    134c:	4422                	lw	s0,8(sp)
+    134e:	4492                	lw	s1,4(sp)
+    1350:	4902                	lw	s2,0(sp)
+    1352:	0141                	addi	sp,sp,16
+    1354:	8082                	ret
+    1356:	06840413          	addi	s0,s0,104
+    135a:	bf51                	j	12ee <__sfp+0x22>
+    135c:	4591                	li	a1,4
+    135e:	854a                	mv	a0,s2
+    1360:	355d                	jal	1206 <__sfmoreglue>
+    1362:	c088                	sw	a0,0(s1)
+    1364:	842a                	mv	s0,a0
+    1366:	f949                	bnez	a0,12f8 <__sfp+0x2c>
+    1368:	35ed                	jal	1252 <__sfp_lock_release>
+    136a:	47b1                	li	a5,12
+    136c:	00f92023          	sw	a5,0(s2)
+    1370:	bfe1                	j	1348 <__sfp+0x7c>
+
+00001372 <_fwalk_reent>:
+_fwalk_reent():
+    1372:	7179                	addi	sp,sp,-48
+    1374:	d422                	sw	s0,40(sp)
+    1376:	d04a                	sw	s2,32(sp)
+    1378:	ce4e                	sw	s3,28(sp)
+    137a:	cc52                	sw	s4,24(sp)
+    137c:	c85a                	sw	s6,16(sp)
+    137e:	c65e                	sw	s7,12(sp)
+    1380:	d606                	sw	ra,44(sp)
+    1382:	d226                	sw	s1,36(sp)
+    1384:	ca56                	sw	s5,20(sp)
+    1386:	892a                	mv	s2,a0
+    1388:	8a2e                	mv	s4,a1
+    138a:	04850413          	addi	s0,a0,72
+    138e:	4981                	li	s3,0
+    1390:	4b05                	li	s6,1
+    1392:	5bfd                	li	s7,-1
+    1394:	4404                	lw	s1,8(s0)
+    1396:	00442a83          	lw	s5,4(s0)
+    139a:	1afd                	addi	s5,s5,-1 # ffff <_data_lma+0xe6a7>
+    139c:	020ad063          	bgez	s5,13bc <_fwalk_reent+0x4a>
+    13a0:	4000                	lw	s0,0(s0)
+    13a2:	f86d                	bnez	s0,1394 <_fwalk_reent+0x22>
+    13a4:	50b2                	lw	ra,44(sp)
+    13a6:	5422                	lw	s0,40(sp)
+    13a8:	5492                	lw	s1,36(sp)
+    13aa:	5902                	lw	s2,32(sp)
+    13ac:	4a62                	lw	s4,24(sp)
+    13ae:	4ad2                	lw	s5,20(sp)
+    13b0:	4b42                	lw	s6,16(sp)
+    13b2:	4bb2                	lw	s7,12(sp)
+    13b4:	854e                	mv	a0,s3
+    13b6:	49f2                	lw	s3,28(sp)
+    13b8:	6145                	addi	sp,sp,48
+    13ba:	8082                	ret
+    13bc:	24de                	lhu	a5,12(s1)
+    13be:	00fb7b63          	bgeu	s6,a5,13d4 <_fwalk_reent+0x62>
+    13c2:	00e49783          	lh	a5,14(s1)
+    13c6:	01778763          	beq	a5,s7,13d4 <_fwalk_reent+0x62>
+    13ca:	85a6                	mv	a1,s1
+    13cc:	854a                	mv	a0,s2
+    13ce:	9a02                	jalr	s4
+    13d0:	00a9e9b3          	or	s3,s3,a0
+    13d4:	06848493          	addi	s1,s1,104
+    13d8:	b7c9                	j	139a <_fwalk_reent+0x28>
+
+000013da <__retarget_lock_init_recursive>:
+__retarget_lock_init_recursive():
+    13da:	8082                	ret
+
+000013dc <__retarget_lock_acquire_recursive>:
+__retarget_lock_acquire_recursive():
+    13dc:	8082                	ret
+
+000013de <__retarget_lock_release_recursive>:
+__retarget_lock_release_recursive():
+    13de:	8082                	ret
+
+000013e0 <__swhatbuf_r>:
+__swhatbuf_r():
+    13e0:	7159                	addi	sp,sp,-112
+    13e2:	d4a2                	sw	s0,104(sp)
+    13e4:	842e                	mv	s0,a1
+    13e6:	00e59583          	lh	a1,14(a1)
+    13ea:	d2a6                	sw	s1,100(sp)
+    13ec:	d0ca                	sw	s2,96(sp)
+    13ee:	d686                	sw	ra,108(sp)
+    13f0:	84b2                	mv	s1,a2
+    13f2:	8936                	mv	s2,a3
+    13f4:	0205d263          	bgez	a1,1418 <__swhatbuf_r+0x38>
+    13f8:	245e                	lhu	a5,12(s0)
+    13fa:	0807f793          	andi	a5,a5,128
+    13fe:	eb8d                	bnez	a5,1430 <__swhatbuf_r+0x50>
+    1400:	40000713          	li	a4,1024
+    1404:	50b6                	lw	ra,108(sp)
+    1406:	5426                	lw	s0,104(sp)
+    1408:	00f92023          	sw	a5,0(s2)
+    140c:	c098                	sw	a4,0(s1)
+    140e:	5906                	lw	s2,96(sp)
+    1410:	5496                	lw	s1,100(sp)
+    1412:	4501                	li	a0,0
+    1414:	6165                	addi	sp,sp,112
+    1416:	8082                	ret
+    1418:	0030                	addi	a2,sp,8
+    141a:	26c9                	jal	17dc <_fstat_r>
+    141c:	fc054ee3          	bltz	a0,13f8 <__swhatbuf_r+0x18>
+    1420:	4732                	lw	a4,12(sp)
+    1422:	67bd                	lui	a5,0xf
+    1424:	8ff9                	and	a5,a5,a4
+    1426:	7779                	lui	a4,0xffffe
+    1428:	97ba                	add	a5,a5,a4
+    142a:	0017b793          	seqz	a5,a5
+    142e:	bfc9                	j	1400 <__swhatbuf_r+0x20>
+    1430:	4781                	li	a5,0
+    1432:	04000713          	li	a4,64
+    1436:	b7f9                	j	1404 <__swhatbuf_r+0x24>
+
+00001438 <__smakebuf_r>:
+__smakebuf_r():
+    1438:	25de                	lhu	a5,12(a1)
+    143a:	7179                	addi	sp,sp,-48
+    143c:	d422                	sw	s0,40(sp)
+    143e:	d606                	sw	ra,44(sp)
+    1440:	d226                	sw	s1,36(sp)
+    1442:	d04a                	sw	s2,32(sp)
+    1444:	ce4e                	sw	s3,28(sp)
+    1446:	8b89                	andi	a5,a5,2
+    1448:	842e                	mv	s0,a1
+    144a:	cf91                	beqz	a5,1466 <__smakebuf_r+0x2e>
+    144c:	04740793          	addi	a5,s0,71
+    1450:	c01c                	sw	a5,0(s0)
+    1452:	c81c                	sw	a5,16(s0)
+    1454:	4785                	li	a5,1
+    1456:	c85c                	sw	a5,20(s0)
+    1458:	50b2                	lw	ra,44(sp)
+    145a:	5422                	lw	s0,40(sp)
+    145c:	5492                	lw	s1,36(sp)
+    145e:	5902                	lw	s2,32(sp)
+    1460:	49f2                	lw	s3,28(sp)
+    1462:	6145                	addi	sp,sp,48
+    1464:	8082                	ret
+    1466:	0074                	addi	a3,sp,12
+    1468:	0030                	addi	a2,sp,8
+    146a:	84aa                	mv	s1,a0
+    146c:	3f95                	jal	13e0 <__swhatbuf_r>
+    146e:	49a2                	lw	s3,8(sp)
+    1470:	892a                	mv	s2,a0
+    1472:	8526                	mv	a0,s1
+    1474:	85ce                	mv	a1,s3
+    1476:	2299                	jal	15bc <_malloc_r>
+    1478:	e919                	bnez	a0,148e <__smakebuf_r+0x56>
+    147a:	00c41783          	lh	a5,12(s0)
+    147e:	2007f713          	andi	a4,a5,512
+    1482:	fb79                	bnez	a4,1458 <__smakebuf_r+0x20>
+    1484:	9bf1                	andi	a5,a5,-4
+    1486:	0027e793          	ori	a5,a5,2
+    148a:	a45e                	sh	a5,12(s0)
+    148c:	b7c1                	j	144c <__smakebuf_r+0x14>
+    148e:	00000797          	auipc	a5,0x0
+    1492:	d6e78793          	addi	a5,a5,-658 # 11fc <_cleanup_r>
+    1496:	d49c                	sw	a5,40(s1)
+    1498:	245e                	lhu	a5,12(s0)
+    149a:	c008                	sw	a0,0(s0)
+    149c:	c808                	sw	a0,16(s0)
+    149e:	0807e793          	ori	a5,a5,128
+    14a2:	a45e                	sh	a5,12(s0)
+    14a4:	47b2                	lw	a5,12(sp)
+    14a6:	01342a23          	sw	s3,20(s0)
+    14aa:	cb99                	beqz	a5,14c0 <__smakebuf_r+0x88>
+    14ac:	00e41583          	lh	a1,14(s0)
+    14b0:	8526                	mv	a0,s1
+    14b2:	2e89                	jal	1804 <_isatty_r>
+    14b4:	c511                	beqz	a0,14c0 <__smakebuf_r+0x88>
+    14b6:	245e                	lhu	a5,12(s0)
+    14b8:	9bf1                	andi	a5,a5,-4
+    14ba:	0017e793          	ori	a5,a5,1
+    14be:	a45e                	sh	a5,12(s0)
+    14c0:	245e                	lhu	a5,12(s0)
+    14c2:	0127e533          	or	a0,a5,s2
+    14c6:	a44a                	sh	a0,12(s0)
+    14c8:	bf41                	j	1458 <__smakebuf_r+0x20>
+
+000014ca <_free_r>:
+_free_r():
+    14ca:	cdd1                	beqz	a1,1566 <_free_r+0x9c>
+    14cc:	ffc5a783          	lw	a5,-4(a1)
+    14d0:	1101                	addi	sp,sp,-32
+    14d2:	cc22                	sw	s0,24(sp)
+    14d4:	ce06                	sw	ra,28(sp)
+    14d6:	ffc58413          	addi	s0,a1,-4
+    14da:	0007d363          	bgez	a5,14e0 <_free_r+0x16>
+    14de:	943e                	add	s0,s0,a5
+    14e0:	c62a                	sw	a0,12(sp)
+    14e2:	2e8d                	jal	1854 <__malloc_lock>
+    14e4:	82018713          	addi	a4,gp,-2016 # 200008a0 <__malloc_free_list>
+    14e8:	431c                	lw	a5,0(a4)
+    14ea:	4532                	lw	a0,12(sp)
+    14ec:	eb81                	bnez	a5,14fc <_free_r+0x32>
+    14ee:	00042223          	sw	zero,4(s0)
+    14f2:	c300                	sw	s0,0(a4)
+    14f4:	4462                	lw	s0,24(sp)
+    14f6:	40f2                	lw	ra,28(sp)
+    14f8:	6105                	addi	sp,sp,32
+    14fa:	a685                	j	185a <__malloc_unlock>
+    14fc:	00f47d63          	bgeu	s0,a5,1516 <_free_r+0x4c>
+    1500:	4010                	lw	a2,0(s0)
+    1502:	00c406b3          	add	a3,s0,a2
+    1506:	00d79663          	bne	a5,a3,1512 <_free_r+0x48>
+    150a:	4394                	lw	a3,0(a5)
+    150c:	43dc                	lw	a5,4(a5)
+    150e:	96b2                	add	a3,a3,a2
+    1510:	c014                	sw	a3,0(s0)
+    1512:	c05c                	sw	a5,4(s0)
+    1514:	bff9                	j	14f2 <_free_r+0x28>
+    1516:	873e                	mv	a4,a5
+    1518:	43dc                	lw	a5,4(a5)
+    151a:	c399                	beqz	a5,1520 <_free_r+0x56>
+    151c:	fef47de3          	bgeu	s0,a5,1516 <_free_r+0x4c>
+    1520:	4314                	lw	a3,0(a4)
+    1522:	00d70633          	add	a2,a4,a3
+    1526:	00861f63          	bne	a2,s0,1544 <_free_r+0x7a>
+    152a:	4010                	lw	a2,0(s0)
+    152c:	96b2                	add	a3,a3,a2
+    152e:	c314                	sw	a3,0(a4)
+    1530:	00d70633          	add	a2,a4,a3
+    1534:	fcc790e3          	bne	a5,a2,14f4 <_free_r+0x2a>
+    1538:	4390                	lw	a2,0(a5)
+    153a:	43dc                	lw	a5,4(a5)
+    153c:	96b2                	add	a3,a3,a2
+    153e:	c314                	sw	a3,0(a4)
+    1540:	c35c                	sw	a5,4(a4)
+    1542:	bf4d                	j	14f4 <_free_r+0x2a>
+    1544:	00c47563          	bgeu	s0,a2,154e <_free_r+0x84>
+    1548:	47b1                	li	a5,12
+    154a:	c11c                	sw	a5,0(a0)
+    154c:	b765                	j	14f4 <_free_r+0x2a>
+    154e:	4010                	lw	a2,0(s0)
+    1550:	00c406b3          	add	a3,s0,a2
+    1554:	00d79663          	bne	a5,a3,1560 <_free_r+0x96>
+    1558:	4394                	lw	a3,0(a5)
+    155a:	43dc                	lw	a5,4(a5)
+    155c:	96b2                	add	a3,a3,a2
+    155e:	c014                	sw	a3,0(s0)
+    1560:	c05c                	sw	a5,4(s0)
+    1562:	c340                	sw	s0,4(a4)
+    1564:	bf41                	j	14f4 <_free_r+0x2a>
+    1566:	8082                	ret
+
+00001568 <sbrk_aligned>:
+sbrk_aligned():
+    1568:	1141                	addi	sp,sp,-16
+    156a:	c04a                	sw	s2,0(sp)
+    156c:	81c18913          	addi	s2,gp,-2020 # 2000089c <__malloc_sbrk_start>
+    1570:	00092783          	lw	a5,0(s2)
+    1574:	c422                	sw	s0,8(sp)
+    1576:	c226                	sw	s1,4(sp)
+    1578:	c606                	sw	ra,12(sp)
+    157a:	84aa                	mv	s1,a0
+    157c:	842e                	mv	s0,a1
+    157e:	e789                	bnez	a5,1588 <sbrk_aligned+0x20>
+    1580:	4581                	li	a1,0
+    1582:	2a35                	jal	16be <_sbrk_r>
+    1584:	00a92023          	sw	a0,0(s2)
+    1588:	85a2                	mv	a1,s0
+    158a:	8526                	mv	a0,s1
+    158c:	2a0d                	jal	16be <_sbrk_r>
+    158e:	597d                	li	s2,-1
+    1590:	01251a63          	bne	a0,s2,15a4 <sbrk_aligned+0x3c>
+    1594:	547d                	li	s0,-1
+    1596:	40b2                	lw	ra,12(sp)
+    1598:	8522                	mv	a0,s0
+    159a:	4422                	lw	s0,8(sp)
+    159c:	4492                	lw	s1,4(sp)
+    159e:	4902                	lw	s2,0(sp)
+    15a0:	0141                	addi	sp,sp,16
+    15a2:	8082                	ret
+    15a4:	00350413          	addi	s0,a0,3
+    15a8:	9871                	andi	s0,s0,-4
+    15aa:	fe8506e3          	beq	a0,s0,1596 <sbrk_aligned+0x2e>
+    15ae:	40a405b3          	sub	a1,s0,a0
+    15b2:	8526                	mv	a0,s1
+    15b4:	2229                	jal	16be <_sbrk_r>
+    15b6:	ff2510e3          	bne	a0,s2,1596 <sbrk_aligned+0x2e>
+    15ba:	bfe9                	j	1594 <sbrk_aligned+0x2c>
+
+000015bc <_malloc_r>:
+_malloc_r():
+    15bc:	1101                	addi	sp,sp,-32
+    15be:	ca26                	sw	s1,20(sp)
+    15c0:	00358493          	addi	s1,a1,3
+    15c4:	98f1                	andi	s1,s1,-4
+    15c6:	c84a                	sw	s2,16(sp)
+    15c8:	04a1                	addi	s1,s1,8
+    15ca:	47b1                	li	a5,12
+    15cc:	ce06                	sw	ra,28(sp)
+    15ce:	cc22                	sw	s0,24(sp)
+    15d0:	c64e                	sw	s3,12(sp)
+    15d2:	892a                	mv	s2,a0
+    15d4:	0af4f4b3          	maxu	s1,s1,a5
+    15d8:	0004c463          	bltz	s1,15e0 <_malloc_r+0x24>
+    15dc:	00b4fd63          	bgeu	s1,a1,15f6 <_malloc_r+0x3a>
+    15e0:	47b1                	li	a5,12
+    15e2:	00f92023          	sw	a5,0(s2)
+    15e6:	4501                	li	a0,0
+    15e8:	40f2                	lw	ra,28(sp)
+    15ea:	4462                	lw	s0,24(sp)
+    15ec:	44d2                	lw	s1,20(sp)
+    15ee:	4942                	lw	s2,16(sp)
+    15f0:	49b2                	lw	s3,12(sp)
+    15f2:	6105                	addi	sp,sp,32
+    15f4:	8082                	ret
+    15f6:	2cb9                	jal	1854 <__malloc_lock>
+    15f8:	82018993          	addi	s3,gp,-2016 # 200008a0 <__malloc_free_list>
+    15fc:	0009a783          	lw	a5,0(s3)
+    1600:	843e                	mv	s0,a5
+    1602:	e431                	bnez	s0,164e <_malloc_r+0x92>
+    1604:	85a6                	mv	a1,s1
+    1606:	854a                	mv	a0,s2
+    1608:	3785                	jal	1568 <sbrk_aligned>
+    160a:	57fd                	li	a5,-1
+    160c:	842a                	mv	s0,a0
+    160e:	0af51663          	bne	a0,a5,16ba <_malloc_r+0xfe>
+    1612:	0009a403          	lw	s0,0(s3)
+    1616:	87a2                	mv	a5,s0
+    1618:	ebc1                	bnez	a5,16a8 <_malloc_r+0xec>
+    161a:	00042983          	lw	s3,0(s0)
+    161e:	4581                	li	a1,0
+    1620:	854a                	mv	a0,s2
+    1622:	99a2                	add	s3,s3,s0
+    1624:	2869                	jal	16be <_sbrk_r>
+    1626:	08a99463          	bne	s3,a0,16ae <_malloc_r+0xf2>
+    162a:	401c                	lw	a5,0(s0)
+    162c:	048d                	addi	s1,s1,3
+    162e:	854a                	mv	a0,s2
+    1630:	8c9d                	sub	s1,s1,a5
+    1632:	98f1                	andi	s1,s1,-4
+    1634:	47b1                	li	a5,12
+    1636:	04a1                	addi	s1,s1,8
+    1638:	0af4f4b3          	maxu	s1,s1,a5
+    163c:	85a6                	mv	a1,s1
+    163e:	372d                	jal	1568 <sbrk_aligned>
+    1640:	57fd                	li	a5,-1
+    1642:	06f50663          	beq	a0,a5,16ae <_malloc_r+0xf2>
+    1646:	401c                	lw	a5,0(s0)
+    1648:	97a6                	add	a5,a5,s1
+    164a:	c01c                	sw	a5,0(s0)
+    164c:	a015                	j	1670 <_malloc_r+0xb4>
+    164e:	4014                	lw	a3,0(s0)
+    1650:	8e85                	sub	a3,a3,s1
+    1652:	0406c863          	bltz	a3,16a2 <_malloc_r+0xe6>
+    1656:	472d                	li	a4,11
+    1658:	02d77d63          	bgeu	a4,a3,1692 <_malloc_r+0xd6>
+    165c:	c004                	sw	s1,0(s0)
+    165e:	00940733          	add	a4,s0,s1
+    1662:	02879663          	bne	a5,s0,168e <_malloc_r+0xd2>
+    1666:	00e9a023          	sw	a4,0(s3)
+    166a:	405c                	lw	a5,4(s0)
+    166c:	c314                	sw	a3,0(a4)
+    166e:	c35c                	sw	a5,4(a4)
+    1670:	854a                	mv	a0,s2
+    1672:	22e5                	jal	185a <__malloc_unlock>
+    1674:	00b40513          	addi	a0,s0,11
+    1678:	00440793          	addi	a5,s0,4
+    167c:	9961                	andi	a0,a0,-8
+    167e:	40f50733          	sub	a4,a0,a5
+    1682:	f6f503e3          	beq	a0,a5,15e8 <_malloc_r+0x2c>
+    1686:	943a                	add	s0,s0,a4
+    1688:	8f89                	sub	a5,a5,a0
+    168a:	c01c                	sw	a5,0(s0)
+    168c:	bfb1                	j	15e8 <_malloc_r+0x2c>
+    168e:	c3d8                	sw	a4,4(a5)
+    1690:	bfe9                	j	166a <_malloc_r+0xae>
+    1692:	4058                	lw	a4,4(s0)
+    1694:	00879563          	bne	a5,s0,169e <_malloc_r+0xe2>
+    1698:	00e9a023          	sw	a4,0(s3)
+    169c:	bfd1                	j	1670 <_malloc_r+0xb4>
+    169e:	c3d8                	sw	a4,4(a5)
+    16a0:	bfc1                	j	1670 <_malloc_r+0xb4>
+    16a2:	87a2                	mv	a5,s0
+    16a4:	4040                	lw	s0,4(s0)
+    16a6:	bfb1                	j	1602 <_malloc_r+0x46>
+    16a8:	843e                	mv	s0,a5
+    16aa:	43dc                	lw	a5,4(a5)
+    16ac:	b7b5                	j	1618 <_malloc_r+0x5c>
+    16ae:	47b1                	li	a5,12
+    16b0:	00f92023          	sw	a5,0(s2)
+    16b4:	854a                	mv	a0,s2
+    16b6:	2255                	jal	185a <__malloc_unlock>
+    16b8:	b73d                	j	15e6 <_malloc_r+0x2a>
+    16ba:	c104                	sw	s1,0(a0)
+    16bc:	bf55                	j	1670 <_malloc_r+0xb4>
+
+000016be <_sbrk_r>:
+_sbrk_r():
+    16be:	1141                	addi	sp,sp,-16
+    16c0:	c422                	sw	s0,8(sp)
+    16c2:	842a                	mv	s0,a0
+    16c4:	852e                	mv	a0,a1
+    16c6:	8201a223          	sw	zero,-2012(gp) # 200008a4 <errno>
+    16ca:	c606                	sw	ra,12(sp)
+    16cc:	c34ff0ef          	jal	ra,b00 <_sbrk>
+    16d0:	57fd                	li	a5,-1
+    16d2:	00f51663          	bne	a0,a5,16de <_sbrk_r+0x20>
+    16d6:	8241a783          	lw	a5,-2012(gp) # 200008a4 <errno>
+    16da:	c391                	beqz	a5,16de <_sbrk_r+0x20>
+    16dc:	c01c                	sw	a5,0(s0)
+    16de:	40b2                	lw	ra,12(sp)
+    16e0:	4422                	lw	s0,8(sp)
+    16e2:	0141                	addi	sp,sp,16
+    16e4:	8082                	ret
+
+000016e6 <__sread>:
+__sread():
+    16e6:	1141                	addi	sp,sp,-16
+    16e8:	c422                	sw	s0,8(sp)
+    16ea:	842e                	mv	s0,a1
+    16ec:	00e59583          	lh	a1,14(a1)
+    16f0:	c606                	sw	ra,12(sp)
+    16f2:	22bd                	jal	1860 <_read_r>
+    16f4:	00054963          	bltz	a0,1706 <__sread+0x20>
+    16f8:	487c                	lw	a5,84(s0)
+    16fa:	97aa                	add	a5,a5,a0
+    16fc:	c87c                	sw	a5,84(s0)
+    16fe:	40b2                	lw	ra,12(sp)
+    1700:	4422                	lw	s0,8(sp)
+    1702:	0141                	addi	sp,sp,16
+    1704:	8082                	ret
+    1706:	245e                	lhu	a5,12(s0)
+    1708:	48c79793          	bclri	a5,a5,0xc
+    170c:	a45e                	sh	a5,12(s0)
+    170e:	bfc5                	j	16fe <__sread+0x18>
+
+00001710 <__swrite>:
+__swrite():
+    1710:	25de                	lhu	a5,12(a1)
+    1712:	1101                	addi	sp,sp,-32
+    1714:	cc22                	sw	s0,24(sp)
+    1716:	ca26                	sw	s1,20(sp)
+    1718:	c84a                	sw	s2,16(sp)
+    171a:	c64e                	sw	s3,12(sp)
+    171c:	ce06                	sw	ra,28(sp)
+    171e:	1007f793          	andi	a5,a5,256
+    1722:	84aa                	mv	s1,a0
+    1724:	842e                	mv	s0,a1
+    1726:	8932                	mv	s2,a2
+    1728:	89b6                	mv	s3,a3
+    172a:	c791                	beqz	a5,1736 <__swrite+0x26>
+    172c:	00e59583          	lh	a1,14(a1)
+    1730:	4689                	li	a3,2
+    1732:	4601                	li	a2,0
+    1734:	28dd                	jal	182a <_lseek_r>
+    1736:	245e                	lhu	a5,12(s0)
+    1738:	00e41583          	lh	a1,14(s0)
+    173c:	40f2                	lw	ra,28(sp)
+    173e:	48c79793          	bclri	a5,a5,0xc
+    1742:	a45e                	sh	a5,12(s0)
+    1744:	4462                	lw	s0,24(sp)
+    1746:	86ce                	mv	a3,s3
+    1748:	864a                	mv	a2,s2
+    174a:	49b2                	lw	s3,12(sp)
+    174c:	4942                	lw	s2,16(sp)
+    174e:	8526                	mv	a0,s1
+    1750:	44d2                	lw	s1,20(sp)
+    1752:	6105                	addi	sp,sp,32
+    1754:	a81d                	j	178a <_write_r>
+
+00001756 <__sseek>:
+__sseek():
+    1756:	1141                	addi	sp,sp,-16
+    1758:	c422                	sw	s0,8(sp)
+    175a:	842e                	mv	s0,a1
+    175c:	00e59583          	lh	a1,14(a1)
+    1760:	c606                	sw	ra,12(sp)
+    1762:	20e1                	jal	182a <_lseek_r>
+    1764:	577d                	li	a4,-1
+    1766:	245e                	lhu	a5,12(s0)
+    1768:	00e51963          	bne	a0,a4,177a <__sseek+0x24>
+    176c:	48c79793          	bclri	a5,a5,0xc
+    1770:	a45e                	sh	a5,12(s0)
+    1772:	40b2                	lw	ra,12(sp)
+    1774:	4422                	lw	s0,8(sp)
+    1776:	0141                	addi	sp,sp,16
+    1778:	8082                	ret
+    177a:	28c79793          	bseti	a5,a5,0xc
+    177e:	c868                	sw	a0,84(s0)
+    1780:	a45e                	sh	a5,12(s0)
+    1782:	bfc5                	j	1772 <__sseek+0x1c>
+
+00001784 <__sclose>:
+__sclose():
+    1784:	00e59583          	lh	a1,14(a1)
+    1788:	a03d                	j	17b6 <_close_r>
+
+0000178a <_write_r>:
+_write_r():
+    178a:	1141                	addi	sp,sp,-16
+    178c:	c422                	sw	s0,8(sp)
+    178e:	842a                	mv	s0,a0
+    1790:	852e                	mv	a0,a1
+    1792:	85b2                	mv	a1,a2
+    1794:	8636                	mv	a2,a3
+    1796:	8201a223          	sw	zero,-2012(gp) # 200008a4 <errno>
+    179a:	c606                	sw	ra,12(sp)
+    179c:	b3eff0ef          	jal	ra,ada <_write>
+    17a0:	57fd                	li	a5,-1
+    17a2:	00f51663          	bne	a0,a5,17ae <_write_r+0x24>
+    17a6:	8241a783          	lw	a5,-2012(gp) # 200008a4 <errno>
+    17aa:	c391                	beqz	a5,17ae <_write_r+0x24>
+    17ac:	c01c                	sw	a5,0(s0)
+    17ae:	40b2                	lw	ra,12(sp)
+    17b0:	4422                	lw	s0,8(sp)
+    17b2:	0141                	addi	sp,sp,16
+    17b4:	8082                	ret
+
+000017b6 <_close_r>:
+_close_r():
+    17b6:	1141                	addi	sp,sp,-16
+    17b8:	c422                	sw	s0,8(sp)
+    17ba:	842a                	mv	s0,a0
+    17bc:	852e                	mv	a0,a1
+    17be:	8201a223          	sw	zero,-2012(gp) # 200008a4 <errno>
+    17c2:	c606                	sw	ra,12(sp)
+    17c4:	20d9                	jal	188a <_close>
+    17c6:	57fd                	li	a5,-1
+    17c8:	00f51663          	bne	a0,a5,17d4 <_close_r+0x1e>
+    17cc:	8241a783          	lw	a5,-2012(gp) # 200008a4 <errno>
+    17d0:	c391                	beqz	a5,17d4 <_close_r+0x1e>
+    17d2:	c01c                	sw	a5,0(s0)
+    17d4:	40b2                	lw	ra,12(sp)
+    17d6:	4422                	lw	s0,8(sp)
+    17d8:	0141                	addi	sp,sp,16
+    17da:	8082                	ret
+
+000017dc <_fstat_r>:
+_fstat_r():
+    17dc:	1141                	addi	sp,sp,-16
+    17de:	c422                	sw	s0,8(sp)
+    17e0:	842a                	mv	s0,a0
+    17e2:	852e                	mv	a0,a1
+    17e4:	85b2                	mv	a1,a2
+    17e6:	8201a223          	sw	zero,-2012(gp) # 200008a4 <errno>
+    17ea:	c606                	sw	ra,12(sp)
+    17ec:	206d                	jal	1896 <_fstat>
+    17ee:	57fd                	li	a5,-1
+    17f0:	00f51663          	bne	a0,a5,17fc <_fstat_r+0x20>
+    17f4:	8241a783          	lw	a5,-2012(gp) # 200008a4 <errno>
+    17f8:	c391                	beqz	a5,17fc <_fstat_r+0x20>
+    17fa:	c01c                	sw	a5,0(s0)
+    17fc:	40b2                	lw	ra,12(sp)
+    17fe:	4422                	lw	s0,8(sp)
+    1800:	0141                	addi	sp,sp,16
+    1802:	8082                	ret
+
+00001804 <_isatty_r>:
+_isatty_r():
+    1804:	1141                	addi	sp,sp,-16
+    1806:	c422                	sw	s0,8(sp)
+    1808:	842a                	mv	s0,a0
+    180a:	852e                	mv	a0,a1
+    180c:	8201a223          	sw	zero,-2012(gp) # 200008a4 <errno>
+    1810:	c606                	sw	ra,12(sp)
+    1812:	2841                	jal	18a2 <_isatty>
+    1814:	57fd                	li	a5,-1
+    1816:	00f51663          	bne	a0,a5,1822 <_isatty_r+0x1e>
+    181a:	8241a783          	lw	a5,-2012(gp) # 200008a4 <errno>
+    181e:	c391                	beqz	a5,1822 <_isatty_r+0x1e>
+    1820:	c01c                	sw	a5,0(s0)
+    1822:	40b2                	lw	ra,12(sp)
+    1824:	4422                	lw	s0,8(sp)
+    1826:	0141                	addi	sp,sp,16
+    1828:	8082                	ret
+
+0000182a <_lseek_r>:
+_lseek_r():
+    182a:	1141                	addi	sp,sp,-16
+    182c:	c422                	sw	s0,8(sp)
+    182e:	842a                	mv	s0,a0
+    1830:	852e                	mv	a0,a1
+    1832:	85b2                	mv	a1,a2
+    1834:	8636                	mv	a2,a3
+    1836:	8201a223          	sw	zero,-2012(gp) # 200008a4 <errno>
+    183a:	c606                	sw	ra,12(sp)
+    183c:	288d                	jal	18ae <_lseek>
+    183e:	57fd                	li	a5,-1
+    1840:	00f51663          	bne	a0,a5,184c <_lseek_r+0x22>
+    1844:	8241a783          	lw	a5,-2012(gp) # 200008a4 <errno>
+    1848:	c391                	beqz	a5,184c <_lseek_r+0x22>
+    184a:	c01c                	sw	a5,0(s0)
+    184c:	40b2                	lw	ra,12(sp)
+    184e:	4422                	lw	s0,8(sp)
+    1850:	0141                	addi	sp,sp,16
+    1852:	8082                	ret
+
+00001854 <__malloc_lock>:
+__malloc_lock():
+    1854:	81018513          	addi	a0,gp,-2032 # 20000890 <__lock___malloc_recursive_mutex>
+    1858:	b651                	j	13dc <__retarget_lock_acquire_recursive>
+
+0000185a <__malloc_unlock>:
+__malloc_unlock():
+    185a:	81018513          	addi	a0,gp,-2032 # 20000890 <__lock___malloc_recursive_mutex>
+    185e:	b641                	j	13de <__retarget_lock_release_recursive>
+
+00001860 <_read_r>:
+_read_r():
+    1860:	1141                	addi	sp,sp,-16
+    1862:	c422                	sw	s0,8(sp)
+    1864:	842a                	mv	s0,a0
+    1866:	852e                	mv	a0,a1
+    1868:	85b2                	mv	a1,a2
+    186a:	8636                	mv	a2,a3
+    186c:	8201a223          	sw	zero,-2012(gp) # 200008a4 <errno>
+    1870:	c606                	sw	ra,12(sp)
+    1872:	20a1                	jal	18ba <_read>
+    1874:	57fd                	li	a5,-1
+    1876:	00f51663          	bne	a0,a5,1882 <_read_r+0x22>
+    187a:	8241a783          	lw	a5,-2012(gp) # 200008a4 <errno>
+    187e:	c391                	beqz	a5,1882 <_read_r+0x22>
+    1880:	c01c                	sw	a5,0(s0)
+    1882:	40b2                	lw	ra,12(sp)
+    1884:	4422                	lw	s0,8(sp)
+    1886:	0141                	addi	sp,sp,16
+    1888:	8082                	ret
+
+0000188a <_close>:
+_close():
+    188a:	05800793          	li	a5,88
+    188e:	82f1a223          	sw	a5,-2012(gp) # 200008a4 <errno>
+    1892:	557d                	li	a0,-1
+    1894:	8082                	ret
+
+00001896 <_fstat>:
+_fstat():
+    1896:	05800793          	li	a5,88
+    189a:	82f1a223          	sw	a5,-2012(gp) # 200008a4 <errno>
+    189e:	557d                	li	a0,-1
+    18a0:	8082                	ret
+
+000018a2 <_isatty>:
+_isatty():
+    18a2:	05800793          	li	a5,88
+    18a6:	82f1a223          	sw	a5,-2012(gp) # 200008a4 <errno>
+    18aa:	4501                	li	a0,0
+    18ac:	8082                	ret
+
+000018ae <_lseek>:
+_lseek():
+    18ae:	05800793          	li	a5,88
+    18b2:	82f1a223          	sw	a5,-2012(gp) # 200008a4 <errno>
+    18b6:	557d                	li	a0,-1
+    18b8:	8082                	ret
+
+000018ba <_read>:
+_read():
+    18ba:	05800793          	li	a5,88
+    18be:	82f1a223          	sw	a5,-2012(gp) # 200008a4 <errno>
+    18c2:	557d                	li	a0,-1
+    18c4:	8082                	ret
+    18c6:	0000                	unimp
+    18c8:	454c                	lw	a1,12(a0)
+    18ca:	5354                	lw	a3,36(a4)
+    18cc:	4720                	lw	s0,72(a4)
+    18ce:	5053004f          	.4byte	0x5053004f
+    18d2:	2049                	jal	1954 <BB_IRQHandler>
+    18d4:	4d44                	lw	s1,28(a0)
+    18d6:	0041                	c.nop	16
+    18d8:	4e45                	li	t3,17
+    18da:	2044                	lbu	s1,4(s0)
+    18dc:	2e2e                	lhu	a1,26(a2)
+    18de:	002e                	c.slli	zero,0xb
+    18e0:	f13e                	.2byte	0xf13e
+    18e2:	ffff                	.2byte	0xffff
+    18e4:	f156                	.2byte	0xf156
+    18e6:	ffff                	.2byte	0xffff
+    18e8:	f17a                	.2byte	0xf17a
+    18ea:	ffff                	.2byte	0xffff
+    18ec:	f184                	.2byte	0xf184
+    18ee:	ffff                	.2byte	0xffff
+    18f0:	f19a                	.2byte	0xf19a
+    18f2:	ffff                	.2byte	0xffff
+
+000018f4 <__sf_fake_stderr>:
+	...
+
+00001914 <__sf_fake_stdout>:
+	...
+
+00001934 <__sf_fake_stdin>:
+	...
+
+Disassembly of section .vector_handler:
+
+00001954 <BB_IRQHandler>:
+ENDOCE_IRQHandler():
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\obj/../Startup/startup_CH572.S:111
+	j 1b
+    1954:	a001                	j	1954 <BB_IRQHandler>

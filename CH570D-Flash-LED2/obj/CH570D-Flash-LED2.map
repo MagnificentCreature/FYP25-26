@@ -1,6 +1,6 @@
 Archive member included to satisfy reference by file (symbol)
 
-c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
                               ./StdPeriphDriver/CH57x_flash.o (FLASH_EEPROM_CMD)
 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-printf.o)
                               ./StdPeriphDriver/CH57x_usbhostBase.o (printf)
@@ -133,7 +133,7 @@ Discarded input sections
  .debug_line    0x0000000000000000      0x178 ./StdPeriphDriver/CH57x_cmp.o
  .debug_str     0x0000000000000000      0x3ba ./StdPeriphDriver/CH57x_cmp.o
  .debug_line_str
-                0x0000000000000000      0x17d ./StdPeriphDriver/CH57x_cmp.o
+                0x0000000000000000      0x199 ./StdPeriphDriver/CH57x_cmp.o
  .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_cmp.o
  .debug_frame   0x0000000000000000       0x40 ./StdPeriphDriver/CH57x_cmp.o
  .riscv.attributes
@@ -162,7 +162,7 @@ Discarded input sections
  .debug_line    0x0000000000000000      0x4ca ./StdPeriphDriver/CH57x_flash.o
  .debug_str     0x0000000000000000      0x307 ./StdPeriphDriver/CH57x_flash.o
  .debug_line_str
-                0x0000000000000000      0x2ab ./StdPeriphDriver/CH57x_flash.o
+                0x0000000000000000      0x2c7 ./StdPeriphDriver/CH57x_flash.o
  .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_flash.o
  .debug_frame   0x0000000000000000       0x94 ./StdPeriphDriver/CH57x_flash.o
  .riscv.attributes
@@ -245,7 +245,7 @@ Discarded input sections
  .debug_line    0x0000000000000000      0xcd2 ./StdPeriphDriver/CH57x_i2c.o
  .debug_str     0x0000000000000000      0x63b ./StdPeriphDriver/CH57x_i2c.o
  .debug_line_str
-                0x0000000000000000      0x2b4 ./StdPeriphDriver/CH57x_i2c.o
+                0x0000000000000000      0x2d0 ./StdPeriphDriver/CH57x_i2c.o
  .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_i2c.o
  .debug_frame   0x0000000000000000      0x20c ./StdPeriphDriver/CH57x_i2c.o
  .riscv.attributes
@@ -268,7 +268,7 @@ Discarded input sections
  .debug_line    0x0000000000000000      0x237 ./StdPeriphDriver/CH57x_keyscan.o
  .debug_str     0x0000000000000000      0x263 ./StdPeriphDriver/CH57x_keyscan.o
  .debug_line_str
-                0x0000000000000000      0x2a8 ./StdPeriphDriver/CH57x_keyscan.o
+                0x0000000000000000      0x2c4 ./StdPeriphDriver/CH57x_keyscan.o
  .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_keyscan.o
  .debug_frame   0x0000000000000000       0x3c ./StdPeriphDriver/CH57x_keyscan.o
  .riscv.attributes
@@ -303,7 +303,7 @@ Discarded input sections
  .debug_line    0x0000000000000000      0x5ab ./StdPeriphDriver/CH57x_pwm.o
  .debug_str     0x0000000000000000      0x38e ./StdPeriphDriver/CH57x_pwm.o
  .debug_line_str
-                0x0000000000000000      0x2a8 ./StdPeriphDriver/CH57x_pwm.o
+                0x0000000000000000      0x2c4 ./StdPeriphDriver/CH57x_pwm.o
  .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_pwm.o
  .debug_frame   0x0000000000000000       0x80 ./StdPeriphDriver/CH57x_pwm.o
  .riscv.attributes
@@ -336,7 +336,7 @@ Discarded input sections
  .debug_line    0x0000000000000000     0x1396 ./StdPeriphDriver/CH57x_pwr.o
  .debug_str     0x0000000000000000      0x621 ./StdPeriphDriver/CH57x_pwr.o
  .debug_line_str
-                0x0000000000000000      0x2c9 ./StdPeriphDriver/CH57x_pwr.o
+                0x0000000000000000      0x2e5 ./StdPeriphDriver/CH57x_pwr.o
  .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_pwr.o
  .debug_frame   0x0000000000000000      0x100 ./StdPeriphDriver/CH57x_pwr.o
  .riscv.attributes
@@ -397,7 +397,7 @@ Discarded input sections
  .debug_line    0x0000000000000000      0xb1c ./StdPeriphDriver/CH57x_spi.o
  .debug_str     0x0000000000000000      0x3f5 ./StdPeriphDriver/CH57x_spi.o
  .debug_line_str
-                0x0000000000000000      0x259 ./StdPeriphDriver/CH57x_spi.o
+                0x0000000000000000      0x26e ./StdPeriphDriver/CH57x_spi.o
  .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_spi.o
  .debug_frame   0x0000000000000000      0x160 ./StdPeriphDriver/CH57x_spi.o
  .riscv.attributes
@@ -453,7 +453,7 @@ Discarded input sections
  .debug_line    0x0000000000000000      0x2d7 ./StdPeriphDriver/CH57x_timer.o
  .debug_str     0x0000000000000000      0x374 ./StdPeriphDriver/CH57x_timer.o
  .debug_line_str
-                0x0000000000000000      0x2bc ./StdPeriphDriver/CH57x_timer.o
+                0x0000000000000000      0x2d8 ./StdPeriphDriver/CH57x_timer.o
  .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_timer.o
  .debug_frame   0x0000000000000000       0x70 ./StdPeriphDriver/CH57x_timer.o
  .riscv.attributes
@@ -499,7 +499,7 @@ Discarded input sections
  .debug_line    0x0000000000000000      0x2ef ./StdPeriphDriver/CH57x_usbdev.o
  .debug_str     0x0000000000000000      0x272 ./StdPeriphDriver/CH57x_usbdev.o
  .debug_line_str
-                0x0000000000000000      0x265 ./StdPeriphDriver/CH57x_usbdev.o
+                0x0000000000000000      0x27a ./StdPeriphDriver/CH57x_usbdev.o
  .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_usbdev.o
  .debug_frame   0x0000000000000000       0x60 ./StdPeriphDriver/CH57x_usbdev.o
  .riscv.attributes
@@ -584,7 +584,7 @@ Discarded input sections
  .debug_line    0x0000000000000000     0x12b0 ./StdPeriphDriver/CH57x_usbhostBase.o
  .debug_str     0x0000000000000000      0x6a1 ./StdPeriphDriver/CH57x_usbhostBase.o
  .debug_line_str
-                0x0000000000000000      0x316 ./StdPeriphDriver/CH57x_usbhostBase.o
+                0x0000000000000000      0x32b ./StdPeriphDriver/CH57x_usbhostBase.o
  .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_usbhostBase.o
  .debug_frame   0x0000000000000000      0x270 ./StdPeriphDriver/CH57x_usbhostBase.o
  .riscv.attributes
@@ -647,7 +647,7 @@ Discarded input sections
  .debug_line    0x0000000000000000     0x1b65 ./StdPeriphDriver/CH57x_usbhostClass.o
  .debug_str     0x0000000000000000      0x8a0 ./StdPeriphDriver/CH57x_usbhostClass.o
  .debug_line_str
-                0x0000000000000000      0x3bc ./StdPeriphDriver/CH57x_usbhostClass.o
+                0x0000000000000000      0x3d1 ./StdPeriphDriver/CH57x_usbhostClass.o
  .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_usbhostClass.o
  .debug_frame   0x0000000000000000      0x1f8 ./StdPeriphDriver/CH57x_usbhostClass.o
  .riscv.attributes
@@ -655,9 +655,9 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ./Startup/startup_CH572.o
  .data          0x0000000000000000        0x0 ./Startup/startup_CH572.o
  .bss           0x0000000000000000        0x0 ./Startup/startup_CH572.o
- .text          0x0000000000000000        0x0 c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
- .data          0x0000000000000000        0x0 c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
- .bss           0x0000000000000000        0x0 c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+ .text          0x0000000000000000        0x0 c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+ .data          0x0000000000000000        0x0 c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+ .bss           0x0000000000000000        0x0 c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
  .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-printf.o)
  .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-printf.o)
  .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-printf.o)
@@ -1082,7 +1082,8 @@ LOAD ./StdPeriphDriver/CH57x_usbdev.o
 LOAD ./StdPeriphDriver/CH57x_usbhostBase.o
 LOAD ./StdPeriphDriver/CH57x_usbhostClass.o
 LOAD ./Startup/startup_CH572.o
-LOAD c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a
+LOAD c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a
+LOAD c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libm_nano.a
 LOAD c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libgcc.a
 LOAD c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a
 LOAD c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libc_nano.a
@@ -1139,49 +1140,49 @@ END GROUP
                 0x0000000020000362       0x1e ./StdPeriphDriver/CH57x_sys.o
                 0x0000000020000362                mDelaymS
  .highcode.FLASH_ROM_BEG_FF
-                0x0000000020000380       0x34 c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+                0x0000000020000380       0x34 c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
                 0x0000000020000380                FLASH_ROM_BEG_FF
  .highcode.FLASH_ROM_BEG
-                0x00000000200003b4       0x14 c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+                0x00000000200003b4       0x14 c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
                 0x00000000200003b4                FLASH_ROM_BEG
  .highcode.FLASH_ROM_END
-                0x00000000200003c8        0xe c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+                0x00000000200003c8        0xe c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
                 0x00000000200003c8                FLASH_ROM_END
  .highcode.FLASH_ROM_IN
-                0x00000000200003d6        0xe c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+                0x00000000200003d6        0xe c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
                 0x00000000200003d6                FLASH_ROM_IN
  .highcode.FLASH_ROM_OUT
-                0x00000000200003e4        0xe c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+                0x00000000200003e4        0xe c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
                 0x00000000200003e4                FLASH_ROM_OUT
  .highcode.FLASH_ROM_ADDR
-                0x00000000200003f2       0x48 c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+                0x00000000200003f2       0x48 c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
                 0x00000000200003f2                FLASH_ROM_ADDR
  .highcode.FLASH_ROM_WAIT
-                0x000000002000043a       0x38 c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+                0x000000002000043a       0x38 c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
                 0x000000002000043a                FLASH_ROM_WAIT
  .highcode.FLASH_START
-                0x0000000020000472       0x36 c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+                0x0000000020000472       0x36 c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
                 0x0000000020000472                FLASH_START
  .highcode.FLASH_CMD_ROM_WRITE
-                0x00000000200004a8       0x60 c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+                0x00000000200004a8       0x60 c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
                 0x00000000200004a8                FLASH_CMD_ROM_WRITE
  .highcode.FLASH_CMD_ROM_ERASE
-                0x0000000020000508       0x72 c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+                0x0000000020000508       0x72 c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
                 0x0000000020000508                FLASH_CMD_ROM_ERASE
  .highcode.FLASH_CMD_ROM_VERIFY
-                0x000000002000057a       0x50 c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+                0x000000002000057a       0x50 c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
                 0x000000002000057a                FLASH_CMD_ROM_VERIFY
  .highcode.FLASH_CMD_ROM_PWR
-                0x00000000200005ca       0x12 c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+                0x00000000200005ca       0x12 c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
                 0x00000000200005ca                FLASH_CMD_ROM_PWR
  .highcode.FLASH_CMD_GET_ROM_INFO
-                0x00000000200005dc       0x60 c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+                0x00000000200005dc       0x60 c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
                 0x00000000200005dc                FLASH_CMD_GET_ROM_INFO
  .highcode.FLASH_CMD_GET_UNIQUE_ID
-                0x000000002000063c       0x3e c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+                0x000000002000063c       0x3e c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
                 0x000000002000063c                FLASH_CMD_GET_UNIQUE_ID
  .highcode.FLASH_CMD_ROM_SW_RESET
-                0x000000002000067a       0x1a c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+                0x000000002000067a       0x1a c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
                 0x000000002000067a                FLASH_CMD_ROM_SW_RESET
                 0x0000000020000694                . = ALIGN (0x4)
                 0x0000000020000694                PROVIDE (_highcode_vma_end = .)
@@ -1218,7 +1219,7 @@ END GROUP
                 0x000000000000093a       0x28 ./StdPeriphDriver/CH57x_uart.o
                 0x000000000000093a                UART_Remap
  .text.FLASH_EEPROM_CMD
-                0x0000000000000962      0x136 c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+                0x0000000000000962      0x136 c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
                 0x0000000000000962                FLASH_EEPROM_CMD
  *(.rodata)
  *(.rodata*)
@@ -1397,7 +1398,7 @@ OUTPUT(CH570D-Flash-LED2.elf elf32-littleriscv)
  .debug_line    0x0000000000002cf2      0x3a5 ./StdPeriphDriver/CH57x_uart.o
  .debug_line    0x0000000000003097      0x156 ./Startup/startup_CH572.o
 
-.debug_str      0x0000000000000000      0xc90
+.debug_str      0x0000000000000000      0xc97
  .debug_str     0x0000000000000000      0x52b ./src/Main.o
                                         0x576 (size before relaxing)
  .debug_str     0x000000000000052b      0x377 ./StdPeriphDriver/CH57x_clk.o
@@ -1408,28 +1409,28 @@ OUTPUT(CH570D-Flash-LED2.elf elf32-littleriscv)
                                         0x62e (size before relaxing)
  .debug_str     0x0000000000000b75       0xb5 ./StdPeriphDriver/CH57x_uart.o
                                         0x42f (size before relaxing)
- .debug_str     0x0000000000000c2a       0x66 ./Startup/startup_CH572.o
+ .debug_str     0x0000000000000c2a       0x6d ./Startup/startup_CH572.o
 
 .debug_line_str
-                0x0000000000000000      0x3b8
+                0x0000000000000000      0x3cd
  .debug_line_str
-                0x0000000000000000      0x25a ./src/Main.o
-                                        0x2a7 (size before relaxing)
- .debug_line_str
-                0x000000000000025a       0x41 ./StdPeriphDriver/CH57x_clk.o
+                0x0000000000000000      0x26f ./src/Main.o
                                         0x2c3 (size before relaxing)
  .debug_line_str
-                0x000000000000029b       0x20 ./StdPeriphDriver/CH57x_gpio.o
-                                        0x2ac (size before relaxing)
+                0x000000000000026f       0x41 ./StdPeriphDriver/CH57x_clk.o
+                                        0x2df (size before relaxing)
  .debug_line_str
-                0x00000000000002bb       0xc2 ./StdPeriphDriver/CH57x_sys.o
-                                        0x366 (size before relaxing)
+                0x00000000000002b0       0x20 ./StdPeriphDriver/CH57x_gpio.o
+                                        0x2c8 (size before relaxing)
  .debug_line_str
-                0x000000000000037d       0x20 ./StdPeriphDriver/CH57x_uart.o
-                                        0x2b8 (size before relaxing)
+                0x00000000000002d0       0xc2 ./StdPeriphDriver/CH57x_sys.o
+                                        0x382 (size before relaxing)
  .debug_line_str
-                0x000000000000039d       0x1b ./Startup/startup_CH572.o
-                                         0x6a (size before relaxing)
+                0x0000000000000392       0x20 ./StdPeriphDriver/CH57x_uart.o
+                                        0x2d4 (size before relaxing)
+ .debug_line_str
+                0x00000000000003b2       0x1b ./Startup/startup_CH572.o
+                                         0x71 (size before relaxing)
 
 .comment        0x0000000000000000       0x64
  .comment       0x0000000000000000       0x31 ./src/Main.o
@@ -1438,7 +1439,7 @@ OUTPUT(CH570D-Flash-LED2.elf elf32-littleriscv)
  .comment       0x0000000000000031       0x32 ./StdPeriphDriver/CH57x_gpio.o
  .comment       0x0000000000000031       0x32 ./StdPeriphDriver/CH57x_sys.o
  .comment       0x0000000000000031       0x32 ./StdPeriphDriver/CH57x_uart.o
- .comment       0x0000000000000031       0x33 c:/Users/seanw/mounriver-studio-projects/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
+ .comment       0x0000000000000031       0x33 c:/Users/seanw/Documents/Data D/CP4101/Git Repo/CH570D-Flash-LED2/StdPeriphDriver\libISP572.a(ISP572.o)
                                          0x34 (size before relaxing)
 
 .riscv.attributes

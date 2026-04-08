@@ -1,0 +1,1622 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+                              ./StdPeriphDriver/CH57x_flash.o (FLASH_EEPROM_CMD)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-printf.o)
+                              ./src/utility.o (printf)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-putchar.o)
+                              ./src/utility.o (putchar)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-putc.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-putchar.o) (_putc_r)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-puts.o)
+                              ./src/Main.o (puts)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-wbuf.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-putc.o) (__swbuf_r)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-wsetup.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-puts.o) (__swsetup_r)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fflush.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-wbuf.o) (_fflush_r)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-printf.o) (__sinit)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fwalk.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o) (_fwalk)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-impure.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fflush.o) (_global_impure_ptr)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o) (__retarget_lock_init_recursive)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-makebuf.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-wsetup.o) (__smakebuf_r)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memset.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o) (memset)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-freer.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-wsetup.o) (_free_r)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o) (_malloc_r)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-printf.o) (_vfprintf_r)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-sbrkr.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-stdio.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o) (__sread)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-writer.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-stdio.o) (_write_r)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-closer.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-stdio.o) (_close_r)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fstatr.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-makebuf.o) (_fstat_r)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fvwrite.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o) (__sfvwrite_r)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-isattyr.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-makebuf.o) (_isatty_r)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lseekr.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-stdio.o) (_lseek_r)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memchr.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o) (memchr)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memcpy-asm.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fvwrite.o) (memcpy)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memmove.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fvwrite.o) (memmove)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-mlock.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-freer.o) (__malloc_lock)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-reallocr.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fvwrite.o) (_realloc_r)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o) (_printf_i)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-readr.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-stdio.o) (_read_r)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-reent.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-sbrkr.o) (errno)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-msizer.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(close.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-closer.o) (_close)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(fstat.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fstatr.o) (_fstat)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(isatty.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-isattyr.o) (_isatty)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(lseek.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lseekr.o) (_lseek)
+c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(read.o)
+                              c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-readr.o) (_read)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 ./src/Main.o
+ .data          0x0000000000000000        0x0 ./src/Main.o
+ .bss           0x0000000000000000        0x0 ./src/Main.o
+ .text.generate_fsk_buffer_uint8
+                0x0000000000000000       0x78 ./src/Main.o
+ .highcode.SPI_MasterDMATrans_FSK_Blocking
+                0x0000000000000000       0x36 ./src/Main.o
+ .bss.spi_tx_buffer_uint8
+                0x0000000000000000       0xc8 ./src/Main.o
+ .text          0x0000000000000000        0x0 ./src/utility.o
+ .data          0x0000000000000000        0x0 ./src/utility.o
+ .bss           0x0000000000000000        0x0 ./src/utility.o
+ .text.PWM_INTCfg
+                0x0000000000000000       0x1c ./src/utility.o
+ .text.Is_PLL_Clock
+                0x0000000000000000       0x10 ./src/utility.o
+ .text.GetSysClockFreq
+                0x0000000000000000       0x30 ./src/utility.o
+ .rodata.VerifySysClock.str1.4
+                0x0000000000000000       0x3e ./src/utility.o
+ .text.VerifySysClock
+                0x0000000000000000       0x30 ./src/utility.o
+ .rodata.print_uint8_array_hex.str1.4
+                0x0000000000000000       0x1a ./src/utility.o
+ .text.print_uint8_array_hex
+                0x0000000000000000       0x96 ./src/utility.o
+ .rodata.print_uint8_array_dec.str1.4
+                0x0000000000000000        0x6 ./src/utility.o
+ .text.print_uint8_array_dec
+                0x0000000000000000       0x40 ./src/utility.o
+ .rodata.print_8bit_binary.str1.4
+                0x0000000000000000        0x3 ./src/utility.o
+ .text.print_8bit_binary
+                0x0000000000000000       0x46 ./src/utility.o
+ .text.print_uint8_array_bin
+                0x0000000000000000       0x58 ./src/utility.o
+ .rodata.print_uint16_array_hex.str1.4
+                0x0000000000000000        0x6 ./src/utility.o
+ .text.print_uint16_array_hex
+                0x0000000000000000       0x48 ./src/utility.o
+ .text.print_32bit_binary
+                0x0000000000000000       0x64 ./src/utility.o
+ .text.print_uint32_array
+                0x0000000000000000       0x3c ./src/utility.o
+ .debug_info    0x0000000000000000      0x521 ./src/utility.o
+ .debug_abbrev  0x0000000000000000      0x1a2 ./src/utility.o
+ .debug_loclists
+                0x0000000000000000      0x414 ./src/utility.o
+ .debug_aranges
+                0x0000000000000000       0x70 ./src/utility.o
+ .debug_rnglists
+                0x0000000000000000      0x13e ./src/utility.o
+ .debug_line    0x0000000000000000      0x715 ./src/utility.o
+ .debug_str     0x0000000000000000      0x33d ./src/utility.o
+ .debug_line_str
+                0x0000000000000000      0x3bd ./src/utility.o
+ .comment       0x0000000000000000       0x32 ./src/utility.o
+ .debug_frame   0x0000000000000000      0x1cc ./src/utility.o
+ .riscv.attributes
+                0x0000000000000000       0x51 ./src/utility.o
+ .text          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_clk.o
+ .data          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_clk.o
+ .bss           0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_clk.o
+ .text.LClk_Cfg
+                0x0000000000000000       0x58 ./StdPeriphDriver/CH57x_clk.o
+ .text.HSECFG_Current
+                0x0000000000000000       0x4e ./StdPeriphDriver/CH57x_clk.o
+ .text.RTC_InitClock
+                0x0000000000000000       0xf4 ./StdPeriphDriver/CH57x_clk.o
+ .text.RTC_InitTime
+                0x0000000000000000      0x1fc ./StdPeriphDriver/CH57x_clk.o
+ .text.RTC_GetTime
+                0x0000000000000000      0x1a6 ./StdPeriphDriver/CH57x_clk.o
+ .text.RTC_SetCycleLSI
+                0x0000000000000000       0x68 ./StdPeriphDriver/CH57x_clk.o
+ .text.RTC_GetCycleLSI
+                0x0000000000000000       0x18 ./StdPeriphDriver/CH57x_clk.o
+ .text.RTC_TMRFunCfg
+                0x0000000000000000       0x84 ./StdPeriphDriver/CH57x_clk.o
+ .text.RTC_TRIGFunCfg
+                0x0000000000000000       0x6e ./StdPeriphDriver/CH57x_clk.o
+ .text.RTC_ModeFunDisable
+                0x0000000000000000       0x5a ./StdPeriphDriver/CH57x_clk.o
+ .text.RTC_GetITFlag
+                0x0000000000000000       0x1a ./StdPeriphDriver/CH57x_clk.o
+ .text.RTC_ClearITFlag
+                0x0000000000000000       0x20 ./StdPeriphDriver/CH57x_clk.o
+ .text          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_cmp.o
+ .data          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_cmp.o
+ .bss           0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_cmp.o
+ .text.CMP_Init
+                0x0000000000000000       0x14 ./StdPeriphDriver/CH57x_cmp.o
+ .text.CMP_OutToTIMCAPCfg
+                0x0000000000000000       0x1a ./StdPeriphDriver/CH57x_cmp.o
+ .text.CMP_INTCfg
+                0x0000000000000000       0x24 ./StdPeriphDriver/CH57x_cmp.o
+ .debug_info    0x0000000000000000      0x203 ./StdPeriphDriver/CH57x_cmp.o
+ .debug_abbrev  0x0000000000000000       0xc2 ./StdPeriphDriver/CH57x_cmp.o
+ .debug_loclists
+                0x0000000000000000       0x5a ./StdPeriphDriver/CH57x_cmp.o
+ .debug_aranges
+                0x0000000000000000       0x30 ./StdPeriphDriver/CH57x_cmp.o
+ .debug_rnglists
+                0x0000000000000000       0x28 ./StdPeriphDriver/CH57x_cmp.o
+ .debug_line    0x0000000000000000      0x178 ./StdPeriphDriver/CH57x_cmp.o
+ .debug_str     0x0000000000000000      0x3ba ./StdPeriphDriver/CH57x_cmp.o
+ .debug_line_str
+                0x0000000000000000      0x185 ./StdPeriphDriver/CH57x_cmp.o
+ .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_cmp.o
+ .debug_frame   0x0000000000000000       0x40 ./StdPeriphDriver/CH57x_cmp.o
+ .riscv.attributes
+                0x0000000000000000       0x51 ./StdPeriphDriver/CH57x_cmp.o
+ .text          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_flash.o
+ .data          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_flash.o
+ .bss           0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_flash.o
+ .text.FLASH_ROM_READ
+                0x0000000000000000       0x1c ./StdPeriphDriver/CH57x_flash.o
+ .text.UserOptionByteConfig
+                0x0000000000000000       0xc2 ./StdPeriphDriver/CH57x_flash.o
+ .text.UserOptionByteClose_SWD
+                0x0000000000000000        0x4 ./StdPeriphDriver/CH57x_flash.o
+ .text.UserOptionByte_Active
+                0x0000000000000000       0x86 ./StdPeriphDriver/CH57x_flash.o
+ .text.GET_UNIQUE_ID
+                0x0000000000000000       0x4a ./StdPeriphDriver/CH57x_flash.o
+ .debug_info    0x0000000000000000      0x439 ./StdPeriphDriver/CH57x_flash.o
+ .debug_abbrev  0x0000000000000000      0x206 ./StdPeriphDriver/CH57x_flash.o
+ .debug_loclists
+                0x0000000000000000      0x224 ./StdPeriphDriver/CH57x_flash.o
+ .debug_aranges
+                0x0000000000000000       0x40 ./StdPeriphDriver/CH57x_flash.o
+ .debug_rnglists
+                0x0000000000000000       0x3a ./StdPeriphDriver/CH57x_flash.o
+ .debug_line    0x0000000000000000      0x4ca ./StdPeriphDriver/CH57x_flash.o
+ .debug_str     0x0000000000000000      0x307 ./StdPeriphDriver/CH57x_flash.o
+ .debug_line_str
+                0x0000000000000000      0x2b3 ./StdPeriphDriver/CH57x_flash.o
+ .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_flash.o
+ .debug_frame   0x0000000000000000       0x94 ./StdPeriphDriver/CH57x_flash.o
+ .riscv.attributes
+                0x0000000000000000       0x51 ./StdPeriphDriver/CH57x_flash.o
+ .text          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_gpio.o
+ .data          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_gpio.o
+ .bss           0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_gpio.o
+ .text.GPIOA_ITModeCfg
+                0x0000000000000000       0x74 ./StdPeriphDriver/CH57x_gpio.o
+ .text.GPIOPinRemap
+                0x0000000000000000       0x1c ./StdPeriphDriver/CH57x_gpio.o
+ .text.GPIOADigitalCfg
+                0x0000000000000000       0x1c ./StdPeriphDriver/CH57x_gpio.o
+ .text          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_i2c.o
+ .data          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_i2c.o
+ .bss           0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_Cmd  0x0000000000000000       0x20 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_GenerateSTART
+                0x0000000000000000       0x22 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_GenerateSTOP
+                0x0000000000000000       0x22 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_AcknowledgeConfig
+                0x0000000000000000       0x22 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_OwnAddress2Config
+                0x0000000000000000       0x28 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_DualAddressCmd
+                0x0000000000000000       0x20 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_GeneralCallCmd
+                0x0000000000000000       0x22 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_ITConfig
+                0x0000000000000000       0x28 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_SendData
+                0x0000000000000000        0xa ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_ReceiveData
+                0x0000000000000000        0xe ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_Send7bitAddress
+                0x0000000000000000       0x14 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_SoftwareResetCmd
+                0x0000000000000000       0x1a ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_Init
+                0x0000000000000000      0x16e ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_NACKPositionConfig
+                0x0000000000000000       0x30 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_SMBusAlertConfig
+                0x0000000000000000       0x2c ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_TransmitPEC
+                0x0000000000000000       0x28 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_PECPositionConfig
+                0x0000000000000000        0x8 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_CalculatePEC
+                0x0000000000000000       0x22 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_GetPEC
+                0x0000000000000000        0xc ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_ARPCmd
+                0x0000000000000000       0x20 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_StretchClockCmd
+                0x0000000000000000       0x22 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_FastModeDutyCycleConfig
+                0x0000000000000000       0x2c ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_CheckEvent
+                0x0000000000000000       0x20 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_GetLastEvent
+                0x0000000000000000       0x16 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_GetFlagStatus
+                0x0000000000000000       0x3c ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_ClearFlag
+                0x0000000000000000       0x12 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_GetITStatus
+                0x0000000000000000       0x26 ./StdPeriphDriver/CH57x_i2c.o
+ .text.I2C_ClearITPendingBit
+                0x0000000000000000        0x8 ./StdPeriphDriver/CH57x_i2c.o
+ .debug_info    0x0000000000000000      0x7a2 ./StdPeriphDriver/CH57x_i2c.o
+ .debug_abbrev  0x0000000000000000      0x24e ./StdPeriphDriver/CH57x_i2c.o
+ .debug_loclists
+                0x0000000000000000      0x48a ./StdPeriphDriver/CH57x_i2c.o
+ .debug_aranges
+                0x0000000000000000       0xf8 ./StdPeriphDriver/CH57x_i2c.o
+ .debug_rnglists
+                0x0000000000000000      0x14a ./StdPeriphDriver/CH57x_i2c.o
+ .debug_line    0x0000000000000000      0xcd2 ./StdPeriphDriver/CH57x_i2c.o
+ .debug_str     0x0000000000000000      0x63b ./StdPeriphDriver/CH57x_i2c.o
+ .debug_line_str
+                0x0000000000000000      0x2bc ./StdPeriphDriver/CH57x_i2c.o
+ .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_i2c.o
+ .debug_frame   0x0000000000000000      0x20c ./StdPeriphDriver/CH57x_i2c.o
+ .riscv.attributes
+                0x0000000000000000       0x51 ./StdPeriphDriver/CH57x_i2c.o
+ .text          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_keyscan.o
+ .data          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_keyscan.o
+ .bss           0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_keyscan.o
+ .text.KeyScan_Cfg
+                0x0000000000000000       0x3a ./StdPeriphDriver/CH57x_keyscan.o
+ .text.KeyPress_Wake
+                0x0000000000000000       0x7e ./StdPeriphDriver/CH57x_keyscan.o
+ .debug_info    0x0000000000000000      0x256 ./StdPeriphDriver/CH57x_keyscan.o
+ .debug_abbrev  0x0000000000000000      0x17d ./StdPeriphDriver/CH57x_keyscan.o
+ .debug_loclists
+                0x0000000000000000       0x7e ./StdPeriphDriver/CH57x_keyscan.o
+ .debug_aranges
+                0x0000000000000000       0x28 ./StdPeriphDriver/CH57x_keyscan.o
+ .debug_rnglists
+                0x0000000000000000       0x58 ./StdPeriphDriver/CH57x_keyscan.o
+ .debug_line    0x0000000000000000      0x237 ./StdPeriphDriver/CH57x_keyscan.o
+ .debug_str     0x0000000000000000      0x263 ./StdPeriphDriver/CH57x_keyscan.o
+ .debug_line_str
+                0x0000000000000000      0x2b0 ./StdPeriphDriver/CH57x_keyscan.o
+ .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_keyscan.o
+ .debug_frame   0x0000000000000000       0x3c ./StdPeriphDriver/CH57x_keyscan.o
+ .riscv.attributes
+                0x0000000000000000       0x51 ./StdPeriphDriver/CH57x_keyscan.o
+ .text          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_pwm.o
+ .data          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_pwm.o
+ .bss           0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_pwm.o
+ .text.PWMX_CycleCfg
+                0x0000000000000000       0x4e ./StdPeriphDriver/CH57x_pwm.o
+ .rodata.PWMX_CycleCfg
+                0x0000000000000000       0x18 ./StdPeriphDriver/CH57x_pwm.o
+ .text.PWMX_16bit_CycleCfg
+                0x0000000000000000       0x18 ./StdPeriphDriver/CH57x_pwm.o
+ .text.PWMX_16bit_ACTOUT
+                0x0000000000000000       0x58 ./StdPeriphDriver/CH57x_pwm.o
+ .text.PWMX_ACTOUT
+                0x0000000000000000       0x8e ./StdPeriphDriver/CH57x_pwm.o
+ .text.PWMX_AlterOutCfg
+                0x0000000000000000       0x1c ./StdPeriphDriver/CH57x_pwm.o
+ .text.PWMX_SyncOutCfg
+                0x0000000000000000       0x26 ./StdPeriphDriver/CH57x_pwm.o
+ .text.PWM_DMACfg
+                0x0000000000000000       0x4a ./StdPeriphDriver/CH57x_pwm.o
+ .debug_info    0x0000000000000000      0x375 ./StdPeriphDriver/CH57x_pwm.o
+ .debug_abbrev  0x0000000000000000       0xf5 ./StdPeriphDriver/CH57x_pwm.o
+ .debug_loclists
+                0x0000000000000000      0x2ab ./StdPeriphDriver/CH57x_pwm.o
+ .debug_aranges
+                0x0000000000000000       0x50 ./StdPeriphDriver/CH57x_pwm.o
+ .debug_rnglists
+                0x0000000000000000       0x4c ./StdPeriphDriver/CH57x_pwm.o
+ .debug_line    0x0000000000000000      0x5ab ./StdPeriphDriver/CH57x_pwm.o
+ .debug_str     0x0000000000000000      0x38e ./StdPeriphDriver/CH57x_pwm.o
+ .debug_line_str
+                0x0000000000000000      0x2b0 ./StdPeriphDriver/CH57x_pwm.o
+ .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_pwm.o
+ .debug_frame   0x0000000000000000       0x80 ./StdPeriphDriver/CH57x_pwm.o
+ .riscv.attributes
+                0x0000000000000000       0x51 ./StdPeriphDriver/CH57x_pwm.o
+ .text          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_pwr.o
+ .data          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_pwr.o
+ .bss           0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_pwr.o
+ .text.PWR_PeriphClkCfg
+                0x0000000000000000       0x50 ./StdPeriphDriver/CH57x_pwr.o
+ .text.PWR_PeriphWakeUpCfg
+                0x0000000000000000       0xe6 ./StdPeriphDriver/CH57x_pwr.o
+ .text.PowerMonitor
+                0x0000000000000000       0xd8 ./StdPeriphDriver/CH57x_pwr.o
+ .highcode.LowPower_Idle
+                0x0000000000000000       0x40 ./StdPeriphDriver/CH57x_pwr.o
+ .highcode.LowPower_Halt
+                0x0000000000000000      0x128 ./StdPeriphDriver/CH57x_pwr.o
+ .highcode.LowPower_Sleep
+                0x0000000000000000      0x174 ./StdPeriphDriver/CH57x_pwr.o
+ .highcode.LowPower_Shutdown
+                0x0000000000000000      0x14e ./StdPeriphDriver/CH57x_pwr.o
+ .debug_info    0x0000000000000000      0xe79 ./StdPeriphDriver/CH57x_pwr.o
+ .debug_abbrev  0x0000000000000000      0x343 ./StdPeriphDriver/CH57x_pwr.o
+ .debug_loclists
+                0x0000000000000000      0x3a5 ./StdPeriphDriver/CH57x_pwr.o
+ .debug_aranges
+                0x0000000000000000       0x50 ./StdPeriphDriver/CH57x_pwr.o
+ .debug_rnglists
+                0x0000000000000000       0x98 ./StdPeriphDriver/CH57x_pwr.o
+ .debug_line    0x0000000000000000     0x12e0 ./StdPeriphDriver/CH57x_pwr.o
+ .debug_str     0x0000000000000000      0x613 ./StdPeriphDriver/CH57x_pwr.o
+ .debug_line_str
+                0x0000000000000000      0x2d1 ./StdPeriphDriver/CH57x_pwr.o
+ .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_pwr.o
+ .debug_frame   0x0000000000000000      0x100 ./StdPeriphDriver/CH57x_pwr.o
+ .riscv.attributes
+                0x0000000000000000       0x51 ./StdPeriphDriver/CH57x_pwr.o
+ .text          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_spi.o
+ .data          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_spi.o
+ .bss           0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_spi.o
+ .text.SPI_MasterDefInit
+                0x0000000000000000       0x24 ./StdPeriphDriver/CH57x_spi.o
+ .text.SPI_2WIRE_MasterOutputInit
+                0x0000000000000000       0x24 ./StdPeriphDriver/CH57x_spi.o
+ .text.SPI_2WIRE_MasterReceiveInit
+                0x0000000000000000       0x24 ./StdPeriphDriver/CH57x_spi.o
+ .text.SPI_2WIRE_SlaveInputInit
+                0x0000000000000000       0x16 ./StdPeriphDriver/CH57x_spi.o
+ .text.SPI_2WIRE_SlaveOutputInit
+                0x0000000000000000       0x18 ./StdPeriphDriver/CH57x_spi.o
+ .text.SPI_CLKCfg
+                0x0000000000000000       0x22 ./StdPeriphDriver/CH57x_spi.o
+ .text.SPI_DataMode
+                0x0000000000000000       0x56 ./StdPeriphDriver/CH57x_spi.o
+ .text.SPI_MasterSendByte
+                0x0000000000000000       0x20 ./StdPeriphDriver/CH57x_spi.o
+ .text.SPI_MasterRecvByte
+                0x0000000000000000       0x20 ./StdPeriphDriver/CH57x_spi.o
+ .text.SPI_MasterTrans
+                0x0000000000000000       0x36 ./StdPeriphDriver/CH57x_spi.o
+ .text.SPI_MasterRecv
+                0x0000000000000000       0x2c ./StdPeriphDriver/CH57x_spi.o
+ .text.SPI_MasterDMATrans
+                0x0000000000000000       0x38 ./StdPeriphDriver/CH57x_spi.o
+ .text.SPI_MasterDMARecv
+                0x0000000000000000       0x38 ./StdPeriphDriver/CH57x_spi.o
+ .text.SPI_SlaveInit
+                0x0000000000000000       0x18 ./StdPeriphDriver/CH57x_spi.o
+ .text.SPI_2WIRE_SlaveInit
+                0x0000000000000000        0x8 ./StdPeriphDriver/CH57x_spi.o
+ .text.SPI_SlaveRecvByte
+                0x0000000000000000       0x18 ./StdPeriphDriver/CH57x_spi.o
+ .text.SPI_SlaveSendByte
+                0x0000000000000000       0x1c ./StdPeriphDriver/CH57x_spi.o
+ .highcode.SPI_SlaveRecv
+                0x0000000000000000       0x2a ./StdPeriphDriver/CH57x_spi.o
+ .highcode.SPI_SlaveTrans
+                0x0000000000000000       0x34 ./StdPeriphDriver/CH57x_spi.o
+ .text.SPI_SlaveDMARecv
+                0x0000000000000000        0x8 ./StdPeriphDriver/CH57x_spi.o
+ .text.SPI_SlaveDMATrans
+                0x0000000000000000        0x8 ./StdPeriphDriver/CH57x_spi.o
+ .debug_info    0x0000000000000000      0x3f7 ./StdPeriphDriver/CH57x_spi.o
+ .debug_abbrev  0x0000000000000000      0x1e2 ./StdPeriphDriver/CH57x_spi.o
+ .debug_loclists
+                0x0000000000000000      0x168 ./StdPeriphDriver/CH57x_spi.o
+ .debug_aranges
+                0x0000000000000000       0xc0 ./StdPeriphDriver/CH57x_spi.o
+ .debug_rnglists
+                0x0000000000000000       0xca ./StdPeriphDriver/CH57x_spi.o
+ .debug_line    0x0000000000000000      0xb1c ./StdPeriphDriver/CH57x_spi.o
+ .debug_str     0x0000000000000000      0x3f5 ./StdPeriphDriver/CH57x_spi.o
+ .debug_line_str
+                0x0000000000000000      0x25f ./StdPeriphDriver/CH57x_spi.o
+ .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_spi.o
+ .debug_frame   0x0000000000000000      0x160 ./StdPeriphDriver/CH57x_spi.o
+ .riscv.attributes
+                0x0000000000000000       0x51 ./StdPeriphDriver/CH57x_spi.o
+ .text          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_sys.o
+ .data          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_sys.o
+ .bss           0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_sys.o
+ .text.SYS_GetInfoSta
+                0x0000000000000000       0x24 ./StdPeriphDriver/CH57x_sys.o
+ .highcode.SYS_ResetExecute
+                0x0000000000000000       0x5e ./StdPeriphDriver/CH57x_sys.o
+ .text.SYS_DisableAllIrq
+                0x0000000000000000       0x20 ./StdPeriphDriver/CH57x_sys.o
+ .text.SYS_RecoverIrq
+                0x0000000000000000       0x14 ./StdPeriphDriver/CH57x_sys.o
+ .text.SYS_GetSysTickCnt
+                0x0000000000000000        0x8 ./StdPeriphDriver/CH57x_sys.o
+ .text.WWDG_ITCfg
+                0x0000000000000000       0x58 ./StdPeriphDriver/CH57x_sys.o
+ .text.WWDG_ResetCfg
+                0x0000000000000000       0x58 ./StdPeriphDriver/CH57x_sys.o
+ .text.WWDG_ClearFlag
+                0x0000000000000000       0x4a ./StdPeriphDriver/CH57x_sys.o
+ .highcode.__wrap_memcpy
+                0x0000000000000000        0xa ./StdPeriphDriver/CH57x_sys.o
+ .text          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_timer.o
+ .data          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_timer.o
+ .bss           0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_timer.o
+ .text.TMR_TimerInit
+                0x0000000000000000       0x18 ./StdPeriphDriver/CH57x_timer.o
+ .text.TMR_EXTSingleCounterInit
+                0x0000000000000000       0x1a ./StdPeriphDriver/CH57x_timer.o
+ .text.TMR_PWMInit
+                0x0000000000000000       0x1a ./StdPeriphDriver/CH57x_timer.o
+ .text.TMR_CapInit
+                0x0000000000000000       0x1a ./StdPeriphDriver/CH57x_timer.o
+ .text.TMR_DMACfg
+                0x0000000000000000       0x2c ./StdPeriphDriver/CH57x_timer.o
+ .text.ENC_Config
+                0x0000000000000000       0x30 ./StdPeriphDriver/CH57x_timer.o
+ .debug_info    0x0000000000000000      0x2f2 ./StdPeriphDriver/CH57x_timer.o
+ .debug_abbrev  0x0000000000000000       0xd5 ./StdPeriphDriver/CH57x_timer.o
+ .debug_loclists
+                0x0000000000000000       0xdc ./StdPeriphDriver/CH57x_timer.o
+ .debug_aranges
+                0x0000000000000000       0x48 ./StdPeriphDriver/CH57x_timer.o
+ .debug_rnglists
+                0x0000000000000000       0x43 ./StdPeriphDriver/CH57x_timer.o
+ .debug_line    0x0000000000000000      0x2d7 ./StdPeriphDriver/CH57x_timer.o
+ .debug_str     0x0000000000000000      0x374 ./StdPeriphDriver/CH57x_timer.o
+ .debug_line_str
+                0x0000000000000000      0x2c4 ./StdPeriphDriver/CH57x_timer.o
+ .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_timer.o
+ .debug_frame   0x0000000000000000       0x70 ./StdPeriphDriver/CH57x_timer.o
+ .riscv.attributes
+                0x0000000000000000       0x51 ./StdPeriphDriver/CH57x_timer.o
+ .text          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_uart.o
+ .data          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_uart.o
+ .bss           0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_uart.o
+ .text.UART_ByteTrigCfg
+                0x0000000000000000       0x1a ./StdPeriphDriver/CH57x_uart.o
+ .text.UART_INTCfg
+                0x0000000000000000       0x28 ./StdPeriphDriver/CH57x_uart.o
+ .text          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_usbdev.o
+ .data          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_usbdev.o
+ .bss           0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_usbdev.o
+ .text.USB_DeviceInit
+                0x0000000000000000       0x76 ./StdPeriphDriver/CH57x_usbdev.o
+ .text.DevEP1_IN_Deal
+                0x0000000000000000       0x16 ./StdPeriphDriver/CH57x_usbdev.o
+ .text.DevEP2_IN_Deal
+                0x0000000000000000       0x16 ./StdPeriphDriver/CH57x_usbdev.o
+ .text.DevEP3_IN_Deal
+                0x0000000000000000       0x16 ./StdPeriphDriver/CH57x_usbdev.o
+ .text.DevEP4_IN_Deal
+                0x0000000000000000       0x16 ./StdPeriphDriver/CH57x_usbdev.o
+ .sbss.pEP3_RAM_Addr
+                0x0000000000000000        0x4 ./StdPeriphDriver/CH57x_usbdev.o
+ .sbss.pEP2_RAM_Addr
+                0x0000000000000000        0x4 ./StdPeriphDriver/CH57x_usbdev.o
+ .sbss.pEP1_RAM_Addr
+                0x0000000000000000        0x4 ./StdPeriphDriver/CH57x_usbdev.o
+ .sbss.pEP0_RAM_Addr
+                0x0000000000000000        0x4 ./StdPeriphDriver/CH57x_usbdev.o
+ .debug_info    0x0000000000000000      0x1d3 ./StdPeriphDriver/CH57x_usbdev.o
+ .debug_abbrev  0x0000000000000000       0xb9 ./StdPeriphDriver/CH57x_usbdev.o
+ .debug_aranges
+                0x0000000000000000       0x40 ./StdPeriphDriver/CH57x_usbdev.o
+ .debug_rnglists
+                0x0000000000000000       0x3a ./StdPeriphDriver/CH57x_usbdev.o
+ .debug_line    0x0000000000000000      0x2ef ./StdPeriphDriver/CH57x_usbdev.o
+ .debug_str     0x0000000000000000      0x272 ./StdPeriphDriver/CH57x_usbdev.o
+ .debug_line_str
+                0x0000000000000000      0x26b ./StdPeriphDriver/CH57x_usbdev.o
+ .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_usbdev.o
+ .debug_frame   0x0000000000000000       0x60 ./StdPeriphDriver/CH57x_usbdev.o
+ .riscv.attributes
+                0x0000000000000000       0x51 ./StdPeriphDriver/CH57x_usbdev.o
+ .text          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .data          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .bss           0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text.SetUsbSpeed.part.0
+                0x0000000000000000       0x1a ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text.DisableRootHubPort
+                0x0000000000000000        0xa ./StdPeriphDriver/CH57x_usbhostBase.o
+ .rodata.AnalyzeRootHub.str1.4
+                0x0000000000000000       0x18 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text.AnalyzeRootHub
+                0x0000000000000000       0x78 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text.SetHostUsbAddr
+                0x0000000000000000       0x14 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text.SetUsbSpeed
+                0x0000000000000000       0x18 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text.ResetRootHubPort
+                0x0000000000000000       0x64 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text.EnableRootHubPort
+                0x0000000000000000       0x46 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text.SelectHubPort
+                0x0000000000000000       0x7e ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text.WaitUSB_Interrupt
+                0x0000000000000000       0x28 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text.USBHostTransact
+                0x0000000000000000      0x16e ./StdPeriphDriver/CH57x_usbhostBase.o
+ .rodata.HostCtrlTransfer.str1.4
+                0x0000000000000000       0x2e ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text.HostCtrlTransfer
+                0x0000000000000000      0x22c ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text.CopySetupReqPkg
+                0x0000000000000000       0x20 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text.CtrlGetDeviceDescr
+                0x0000000000000000       0x54 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text.CtrlGetConfigDescr
+                0x0000000000000000       0x80 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text.CtrlSetUsbAddress
+                0x0000000000000000       0x58 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text.CtrlSetUsbConfig
+                0x0000000000000000       0x38 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text.CtrlClearEndpStall
+                0x0000000000000000       0x38 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text.CtrlSetUsbIntercace
+                0x0000000000000000       0x38 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text.USB_HostInit
+                0x0000000000000000       0x68 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .srodata.SetupClrEndpStall
+                0x0000000000000000        0x8 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .srodata.SetupSetUsbInterface
+                0x0000000000000000        0x8 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .srodata.SetupSetUsbConfig
+                0x0000000000000000        0x8 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .srodata.SetupSetUsbAddr
+                0x0000000000000000        0x8 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .srodata.SetupGetCfgDescr
+                0x0000000000000000        0x8 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .srodata.SetupGetDevDescr
+                0x0000000000000000        0x8 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .sbss.pHOST_TX_RAM_Addr
+                0x0000000000000000        0x4 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .sbss.pHOST_RX_RAM_Addr
+                0x0000000000000000        0x4 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .bss.DevOnHubPort
+                0x0000000000000000       0x30 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .bss.ThisUsbDev
+                0x0000000000000000        0xe ./StdPeriphDriver/CH57x_usbhostBase.o
+ .sbss.FoundNewDev
+                0x0000000000000000        0x1 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .sbss.UsbDevEndp0Size
+                0x0000000000000000        0x1 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .debug_info    0x0000000000000000      0xd76 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .debug_abbrev  0x0000000000000000      0x38f ./StdPeriphDriver/CH57x_usbhostBase.o
+ .debug_loclists
+                0x0000000000000000      0x586 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .debug_aranges
+                0x0000000000000000       0xb0 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .debug_rnglists
+                0x0000000000000000       0xd4 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .debug_line    0x0000000000000000     0x12ac ./StdPeriphDriver/CH57x_usbhostBase.o
+ .debug_str     0x0000000000000000      0x6a1 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .debug_line_str
+                0x0000000000000000      0x31c ./StdPeriphDriver/CH57x_usbhostBase.o
+ .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .debug_frame   0x0000000000000000      0x270 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .riscv.attributes
+                0x0000000000000000       0x51 ./StdPeriphDriver/CH57x_usbhostBase.o
+ .text          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .data          0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .bss           0x0000000000000000        0x0 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .rodata.AnalyzeHidIntEndp.str1.4
+                0x0000000000000000        0x6 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .text.AnalyzeHidIntEndp
+                0x0000000000000000       0xfe ./StdPeriphDriver/CH57x_usbhostClass.o
+ .text.AnalyzeBulkEndp
+                0x0000000000000000       0xbe ./StdPeriphDriver/CH57x_usbhostClass.o
+ .text.SearchTypeDevice
+                0x0000000000000000       0x6a ./StdPeriphDriver/CH57x_usbhostClass.o
+ .text.SETorOFFNumLock
+                0x0000000000000000       0x70 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .text.CtrlGetHIDDeviceReport
+                0x0000000000000000       0x80 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .text.CtrlGetHubDescr
+                0x0000000000000000       0x3a ./StdPeriphDriver/CH57x_usbhostClass.o
+ .text.HubGetPortStatus
+                0x0000000000000000       0x52 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .text.HubSetPortFeature
+                0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .rodata.InitRootDevice.str1.4
+                0x0000000000000000      0x116 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .text.InitRootDevice
+                0x0000000000000000      0x384 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .text.HubClearPortFeature
+                0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .rodata.InitDevOnHub.str1.4
+                0x0000000000000000       0x75 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .text.InitDevOnHub
+                0x0000000000000000      0x37c ./StdPeriphDriver/CH57x_usbhostClass.o
+ .rodata.EnumHubPort.str1.4
+                0x0000000000000000       0x9c ./StdPeriphDriver/CH57x_usbhostClass.o
+ .text.EnumHubPort
+                0x0000000000000000      0x20a ./StdPeriphDriver/CH57x_usbhostClass.o
+ .rodata.EnumAllHubPort.str1.4
+                0x0000000000000000       0x1b ./StdPeriphDriver/CH57x_usbhostClass.o
+ .text.EnumAllHubPort
+                0x0000000000000000       0x58 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .bss.Com_Buffer
+                0x0000000000000000       0x80 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .srodata.SetupGetHubDescr
+                0x0000000000000000        0x8 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .srodata.SetupGetHIDDevReport
+                0x0000000000000000        0x8 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .srodata.SetupSetHIDIdle
+                0x0000000000000000        0x8 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .debug_info    0x0000000000000000     0x1380 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .debug_abbrev  0x0000000000000000      0x2c3 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .debug_loclists
+                0x0000000000000000      0x7e6 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .debug_aranges
+                0x0000000000000000       0x80 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .debug_rnglists
+                0x0000000000000000       0x82 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .debug_line    0x0000000000000000     0x1b65 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .debug_str     0x0000000000000000      0x8a0 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .debug_line_str
+                0x0000000000000000      0x3c2 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .comment       0x0000000000000000       0x32 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .debug_frame   0x0000000000000000      0x1f8 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .riscv.attributes
+                0x0000000000000000       0x51 ./StdPeriphDriver/CH57x_usbhostClass.o
+ .text          0x0000000000000000        0x0 ./Startup/startup_CH572.o
+ .data          0x0000000000000000        0x0 ./Startup/startup_CH572.o
+ .bss           0x0000000000000000        0x0 ./Startup/startup_CH572.o
+ .text          0x0000000000000000        0x0 c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+ .data          0x0000000000000000        0x0 c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+ .bss           0x0000000000000000        0x0 c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-printf.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-printf.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-printf.o)
+ .text._printf_r
+                0x0000000000000000       0x42 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-printf.o)
+ .text.printf   0x0000000000000000       0x48 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-printf.o)
+ .comment       0x0000000000000000       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-printf.o)
+ .riscv.attributes
+                0x0000000000000000       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-printf.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-putchar.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-putchar.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-putchar.o)
+ .text._putchar_r
+                0x0000000000000000       0x2c c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-putchar.o)
+ .text.putchar  0x0000000000000000       0x36 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-putchar.o)
+ .comment       0x0000000000000000       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-putchar.o)
+ .riscv.attributes
+                0x0000000000000000       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-putchar.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-putc.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-putc.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-putc.o)
+ .text._putc_r  0x0000000000000000       0xca c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-putc.o)
+ .text.putc     0x0000000000000000       0x14 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-putc.o)
+ .comment       0x0000000000000000       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-putc.o)
+ .riscv.attributes
+                0x0000000000000000       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-putc.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-puts.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-puts.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-puts.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-wbuf.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-wbuf.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-wbuf.o)
+ .text.__swbuf  0x0000000000000000       0x14 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-wbuf.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-wsetup.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-wsetup.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-wsetup.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fflush.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fflush.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fflush.o)
+ .text.fflush   0x0000000000000000       0x2c c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fflush.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x0000000000000000       0x28 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0x0000000000000000       0x28 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .text._cleanup
+                0x0000000000000000       0x10 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .text.__fp_lock_all
+                0x0000000000000000       0x28 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock_all
+                0x0000000000000000       0x28 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fwalk.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fwalk.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fwalk.o)
+ .text._fwalk   0x0000000000000000       0x60 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fwalk.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_init
+                0x0000000000000000        0x2 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_close
+                0x0000000000000000        0x2 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x0000000000000000        0x2 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x0000000000000000        0x2 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x0000000000000000        0x4 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x0000000000000000        0x4 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_release
+                0x0000000000000000        0x2 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+ .sbss.__lock___arc4random_mutex
+                0x0000000000000000        0x1 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+ .sbss.__lock___dd_hash_mutex
+                0x0000000000000000        0x1 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+ .sbss.__lock___tz_mutex
+                0x0000000000000000        0x1 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+ .sbss.__lock___env_recursive_mutex
+                0x0000000000000000        0x1 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+ .sbss.__lock___at_quick_exit_mutex
+                0x0000000000000000        0x1 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+ .sbss.__lock___atexit_recursive_mutex
+                0x0000000000000000        0x1 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-makebuf.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-makebuf.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-makebuf.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-freer.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-freer.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-freer.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sfputc_r
+                0x0000000000000000       0x2c c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sfputs_r
+                0x0000000000000000       0x46 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sprint_r
+                0x0000000000000000       0x28 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+ .rodata._vfprintf_r.str1.4
+                0x0000000000000000       0x13 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text._vfprintf_r
+                0x0000000000000000      0x2ec c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.vfprintf
+                0x0000000000000000       0x16 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+ .comment       0x0000000000000000       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+ .riscv.attributes
+                0x0000000000000000       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-sbrkr.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-stdio.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-stdio.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-stdio.o)
+ .text.__seofread
+                0x0000000000000000        0x4 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-stdio.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-writer.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-writer.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-writer.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-closer.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-closer.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-closer.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fstatr.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fstatr.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fstatr.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fvwrite.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fvwrite.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fvwrite.o)
+ .text.__sfvwrite_r
+                0x0000000000000000      0x2ea c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fvwrite.o)
+ .comment       0x0000000000000000       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fvwrite.o)
+ .riscv.attributes
+                0x0000000000000000       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fvwrite.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-isattyr.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-isattyr.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-isattyr.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lseekr.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lseekr.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lseekr.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memchr.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memchr.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memchr.o)
+ .text.memchr   0x0000000000000000       0x18 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memchr.o)
+ .comment       0x0000000000000000       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memchr.o)
+ .riscv.attributes
+                0x0000000000000000       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memchr.o)
+ .text          0x0000000000000000       0x16 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memcpy-asm.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memcpy-asm.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memcpy-asm.o)
+ .riscv.attributes
+                0x0000000000000000       0x4f c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memcpy-asm.o)
+ .text          0x0000000000000000       0x26 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memmove.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memmove.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memmove.o)
+ .riscv.attributes
+                0x0000000000000000       0x4f c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memmove.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-mlock.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-reallocr.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-reallocr.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-reallocr.o)
+ .text._realloc_r
+                0x0000000000000000       0x90 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-reallocr.o)
+ .comment       0x0000000000000000       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-reallocr.o)
+ .riscv.attributes
+                0x0000000000000000       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-reallocr.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .text._printf_common
+                0x0000000000000000      0x10a c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .rodata._printf_i.str1.4
+                0x0000000000000000       0x25 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .text._printf_i
+                0x0000000000000000      0x284 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .rodata._printf_i
+                0x0000000000000000       0x58 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .comment       0x0000000000000000       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .riscv.attributes
+                0x0000000000000000       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-readr.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-readr.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-readr.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x0000000000000000       0x2c c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x0000000000000000      0x10c c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-reent.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-msizer.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-msizer.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-msizer.o)
+ .text._malloc_usable_size_r
+                0x0000000000000000       0x14 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-msizer.o)
+ .comment       0x0000000000000000       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-msizer.o)
+ .riscv.attributes
+                0x0000000000000000       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-msizer.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(close.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(close.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(close.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(fstat.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(fstat.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(fstat.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(isatty.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(isatty.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(isatty.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(lseek.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(lseek.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(lseek.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(read.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(read.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(read.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x000000000003c000 xr
+RAM              0x0000000020000000 0x0000000000003000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./src/Main.o
+LOAD ./src/utility.o
+LOAD ./StdPeriphDriver/CH57x_clk.o
+LOAD ./StdPeriphDriver/CH57x_cmp.o
+LOAD ./StdPeriphDriver/CH57x_flash.o
+LOAD ./StdPeriphDriver/CH57x_gpio.o
+LOAD ./StdPeriphDriver/CH57x_i2c.o
+LOAD ./StdPeriphDriver/CH57x_keyscan.o
+LOAD ./StdPeriphDriver/CH57x_pwm.o
+LOAD ./StdPeriphDriver/CH57x_pwr.o
+LOAD ./StdPeriphDriver/CH57x_spi.o
+LOAD ./StdPeriphDriver/CH57x_sys.o
+LOAD ./StdPeriphDriver/CH57x_timer.o
+LOAD ./StdPeriphDriver/CH57x_uart.o
+LOAD ./StdPeriphDriver/CH57x_usbdev.o
+LOAD ./StdPeriphDriver/CH57x_usbhostBase.o
+LOAD ./StdPeriphDriver/CH57x_usbhostClass.o
+LOAD ./Startup/startup_CH572.o
+LOAD c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a
+LOAD c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libm_nano.a
+LOAD c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libgcc.a
+LOAD c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a
+LOAD c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libc_nano.a
+LOAD c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libgcc.a
+START GROUP
+LOAD c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libgcc.a
+LOAD c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libc_nano.a
+LOAD c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libgcc.a
+LOAD c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libc_nano.a
+LOAD c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a
+END GROUP
+
+.init           0x0000000000000000        0x4
+                0x0000000000000000                _sinit = .
+                0x0000000000000000                . = ALIGN (0x4)
+ *(SORT_NONE(.init))
+ .init          0x0000000000000000        0x4 ./Startup/startup_CH572.o
+                0x0000000000000000                _start
+                0x0000000000000004                . = ALIGN (0x4)
+                0x0000000000000004                _einit = .
+
+.highcode_initlalign
+                0x0000000000000004        0x0
+                0x0000000000000004                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_highcode_init_lma = .)
+
+.highcodelalign
+                0x0000000000000004        0x0
+                0x0000000000000004                . = ALIGN (0x4)
+                0x0000000000000004                PROVIDE (_highcode_lma = .)
+
+.highcode       0x0000000020000000      0x810 load address 0x0000000000000004
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                PROVIDE (_highcode_vma_start = .)
+                0x0000000020000000                . = ALIGN (0x400)
+ *(.vector)
+ .vector        0x0000000020000000       0x90 ./Startup/startup_CH572.o
+                0x0000000020000000                _vector_base
+ *(.highcode)
+ *(.highcode.*)
+ .highcode.start_fsk_spi
+                0x0000000020000090       0x6a ./src/Main.o
+                0x0000000020000090                start_fsk_spi
+ .highcode.main
+                0x00000000200000fa       0xbc ./src/Main.o
+                0x00000000200000fa                main
+ .highcode.UART_IRQHandler
+                0x00000000200001b6       0x4a ./src/Main.o
+                0x00000000200001b6                UART_IRQHandler
+ .highcode.SetSysClock
+                0x0000000020000200      0x250 ./StdPeriphDriver/CH57x_sys.o
+                0x0000000020000200                SetSysClock
+ .highcode.HardFault_Handler
+                0x0000000020000450       0x84 ./StdPeriphDriver/CH57x_sys.o
+                0x0000000020000450                HardFault_Handler
+ .highcode.NMI_Handler
+                0x00000000200004d4        0x2 ./StdPeriphDriver/CH57x_sys.o
+                0x00000000200004d4                NMI_Handler
+ .highcode.mDelayuS
+                0x00000000200004d6        0xe ./StdPeriphDriver/CH57x_sys.o
+                0x00000000200004d6                mDelayuS
+ .highcode.mDelaymS
+                0x00000000200004e4       0x1e ./StdPeriphDriver/CH57x_sys.o
+                0x00000000200004e4                mDelaymS
+ .highcode.FLASH_ROM_BEG_FF
+                0x0000000020000502       0x34 c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+                0x0000000020000502                FLASH_ROM_BEG_FF
+ .highcode.FLASH_ROM_BEG
+                0x0000000020000536       0x14 c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+                0x0000000020000536                FLASH_ROM_BEG
+ .highcode.FLASH_ROM_END
+                0x000000002000054a        0xe c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+                0x000000002000054a                FLASH_ROM_END
+ .highcode.FLASH_ROM_IN
+                0x0000000020000558        0xe c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+                0x0000000020000558                FLASH_ROM_IN
+ .highcode.FLASH_ROM_OUT
+                0x0000000020000566        0xe c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+                0x0000000020000566                FLASH_ROM_OUT
+ .highcode.FLASH_ROM_ADDR
+                0x0000000020000574       0x48 c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+                0x0000000020000574                FLASH_ROM_ADDR
+ .highcode.FLASH_ROM_WAIT
+                0x00000000200005bc       0x38 c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+                0x00000000200005bc                FLASH_ROM_WAIT
+ .highcode.FLASH_START
+                0x00000000200005f4       0x36 c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+                0x00000000200005f4                FLASH_START
+ .highcode.FLASH_CMD_ROM_WRITE
+                0x000000002000062a       0x60 c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+                0x000000002000062a                FLASH_CMD_ROM_WRITE
+ .highcode.FLASH_CMD_ROM_ERASE
+                0x000000002000068a       0x72 c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+                0x000000002000068a                FLASH_CMD_ROM_ERASE
+ .highcode.FLASH_CMD_ROM_VERIFY
+                0x00000000200006fc       0x50 c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+                0x00000000200006fc                FLASH_CMD_ROM_VERIFY
+ .highcode.FLASH_CMD_ROM_PWR
+                0x000000002000074c       0x12 c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+                0x000000002000074c                FLASH_CMD_ROM_PWR
+ .highcode.FLASH_CMD_GET_ROM_INFO
+                0x000000002000075e       0x5a c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+                0x000000002000075e                FLASH_CMD_GET_ROM_INFO
+ .highcode.FLASH_CMD_GET_UNIQUE_ID
+                0x00000000200007b8       0x3e c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+                0x00000000200007b8                FLASH_CMD_GET_UNIQUE_ID
+ .highcode.FLASH_CMD_ROM_SW_RESET
+                0x00000000200007f6       0x1a c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+                0x00000000200007f6                FLASH_CMD_ROM_SW_RESET
+                0x0000000020000810                . = ALIGN (0x4)
+ *fill*         0x0000000020000810        0x0 
+                0x0000000020000810                PROVIDE (_highcode_vma_end = .)
+
+.text           0x0000000000000814     0x1140
+                0x0000000000000814                . = ALIGN (0x4)
+ *(SORT_NONE(.handle_reset))
+ .handle_reset  0x0000000000000814       0xb2 ./Startup/startup_CH572.o
+                0x0000000000000814                handle_reset
+ *(.text)
+ .text          0x00000000000008c6       0x10 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memset.o)
+                0x00000000000008c6                memset
+ *(.text.*)
+ .text.generate_fsk_buffer
+                0x00000000000008d6       0x72 ./src/Main.o
+                0x00000000000008d6                generate_fsk_buffer
+ .text.SPI_FSK_Init
+                0x0000000000000948       0x3e ./src/Main.o
+                0x0000000000000948                SPI_FSK_Init
+ .text.DebugInit
+                0x0000000000000986       0x28 ./src/Main.o
+                0x0000000000000986                DebugInit
+ .text.HSECFG_Capacitance
+                0x00000000000009ae       0x50 ./StdPeriphDriver/CH57x_clk.o
+                0x00000000000009ae                HSECFG_Capacitance
+ .text.GPIOA_ModeCfg
+                0x00000000000009fe       0x82 ./StdPeriphDriver/CH57x_gpio.o
+                0x00000000000009fe                GPIOA_ModeCfg
+ .text.GetSysClock
+                0x0000000000000a80       0x5a ./StdPeriphDriver/CH57x_sys.o
+                0x0000000000000a80                GetSysClock
+ .text._write   0x0000000000000ada       0x26 ./StdPeriphDriver/CH57x_sys.o
+                0x0000000000000ada                _write
+ .text._sbrk    0x0000000000000b00       0x28 ./StdPeriphDriver/CH57x_sys.o
+                0x0000000000000b00                _sbrk
+ .text.UART_BaudRateCfg
+                0x0000000000000b28       0x30 ./StdPeriphDriver/CH57x_uart.o
+                0x0000000000000b28                UART_BaudRateCfg
+ .text.UART_DefInit
+                0x0000000000000b58       0x32 ./StdPeriphDriver/CH57x_uart.o
+                0x0000000000000b58                UART_DefInit
+ .text.UART_SendString
+                0x0000000000000b8a       0x24 ./StdPeriphDriver/CH57x_uart.o
+                0x0000000000000b8a                UART_SendString
+ .text.UART_RecvString
+                0x0000000000000bae       0x20 ./StdPeriphDriver/CH57x_uart.o
+                0x0000000000000bae                UART_RecvString
+ .text.UART_Remap
+                0x0000000000000bce       0x28 ./StdPeriphDriver/CH57x_uart.o
+                0x0000000000000bce                UART_Remap
+ .text.FLASH_EEPROM_CMD
+                0x0000000000000bf6      0x12a c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+                0x0000000000000bf6                FLASH_EEPROM_CMD
+ .text._puts_r  0x0000000000000d20      0x104 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-puts.o)
+                0x0000000000000d20                _puts_r
+ .text.puts     0x0000000000000e24        0xc c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-puts.o)
+                0x0000000000000e24                puts
+ .text.__swbuf_r
+                0x0000000000000e30       0xbc c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-wbuf.o)
+                0x0000000000000e30                __swbuf_r
+ .text.__swsetup_r
+                0x0000000000000eec       0xf2 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-wsetup.o)
+                0x0000000000000eec                __swsetup_r
+ .text.__sflush_r
+                0x0000000000000fde      0x132 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fflush.o)
+                0x0000000000000fde                __sflush_r
+ .text._fflush_r
+                0x0000000000001110       0x86 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fflush.o)
+                0x0000000000001110                _fflush_r
+ .text.std      0x0000000000001196       0x66 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .text._cleanup_r
+                0x00000000000011fc        0xa c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+                0x00000000000011fc                _cleanup_r
+ .text.__sfmoreglue
+                0x0000000000001206       0x46 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+                0x0000000000001206                __sfmoreglue
+ .text.__sfp_lock_acquire
+                0x000000000000124c        0x6 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+                0x000000000000124c                __sfp_lock_acquire
+ .text.__sfp_lock_release
+                0x0000000000001252        0x6 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+                0x0000000000001252                __sfp_lock_release
+ .text.__sinit_lock_acquire
+                0x0000000000001258        0x6 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+                0x0000000000001258                __sinit_lock_acquire
+ .text.__sinit_lock_release
+                0x000000000000125e        0x6 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+                0x000000000000125e                __sinit_lock_release
+ .text.__sinit  0x0000000000001264       0x68 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+                0x0000000000001264                __sinit
+ .text.__sfp    0x00000000000012cc       0xa6 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+                0x00000000000012cc                __sfp
+ .text._fwalk_reent
+                0x0000000000001372       0x68 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fwalk.o)
+                0x0000000000001372                _fwalk_reent
+ .text.__retarget_lock_init_recursive
+                0x00000000000013da        0x2 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+                0x00000000000013da                __retarget_lock_init_recursive
+ .text.__retarget_lock_acquire_recursive
+                0x00000000000013dc        0x2 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+                0x00000000000013dc                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_release_recursive
+                0x00000000000013de        0x2 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+                0x00000000000013de                __retarget_lock_release_recursive
+ .text.__swhatbuf_r
+                0x00000000000013e0       0x58 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-makebuf.o)
+                0x00000000000013e0                __swhatbuf_r
+ .text.__smakebuf_r
+                0x0000000000001438       0x92 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-makebuf.o)
+                0x0000000000001438                __smakebuf_r
+ .text._free_r  0x00000000000014ca       0x9e c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-freer.o)
+                0x00000000000014ca                _free_r
+ .text.sbrk_aligned
+                0x0000000000001568       0x54 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .text._malloc_r
+                0x00000000000015bc      0x102 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+                0x00000000000015bc                _malloc_r
+ .text._sbrk_r  0x00000000000016be       0x28 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-sbrkr.o)
+                0x00000000000016be                _sbrk_r
+ .text.__sread  0x00000000000016e6       0x2a c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-stdio.o)
+                0x00000000000016e6                __sread
+ .text.__swrite
+                0x0000000000001710       0x46 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-stdio.o)
+                0x0000000000001710                __swrite
+ .text.__sseek  0x0000000000001756       0x2e c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-stdio.o)
+                0x0000000000001756                __sseek
+ .text.__sclose
+                0x0000000000001784        0x6 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-stdio.o)
+                0x0000000000001784                __sclose
+ .text._write_r
+                0x000000000000178a       0x2c c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-writer.o)
+                0x000000000000178a                _write_r
+ .text._close_r
+                0x00000000000017b6       0x26 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-closer.o)
+                0x00000000000017b6                _close_r
+ .text._fstat_r
+                0x00000000000017dc       0x28 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fstatr.o)
+                0x00000000000017dc                _fstat_r
+ .text._isatty_r
+                0x0000000000001804       0x26 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-isattyr.o)
+                0x0000000000001804                _isatty_r
+ .text._lseek_r
+                0x000000000000182a       0x2a c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lseekr.o)
+                0x000000000000182a                _lseek_r
+ .text.__malloc_lock
+                0x0000000000001854        0x6 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-mlock.o)
+                0x0000000000001854                __malloc_lock
+ .text.__malloc_unlock
+                0x000000000000185a        0x6 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-mlock.o)
+                0x000000000000185a                __malloc_unlock
+ .text._read_r  0x0000000000001860       0x2a c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-readr.o)
+                0x0000000000001860                _read_r
+ .text._close   0x000000000000188a        0xc c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(close.o)
+                0x000000000000188a                _close
+ .text._fstat   0x0000000000001896        0xc c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(fstat.o)
+                0x0000000000001896                _fstat
+ .text._isatty  0x00000000000018a2        0xc c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(isatty.o)
+                0x00000000000018a2                _isatty
+ .text._lseek   0x00000000000018ae        0xc c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(lseek.o)
+                0x00000000000018ae                _lseek
+ .text._read    0x00000000000018ba        0xc c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(read.o)
+                0x00000000000018ba                _read
+ *(.rodata)
+ *(.rodata*)
+ *fill*         0x00000000000018c6        0x2 
+ .rodata.str1.4
+                0x00000000000018c8       0x18 ./src/Main.o
+ .rodata.GPIOA_ModeCfg
+                0x00000000000018e0       0x14 ./StdPeriphDriver/CH57x_gpio.o
+ .rodata.__sf_fake_stderr
+                0x00000000000018f4       0x20 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+                0x00000000000018f4                __sf_fake_stderr
+ .rodata.__sf_fake_stdout
+                0x0000000000001914       0x20 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+                0x0000000000001914                __sf_fake_stdout
+ .rodata.__sf_fake_stdin
+                0x0000000000001934       0x20 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+                0x0000000000001934                __sf_fake_stdin
+ *(.sdata2.*)
+ *(.glue_7)
+ *(.glue_7t)
+ *(.gnu.linkonce.t.*)
+                0x0000000000001954                . = ALIGN (0x4)
+
+.vector_handler
+                0x0000000000001954        0x2
+ .vector_handler
+                0x0000000000001954        0x2 ./Startup/startup_CH572.o
+                0x0000000000001954                CMP_IRQHandler
+                0x0000000000001954                GPIOA_IRQHandler
+                0x0000000000001954                SysTick_Handler
+                0x0000000000001954                SWI_Handler
+                0x0000000000001954                BB_IRQHandler
+                0x0000000000001954                Break_Point_Handler
+                0x0000000000001954                Ecall_M_Mode_Handler
+                0x0000000000001954                RTC_IRQHandler
+                0x0000000000001954                SPI_IRQHandler
+                0x0000000000001954                PWMX_IRQHandler
+                0x0000000000001954                KEYSCAN_IRQHandler
+                0x0000000000001954                USB_IRQHandler
+                0x0000000000001954                I2C_IRQHandler
+                0x0000000000001954                LLE_IRQHandler
+                0x0000000000001954                TMR_IRQHandler
+                0x0000000000001954                WDOG_BAT_IRQHandler
+                0x0000000000001954                Ecall_U_Mode_Handler
+
+.rela.dyn       0x0000000000001958        0x0
+ .rela.text._sbrk
+                0x0000000000001958        0x0 ./src/Main.o
+ .rela.sdata.curbrk.0
+                0x0000000000001958        0x0 ./src/Main.o
+ .rela.init     0x0000000000001958        0x0 ./src/Main.o
+ .rela.vector   0x0000000000001958        0x0 ./src/Main.o
+ .rela.handle_reset
+                0x0000000000001958        0x0 ./src/Main.o
+
+.fini           0x0000000000001956        0x2
+ *(SORT_NONE(.fini))
+                0x0000000000001958                . = ALIGN (0x4)
+ *fill*         0x0000000000001956        0x2 
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (_eitcm = .)
+
+.preinit_array  0x0000000000001958        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000001958        0x0
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000001958        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.dlalign        0x0000000000001958        0x0
+                0x0000000000001958                . = ALIGN (0x4)
+                0x0000000000001958                PROVIDE (_data_lma = .)
+
+.data           0x0000000020000810       0x7c load address 0x0000000000001958
+                0x0000000020000810                . = ALIGN (0x4)
+                0x0000000020000810                PROVIDE (_data_vma = .)
+ *(.gnu.linkonce.r.*)
+ *(.data .data.*)
+ .data.ble_packet
+                0x0000000020000810        0xa ./src/Main.o
+                0x0000000020000810                ble_packet
+ *fill*         0x000000002000081a        0x2 
+ .data.impure_data
+                0x000000002000081c       0x60 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-impure.o)
+ *(.gnu.linkonce.d.*)
+                0x0000000020000880                . = ALIGN (0x8)
+ *fill*         0x000000002000087c        0x4 
+                0x0000000020001080                PROVIDE (__global_pointer$ = (. + 0x800))
+ *(.sdata .sdata.*)
+ .sdata.curbrk.0
+                0x0000000020000880        0x4 ./StdPeriphDriver/CH57x_sys.o
+ .sdata._impure_ptr
+                0x0000000020000884        0x4 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-impure.o)
+                0x0000000020000884                _impure_ptr
+ *(.gnu.linkonce.s.*)
+                0x0000000020000888                . = ALIGN (0x8)
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+ .srodata._global_impure_ptr
+                0x0000000020000888        0x4 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-impure.o)
+                0x0000000020000888                _global_impure_ptr
+                0x000000002000088c                . = ALIGN (0x4)
+                0x000000002000088c                PROVIDE (_edata = .)
+
+.bss            0x000000002000088c      0x148 load address 0x00000000000019d4
+                0x000000002000088c                . = ALIGN (0x4)
+                0x000000002000088c                PROVIDE (_sbss = .)
+ *(.sbss*)
+ .sbss.Freq_LSI
+                0x000000002000088c        0x4 ./StdPeriphDriver/CH57x_clk.o
+                0x000000002000088c                Freq_LSI
+ .sbss.__lock___malloc_recursive_mutex
+                0x0000000020000890        0x1 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+                0x0000000020000890                __lock___malloc_recursive_mutex
+ *fill*         0x0000000020000891        0x3 
+ .sbss.__lock___sfp_recursive_mutex
+                0x0000000020000894        0x1 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+                0x0000000020000894                __lock___sfp_recursive_mutex
+ *fill*         0x0000000020000895        0x3 
+ .sbss.__lock___sinit_recursive_mutex
+                0x0000000020000898        0x1 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+                0x0000000020000898                __lock___sinit_recursive_mutex
+ *fill*         0x0000000020000899        0x3 
+ .sbss.__malloc_sbrk_start
+                0x000000002000089c        0x4 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+                0x000000002000089c                __malloc_sbrk_start
+ .sbss.__malloc_free_list
+                0x00000000200008a0        0x4 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+                0x00000000200008a0                __malloc_free_list
+ .sbss.errno    0x00000000200008a4        0x4 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-reent.o)
+                0x00000000200008a4                errno
+ *(.gnu.linkonce.sb.*)
+ *(.bss*)
+ .bss.spi_tx_buffer
+                0x00000000200008a8       0xc8 ./src/Main.o
+                0x00000000200008a8                spi_tx_buffer
+ .bss.RxBuff    0x0000000020000970       0x64 ./src/Main.o
+                0x0000000020000970                RxBuff
+ *(.gnu.linkonce.b.*)
+ *(COMMON*)
+                0x00000000200009d4                . = ALIGN (0x4)
+                0x00000000200009d4                PROVIDE (_ebss = .)
+                0x00000000200009d4                PROVIDE (_end = _ebss)
+                [!provide]                        PROVIDE (end = .)
+
+.stack          0x0000000020003000        0x0
+                0x0000000020003000                . = ALIGN (0x4)
+                0x0000000020003000                PROVIDE (_eusrstack = .)
+OUTPUT(BLE-BACKSCATTER-SPI.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000     0x263b
+ .debug_info    0x0000000000000000      0x865 ./src/Main.o
+ .debug_info    0x0000000000000865      0xb10 ./StdPeriphDriver/CH57x_clk.o
+ .debug_info    0x0000000000001375      0x218 ./StdPeriphDriver/CH57x_gpio.o
+ .debug_info    0x000000000000158d      0xd4c ./StdPeriphDriver/CH57x_sys.o
+ .debug_info    0x00000000000022d9      0x33f ./StdPeriphDriver/CH57x_uart.o
+ .debug_info    0x0000000000002618       0x23 ./Startup/startup_CH572.o
+
+.debug_abbrev   0x0000000000000000      0xbc4
+ .debug_abbrev  0x0000000000000000      0x243 ./src/Main.o
+ .debug_abbrev  0x0000000000000243      0x2dd ./StdPeriphDriver/CH57x_clk.o
+ .debug_abbrev  0x0000000000000520       0xe5 ./StdPeriphDriver/CH57x_gpio.o
+ .debug_abbrev  0x0000000000000605      0x478 ./StdPeriphDriver/CH57x_sys.o
+ .debug_abbrev  0x0000000000000a7d      0x135 ./StdPeriphDriver/CH57x_uart.o
+ .debug_abbrev  0x0000000000000bb2       0x12 ./Startup/startup_CH572.o
+
+.debug_loclists
+                0x0000000000000000     0x11c6
+ .debug_loclists
+                0x0000000000000000      0x3a3 ./src/Main.o
+ .debug_loclists
+                0x00000000000003a3      0x853 ./StdPeriphDriver/CH57x_clk.o
+ .debug_loclists
+                0x0000000000000bf6       0x65 ./StdPeriphDriver/CH57x_gpio.o
+ .debug_loclists
+                0x0000000000000c5b      0x3ad ./StdPeriphDriver/CH57x_sys.o
+ .debug_loclists
+                0x0000000000001008      0x1be ./StdPeriphDriver/CH57x_uart.o
+
+.debug_aranges  0x0000000000000000      0x230
+ .debug_aranges
+                0x0000000000000000       0x58 ./src/Main.o
+ .debug_aranges
+                0x0000000000000058       0x80 ./StdPeriphDriver/CH57x_clk.o
+ .debug_aranges
+                0x00000000000000d8       0x38 ./StdPeriphDriver/CH57x_gpio.o
+ .debug_aranges
+                0x0000000000000110       0xa0 ./StdPeriphDriver/CH57x_sys.o
+ .debug_aranges
+                0x00000000000001b0       0x50 ./StdPeriphDriver/CH57x_uart.o
+ .debug_aranges
+                0x0000000000000200       0x30 ./Startup/startup_CH572.o
+
+.debug_rnglists
+                0x0000000000000000      0x310
+ .debug_rnglists
+                0x0000000000000000       0x8d ./src/Main.o
+ .debug_rnglists
+                0x000000000000008d       0xa8 ./StdPeriphDriver/CH57x_clk.o
+ .debug_rnglists
+                0x0000000000000135       0x31 ./StdPeriphDriver/CH57x_gpio.o
+ .debug_rnglists
+                0x0000000000000166      0x13e ./StdPeriphDriver/CH57x_sys.o
+ .debug_rnglists
+                0x00000000000002a4       0x4c ./StdPeriphDriver/CH57x_uart.o
+ .debug_rnglists
+                0x00000000000002f0       0x20 ./Startup/startup_CH572.o
+
+.debug_line     0x0000000000000000     0x3852
+ .debug_line    0x0000000000000000      0x7ec ./src/Main.o
+ .debug_line    0x00000000000007ec     0x177b ./StdPeriphDriver/CH57x_clk.o
+ .debug_line    0x0000000000001f67      0x2c2 ./StdPeriphDriver/CH57x_gpio.o
+ .debug_line    0x0000000000002229     0x112e ./StdPeriphDriver/CH57x_sys.o
+ .debug_line    0x0000000000003357      0x3a5 ./StdPeriphDriver/CH57x_uart.o
+ .debug_line    0x00000000000036fc      0x156 ./Startup/startup_CH572.o
+
+.debug_str      0x0000000000000000      0xdef
+ .debug_str     0x0000000000000000      0x735 ./src/Main.o
+                                        0x7a2 (size before relaxing)
+ .debug_str     0x0000000000000735      0x2e5 ./StdPeriphDriver/CH57x_clk.o
+                                        0x573 (size before relaxing)
+ .debug_str     0x0000000000000a1a       0x9d ./StdPeriphDriver/CH57x_gpio.o
+                                        0x314 (size before relaxing)
+ .debug_str     0x0000000000000ab7      0x23b ./StdPeriphDriver/CH57x_sys.o
+                                        0x63a (size before relaxing)
+ .debug_str     0x0000000000000cf2       0x95 ./StdPeriphDriver/CH57x_uart.o
+                                        0x42f (size before relaxing)
+ .debug_str     0x0000000000000d87       0x68 ./Startup/startup_CH572.o
+
+.debug_line_str
+                0x0000000000000000      0x3c9
+ .debug_line_str
+                0x0000000000000000      0x305 ./src/Main.o
+                                        0x354 (size before relaxing)
+ .debug_line_str
+                0x0000000000000305       0x41 ./StdPeriphDriver/CH57x_clk.o
+                                        0x2cb (size before relaxing)
+ .debug_line_str
+                0x0000000000000346       0x20 ./StdPeriphDriver/CH57x_gpio.o
+                                        0x2b4 (size before relaxing)
+ .debug_line_str
+                0x0000000000000366       0x28 ./StdPeriphDriver/CH57x_sys.o
+                                        0x36e (size before relaxing)
+ .debug_line_str
+                0x000000000000038e       0x20 ./StdPeriphDriver/CH57x_uart.o
+                                        0x2c0 (size before relaxing)
+ .debug_line_str
+                0x00000000000003ae       0x1b ./Startup/startup_CH572.o
+                                         0x6c (size before relaxing)
+
+.comment        0x0000000000000000       0x64
+ .comment       0x0000000000000000       0x31 ./src/Main.o
+                                         0x32 (size before relaxing)
+ .comment       0x0000000000000031       0x32 ./StdPeriphDriver/CH57x_clk.o
+ .comment       0x0000000000000031       0x32 ./StdPeriphDriver/CH57x_gpio.o
+ .comment       0x0000000000000031       0x32 ./StdPeriphDriver/CH57x_sys.o
+ .comment       0x0000000000000031       0x32 ./StdPeriphDriver/CH57x_uart.o
+ .comment       0x0000000000000031       0x33 c:\Users\seanw\mounriver-studio-projects\BLE-BACKSCATTER-SPI\StdPeriphDriver\libISP572.a(ISP572.o)
+                                         0x34 (size before relaxing)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-puts.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-wbuf.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-wsetup.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fflush.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fwalk.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-impure.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-makebuf.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-freer.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-sbrkr.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-stdio.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-writer.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-closer.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fstatr.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-isattyr.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lseekr.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-mlock.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-readr.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-reent.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(close.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(fstat.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(isatty.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(lseek.o)
+ .comment       0x0000000000000064       0x32 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(read.o)
+
+.riscv.attributes
+                0x0000000000000000       0x51
+ .riscv.attributes
+                0x0000000000000000       0x51 ./src/Main.o
+ .riscv.attributes
+                0x0000000000000051       0x51 ./StdPeriphDriver/CH57x_clk.o
+ .riscv.attributes
+                0x00000000000000a2       0x51 ./StdPeriphDriver/CH57x_gpio.o
+ .riscv.attributes
+                0x00000000000000f3       0x51 ./StdPeriphDriver/CH57x_sys.o
+ .riscv.attributes
+                0x0000000000000144       0x51 ./StdPeriphDriver/CH57x_uart.o
+ .riscv.attributes
+                0x0000000000000195       0x4f ./Startup/startup_CH572.o
+ .riscv.attributes
+                0x00000000000001e4       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-puts.o)
+ .riscv.attributes
+                0x0000000000000235       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-wbuf.o)
+ .riscv.attributes
+                0x0000000000000286       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-wsetup.o)
+ .riscv.attributes
+                0x00000000000002d7       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fflush.o)
+ .riscv.attributes
+                0x0000000000000328       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .riscv.attributes
+                0x0000000000000379       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fwalk.o)
+ .riscv.attributes
+                0x00000000000003ca       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-impure.o)
+ .riscv.attributes
+                0x000000000000041b       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lock.o)
+ .riscv.attributes
+                0x000000000000046c       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-makebuf.o)
+ .riscv.attributes
+                0x00000000000004bd       0x4f c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-memset.o)
+ .riscv.attributes
+                0x000000000000050c       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-freer.o)
+ .riscv.attributes
+                0x000000000000055d       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .riscv.attributes
+                0x00000000000005ae       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-sbrkr.o)
+ .riscv.attributes
+                0x00000000000005ff       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-stdio.o)
+ .riscv.attributes
+                0x0000000000000650       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-writer.o)
+ .riscv.attributes
+                0x00000000000006a1       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-closer.o)
+ .riscv.attributes
+                0x00000000000006f2       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-fstatr.o)
+ .riscv.attributes
+                0x0000000000000743       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-isattyr.o)
+ .riscv.attributes
+                0x0000000000000794       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-lseekr.o)
+ .riscv.attributes
+                0x00000000000007e5       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-mlock.o)
+ .riscv.attributes
+                0x0000000000000836       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-readr.o)
+ .riscv.attributes
+                0x0000000000000887       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libg_nano.a(lib_a-reent.o)
+ .riscv.attributes
+                0x00000000000008d8       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(close.o)
+ .riscv.attributes
+                0x0000000000000929       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(fstat.o)
+ .riscv.attributes
+                0x000000000000097a       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(isatty.o)
+ .riscv.attributes
+                0x00000000000009cb       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(lseek.o)
+ .riscv.attributes
+                0x0000000000000a1c       0x51 c:/mounriver/mounriver_studio2/resources/app/resources/win32/components/wch/toolchain/risc-v embedded gcc12/bin/../lib/gcc/riscv-wch-elf/12.2.0/../../../../riscv-wch-elf/lib/rv32imc_zba_zbb_zbc_zbs_xw/ilp32\libnosys.a(read.o)
+
+.debug_frame    0x0000000000000000      0x494
+ .debug_frame   0x0000000000000000       0xdc ./src/Main.o
+ .debug_frame   0x00000000000000dc      0x168 ./StdPeriphDriver/CH57x_clk.o
+ .debug_frame   0x0000000000000244       0x50 ./StdPeriphDriver/CH57x_gpio.o
+ .debug_frame   0x0000000000000294      0x164 ./StdPeriphDriver/CH57x_sys.o
+ .debug_frame   0x00000000000003f8       0x9c ./StdPeriphDriver/CH57x_uart.o

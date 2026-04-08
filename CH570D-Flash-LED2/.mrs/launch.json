@@ -5,7 +5,7 @@
 			"type": "mrs-debugger",
 			"request": "launch",
 			"name": "CH570D-Flash-LED2",
-			"cwd": "c:\\Users\\seanw\\mounriver-studio-projects\\CH570D-Flash-LED2",
+			"cwd": "c:\\Users\\seanw\\Documents\\Data D\\CP4101\\Git Repo\\CH570D-Flash-LED2",
 			"openOCDCfg": {
 				"useLocalOpenOCD": true,
 				"executable": "c:/MounRiver/MounRiver_Studio2/resources/app/resources/win32/components/WCH/OpenOCD/OpenOCD/bin/openocd.exe",
@@ -39,8 +39,8 @@
 					"additionalCommands": []
 				},
 				"loadedFiles": {
-					"executableFile": "c:\\Users\\seanw\\mounriver-studio-projects\\CH570D-Flash-LED2\\obj\\CH570D-Flash-LED2.elf",
-					"symbolFile": "c:\\Users\\seanw\\mounriver-studio-projects\\CH570D-Flash-LED2\\obj\\CH570D-Flash-LED2.elf",
+					"executableFile": "c:\\Users\\seanw\\Documents\\Data D\\CP4101\\Git Repo\\CH570D-Flash-LED2\\obj\\CH570D-Flash-LED2.elf",
+					"symbolFile": "c:\\Users\\seanw\\Documents\\Data D\\CP4101\\Git Repo\\CH570D-Flash-LED2\\obj\\CH570D-Flash-LED2.elf",
 					"executableFileOffset": 0,
 					"symbolFileOffset": 0
 				},

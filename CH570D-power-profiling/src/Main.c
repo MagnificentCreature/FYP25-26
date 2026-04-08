@@ -3,7 +3,7 @@
  * Author             : WCH
  * Version            : V1.0
  * Date               : 2020/08/06
- * Description        : ÏµÍ³Ë¯ÃßÄ£Ê½²¢»½ÐÑÑÝÊ¾£ºGPIOA_5×÷Îª»½ÐÑÔ´£¬¹²4ÖÖË¯ÃßµÈ¼¶
+ * Description        : ç³»ç»Ÿç¡çœ æ¨¡å¼å¹¶å”¤é†’æ¼”ç¤ºï¼šGPIOA_5ä½œä¸ºå”¤é†’æºï¼Œå…±4ç§ç¡çœ ç­‰çº§
  *********************************************************************************
  * Copyright (c) 2021 Nanjing Qinheng Microelectronics Co., Ltd.
  * Attention: This software (modified or not) and binary are used for 
@@ -11,8 +11,8 @@
  *******************************************************************************/
 
 /*
- ×¢Òâ£ºÇÐ»»µ½HSEÊ±ÖÓÔ´£¬ËùÐèµÈ´ýÎÈ¶¨Ê±¼äºÍÑ¡ÔñµÄÍâÖÃ¾§Ìå²ÎÊýÓÐ¹Ø£¬Ñ¡ÔñÒ»¿îÐÂµÄ¾§Ìå×îºÃÔÄ¶Á³§¼ÒÌá¹©µÄ¾§Ìå¼°Æä
- ¸ºÔØµçÈÝ²ÎÊýÖµ¡£Í¨¹ýÅäÖÃR8_XT32M_TUNE¼Ä´æÆ÷£¬¿ÉÒÔÅäÖÃ²»Í¬µÄ¸ºÔØµçÈÝºÍÆ«ÖÃµçÁ÷£¬µ÷Õû¾§ÌåÎÈ¶¨Ê±¼ä¡£
+ æ³¨æ„ï¼šåˆ‡æ¢åˆ°HSEæ—¶é’Ÿæºï¼Œæ‰€éœ€ç­‰å¾…ç¨³å®šæ—¶é—´å’Œé€‰æ‹©çš„å¤–ç½®æ™¶ä½“å‚æ•°æœ‰å…³ï¼Œé€‰æ‹©ä¸€æ¬¾æ–°çš„æ™¶ä½“æœ€å¥½é˜…è¯»åŽ‚å®¶æä¾›çš„æ™¶ä½“åŠå…¶
+ è´Ÿè½½ç”µå®¹å‚æ•°å€¼ã€‚é€šè¿‡é…ç½®R8_XT32M_TUNEå¯„å­˜å™¨ï¼Œå¯ä»¥é…ç½®ä¸åŒçš„è´Ÿè½½ç”µå®¹å’Œåç½®ç”µæµï¼Œè°ƒæ•´æ™¶ä½“ç¨³å®šæ—¶é—´ã€‚
  */
 
 #include "CH57x_common.h"
@@ -20,114 +20,91 @@
 /*********************************************************************
  * @fn      DebugInit
  *
- * @brief   µ÷ÊÔ³õÊ¼»¯
+ * @brief   è°ƒè¯•åˆå§‹åŒ–
  *
  * @return  none
  */
 void DebugInit(void)
 {
-    GPIOA_SetBits(bTXD_0);
-    GPIOA_ModeCfg(bRXD_0, GPIO_ModeIN_PU);      // RXD-ÅäÖÃÉÏÀ­ÊäÈë
-    GPIOA_ModeCfg(bTXD_0, GPIO_ModeOut_PP_5mA); // TXD-ÅäÖÃÍÆÍìÊä³ö£¬×¢ÒâÏÈÈÃIO¿ÚÊä³ö¸ßµçÆ½
-    UART_Remap(ENABLE, UART_TX_REMAP_PA3, UART_RX_REMAP_PA2);
+    GPIOA_SetBits(GPIO_Pin_10);
+    GPIOA_ModeCfg(GPIO_Pin_10, GPIO_ModeIN_PU);
+    GPIOA_ModeCfg(GPIO_Pin_11, GPIO_ModeOut_PP_5mA);
+    UART_Remap(ENABLE, UART_TX_REMAP_PA11, UART_RX_REMAP_PA10);
     UART_DefInit();
 }
 
 /*********************************************************************
  * @fn      main
  *
- * @brief   Ö÷º¯Êý
+ * @brief   ä¸»å‡½æ•°
  *
  * @return  none
  */
 int main()
 {
+    // å…³é—­ä¸¤çº¿è°ƒè¯•
+    R16_PIN_ALTERNATE &= ~RB_PIN_DEBUG_EN;
     HSECFG_Capacitance(HSECap_18p);
-    SetSysClock(CLK_SOURCE_HSE_1MHz);
+    SetSysClock(CLK_SOURCE_HSE_6_4MHz);
     GPIOA_ModeCfg(GPIO_Pin_All, GPIO_ModeIN_PU);
 
-    
-    /* ÅäÖÃ´®¿Úµ÷ÊÔ */
-    // DebugInit();
-
-    // PRINT("Start @ChipID=%02x\n", R8_CHIP_ID);
-
-    /* >>> ADD THIS SECTION <<< */
-    // Configure PA12 as an output for the LED
-    // GPIOA_ModeCfg(GPIO_Pin_12, GPIO_ModeOut_PP_5mA);
-
-    // Turn the LED OFF by default for power measurement
-    // GPIOA_SetBits(GPIO_Pin_12); // Sets PA12 to HIGH, turning an active-low LED off
-    /* >>> END OF ADDED SECTION <<< */
-
-    
-    DelayMs(5000);
+    /* é…ç½®ä¸²å£è°ƒè¯• */
+    DebugInit();
+    PRINT("Start @ChipID=%02x\n", R8_CHIP_ID);
+    DelayMs(200);
 
 #if 1
-    /* ÅäÖÃ»½ÐÑÔ´Îª GPIO - PA5 */
+    /* é…ç½®å”¤é†’æºä¸º GPIO - PA5 */
     GPIOA_ModeCfg(GPIO_Pin_5, GPIO_ModeIN_PU);
-    GPIOA_ITModeCfg(GPIO_Pin_5, GPIO_ITMode_FallEdge); // ÏÂ½µÑØ»½ÐÑ
+    GPIOA_ITModeCfg(GPIO_Pin_5, GPIO_ITMode_FallEdge); // ä¸‹é™æ²¿å”¤é†’
     PFIC_EnableIRQ(GPIO_A_IRQn);
     PWR_PeriphWakeUpCfg(ENABLE, RB_SLP_GPIO_WAKE, Fsys_Delay_4096);
 #endif
 
 #if 1
-    // PRINT("IDLE mode sleep \n");
-
-    DelayMs(10);
+    PRINT("IDLE mode sleep \n");
+    DelayMs(1);
     LowPower_Idle();
-    
-    // PRINT("wake.. \n");
-    
-    DelayMs(500);
-#endif
-
-#if 1
-    // PRINT("Halt mode sleep \n");
-
-    DelayMs(10);
-    LowPower_Halt();
-    HSECFG_Current(HSE_RCur_100); // ½µÎª¶î¶¨µçÁ÷(µÍ¹¦ºÄº¯ÊýÖÐÌáÉýÁËHSEÆ«ÖÃµçÁ÷)
-    DelayMs(10);
-
-    // PRINT("wake.. \n");
-    
-    DelayMs(500);
-#endif
-
-#if 1
-    // PRINT("sleep mode sleep \n");
-
-    DelayMs(10);
-    LowPower_Sleep( RB_PWR_RAM12K | RB_PWR_EXTEND);
-
-    // PRINT("wake.. \n");
-    
-    // DelayMs(5000);
-#endif
-
-#if 1
-    // PRINT("shut down mode sleep \n");
-
-    DelayMs(10);
-    LowPower_Shutdown(0); //È«²¿¶Ïµç£¬»½ÐÑºó¸´Î»
-    /*
-     ´ËÄ£Ê½»½ÐÑºó»áÖ´ÐÐ¸´Î»£¬ËùÒÔÏÂÃæ´úÂë²»»áÔËÐÐ£¬
-     ×¢ÒâÒªÈ·±£ÏµÍ³Ë¯ÏÂÈ¥ÔÙ»½ÐÑ²ÅÊÇ»½ÐÑ¸´Î»£¬·ñÔòÓÐ¿ÉÄÜ±ä³ÉIDLEµÈ¼¶»½ÐÑ
-     */
-    HSECFG_Current(HSE_RCur_100); // ½µÎª¶î¶¨µçÁ÷(µÍ¹¦ºÄº¯ÊýÖÐÌáÉýÁËHSEÆ«ÖÃµçÁ÷)
     PRINT("wake.. \n");
-    // DelayMs(5000);
+    DelayMs(500);
 #endif
 
-    while(1)
-        ;
+#if 1
+    PRINT("Halt mode sleep \n");
+    DelayMs(2);
+    LowPower_Halt();
+    HSECFG_Current(HSE_RCur_100); // é™ä¸ºé¢å®šç”µæµ(ä½ŽåŠŸè€—å‡½æ•°ä¸­æå‡äº†HSEåç½®ç”µæµ)
+    DelayMs(2);
+    PRINT("wake.. \n");
+    DelayMs(500);
+#endif
+
+#if 1
+    PRINT("sleep mode sleep \n");
+    DelayMs(2);
+    LowPower_Sleep( RB_PWR_RAM12K | RB_PWR_EXTEND);
+    PRINT("wake.. \n");
+    DelayMs(500);
+#endif
+
+#if 1
+    PRINT("shut down mode sleep \n");
+    DelayMs(2);
+    LowPower_Shutdown(0); //å…¨éƒ¨æ–­ç”µï¼Œå”¤é†’åŽå¤ä½
+    /*
+     æ­¤æ¨¡å¼å”¤é†’åŽä¼šæ‰§è¡Œå¤ä½ï¼Œæ‰€ä»¥ä¸‹é¢ä»£ç ä¸ä¼šè¿è¡Œï¼Œ
+     æ³¨æ„è¦ç¡®ä¿ç³»ç»Ÿç¡ä¸‹åŽ»å†å”¤é†’æ‰æ˜¯å”¤é†’å¤ä½ï¼Œå¦åˆ™æœ‰å¯èƒ½å˜æˆIDLEç­‰çº§å”¤é†’
+     */
+    HSECFG_Current(HSE_RCur_100); // é™ä¸ºé¢å®šç”µæµ(ä½ŽåŠŸè€—å‡½æ•°ä¸­æå‡äº†HSEåç½®ç”µæµ)
+    PRINT("wake.. \n");
+    DelayMs(500);
+#endif
 }
 
 /*********************************************************************
  * @fn      GPIOA_IRQHandler
  *
- * @brief   GPIOAÖÐ¶Ïº¯Êý
+ * @brief   GPIOAä¸­æ–­å‡½æ•°
  *
  * @return  none
  */
